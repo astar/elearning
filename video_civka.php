@@ -11,5 +11,8 @@ data="../player.swf?klip=../Video/civka.flv" width="380" height="250">
 <param name="allowFullScreen" value="true"/>
 </object>
 
+
+<iframe width="460" height="315" src="http://www.youtube.com/embed/8ssWMZyb300" frameborder="0" allowfullscreen></iframe>
+
 <br><br>
 <center><a href="javascript:history.back()"><b>Vrátit se zpět</b></a></center>
