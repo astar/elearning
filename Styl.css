@@ -1,0 +1,75 @@
+body        {font-family: Arial, Century gothic, Tahoma; margin-bottom: 35px}
+
+#zarovnani  {margin: -2em 4em 4.3em 2.6em; margin-bottom: 25px}
+
+#hlavicka1  {position: absolute; width: 900px; margin-top:  10px}
+#hlavicka2  {position: absolute; width: 900px; margin-top: 115px}
+#hlevy	    {position: absolute; width:  75px; margin-top: 10px;  height: 140px; text-align="left"}
+#hpravy	    {position: absolute; width:  75px; margin-top: 10px;  height: 140px; margin-left: 825px}
+#menu       {position: absolute; width: 790px; text-align:center; margin: auto; height: 30px; margin-top:  128px; margin-left: -1px; filter:alpha(opacity=95); opacity: 0.95; -moz-opacity:0.95}
+#obsah      {position: absolute; width: 557px; margin-top: 172px; border: 1px solid #BBD8F6; text-align: center; background-image: url("Obrazky/Poz.png"); background-repeat: repeat}
+#levy       {position: absolute; width: 220px; margin-left:   565px; margin-top: 172px; background-image: url("Obrazky/Pozl.png"); background-repeat: repeat; border: 1px solid #BBD8F6}
+#levys      {position: absolute; width: 220px; margin-left:   565px; margin-top: 402px; background-image: url("Obrazky/Pozls.png"); background-repeat: repeat; border: 1px solid #BBD8F6; padding-top: 10px; padding-bottom: 10px}
+#spodek     {position: absolute; height: 20px}
+#moznosti   {font-family: "Century gothic"; font-size: 13px; line-height: 1.4}
+#otazka     {font-family: "Century gothic"; font-size: 14px; line-height: 1.6}
+
+
+h2 	{text-align:center;
+   	 color: black;
+   	 padding-top: 40px;
+   	 padding-bottom: 10px; 
+   	 font-size: 16px;
+	 font-family: "Verdana"}
+h3 	{text-align: left;
+   	 font-size: 14px;
+	 padding-left: 15px;
+   	 font-family: "Verdana"}
+h4 	{text-align: left;
+   	 font-size: 13px;
+	 padding-left: 17px;
+   	 font-family: "Verdana"}
+p  	{text-align:justify;
+         margin: 15px;
+   	 font-size: 13px}
+.ot	{text-align:left; font-size: 13px}
+.exp	{text-align:left; margin-left: 50px}
+.expnad1{text-align:left; margin: 5px; margin-top: 15px; margin-left: 30px; font-size: 14px; text-indent: 1px}
+.expnad {text-align:left; margin: 5px; margin-left: 30px; font-size: 14px; text-indent: 1px}
+.odp	{text-align:center; color: #181876; font-size: 13px}
+.alert	{text-align:center}
+.vid	{text-align:center; font-size: 13px; font-weight:bold}
+
+
+li  		{list-style-type: circle}
+ul  		{margin-right: 14px}
+ul li 		{list-style-type: disc; text-align: left; padding: 2px; font-size: 13px}
+.test		{list-style-type: none; text-align: left; padding: 2px}
+.test3		{list-style-type: none; text-align: left; padding: 2px; margin-left:20px}
+.upoz		{list-style-type: disc; text-align: left; padding: 2px; margin-top: 12px}
+ol li 		{list-style-type: circle; text-align: left; padding: 2px; margin-left: -20px; margin-right: 5px}
+.nas		{list-style-type: none; text-align: left; margin-left: -20px; padding: 4px; text-indent: -5px}
+img   		{margin-left: auto; margin-right: auto}
+
+sup, sub 	{position: relative; vertical-align: 0;}
+sup 		{bottom: 0.4em;}
+sub 		{top: 0.3em;}
+
+
+table 		{font-size: 13px; margin-left: auto; margin-right: auto}
+table td	{text-align: center}
+.test		{text-align: left; vertical-align: baseline}
+.test2		{text-align: left; vertical-align: baseline}
+
+a:link    				{color: #181876}
+a:visited    				{color: #181876}
+a:active    				{color: #FFFFFF}
+a:hover    				{color: #FFFFFF}
+a:link, a:visited    			{text-decoration: none}
+
+a.odk
+ .odk a    				{color: black}
+ .odk a:link   				{color: black}
+ .odk a:visited				{color: black}
+ .odk a:hover  				{color: black}
+ .odk a:active 				{color: black}

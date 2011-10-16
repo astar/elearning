@@ -1,0 +1,65 @@
+body        {font-family: Arial, Century gothic, Tahoma}
+
+#zarovnani  {margin: -2em 4em 4.3em 2.6em; margin-bottom: 25px}
+
+#hlavicka   {position: absolute; width: 900px; margin-top: 10px;  height: 140px}
+#hlevy	    {position: absolute; width:  75px; margin-top: 10px;  height: 140px; text-align="left"}
+#hpravy	    {position: absolute; width:  75px; margin-top: 10px;  height: 140px; margin-left: 825px}
+#menu       {position: absolute; width: 900px; text-align:center; margin: auto; height: 30px; margin-top:  108px}
+#obsah      {position: absolute; width: 551px; margin-top: 152px; background-color: #82ADE9; background-attachment:fixed; 
+             border: 1px solid #BBD8F6; text-align: center}
+
+#telo	    {position: absolute; width: 900px; margin-top:    140px; height: 160px; background-image:url(Obrazky/Telo.png); background-repeat: repeat-y}
+#levy       {position: absolute; width: 220px; margin-left:   565px; margin-top: 152px; background-color: #9FBDDD; border: 1px solid #BBD8F6}
+#levys      {position: absolute; width: 220px; margin-left:   565px; margin-top: 352px; background-color: #B2CAE3; border: 1px solid #BBD8F6; padding-top: 10px; padding-bottom: 10px}
+#spodek     {position: absolute; width: 900px; margin-top:    300px}
+#jmenovka   {padding:3px; color: white}
+
+
+
+h2 	{text-align:center;
+   	 color: black;
+   	 padding-top: 15px;
+   	 padding-bottom: 10px;
+   	 margin-left: -20px; 
+   	 font-size: 16px;
+   	 font-family: "Tahoma"} 
+h3 	{text-align: left;
+   	 font-size: 14px;
+	 padding-left: 15px;
+   	 font-family: "Tahoma"}
+p  	{text-align:justify;
+         margin: 15px; line-height: 1.6}
+.nasp   {padding: 6px; line-height: 1.6}
+
+	 font-family: Century gothic}
+
+li  		{list-style-type: circle}
+ul  		{margin-right: 15px}
+ul li 		{list-style-type: disc; text-align: left; padding: 2px}
+.nas		{list-style-type: none; text-align: left; margin-left: -3px; text-indent: -22px; padding: 6px; line-height: 1.6}
+img   		{margin-left: auto; margin-right: auto}
+
+sup, sub { position: relative;
+vertical-align: 0; }
+sup { bottom: 0.4em; }
+sub { top: 0.3em; }
+
+table 		{font-size: 12px; margin-left: auto; margin-right: auto}
+table td	{text-align: center}
+.exp		{text-align: left}
+
+
+a:link    				{color: #181876}
+a:visited    				{color: #181876}
+a:active    				{color: #FFFFFF}
+a:hover    				{color: #FFFFFF}
+a:link, a:visited    			{text-decoration: none}
+
+a.odk
+ .odk a    				{color: black}
+ .odk a:link   				{color: black}
+ .odk a:visited				{color: black}
+ .odk a:hover  				{color: black}
+ .odk a:active 				{color: black}
+

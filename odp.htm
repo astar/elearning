@@ -1,0 +1,60 @@
+<body>
+
+Do skončení zbývá: <span id="c"></span>
+
+<script>
+
+var c = 61;
+var bezi = true;
+
+odpocet();
+o = setInterval("odpocet()", 1000);
+
+
+function konec()
+{
+  alert("Vypršel doporučený časový limit.");
+}
+
+function odpocet()
+{
+  if(bezi==false)
+  {
+    clearInterval(o);
+    return;
+  }
+  if(c<0)
+  {
+    clearInterval(o);
+    konec();
+    return;
+  }
+
+  var z="";
+
+  var m=Math.floor(c%86400%3600/60);
+  var s=Math.floor(c%86400%3600%60);
+
+  if(m<10) m="0"+m;
+  if(s<10) s="0"+s;
+
+  if(m>0) z+=" ";
+  
+  z+=m+" min. "+s+" sek.";
+  document.getElementById("c").innerHTML=z;
+  c--;
+}
+
+function zast_odp()
+{
+  bezi = false;
+}
+
+</script>
+</body>
+
+<br>
+Kdyz kliknu na Zastavit, odpocet skonci...JAK???
+
+<br><br><br>
+<input type="button" onClick="zast_odp()" value="Zastavit">

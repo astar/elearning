@@ -1,0 +1,122 @@
+<strong>Na vodorovném stole o hmotnosti <i>M</i> leží v klidu kostka o hmotnosti <i>m</i>. Stùl stojí na vodorovné podložce. (Soustava je umístìna v homogenním tíhovém poli Zemì, tíhové zrychlení je <i><b>g</b></i>.) Z následujících tvrzení vyberte právì ta, která jsou správná.
+</strong>
+
+<p class="odp">Obtížnost: <b>2 body</b>. Doporuèný èas na vyøešení: <b>3 minuty</b>.</p>
+<p class="odp"><b><span id="c"></span></b></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit možnosti a spustit odpoèet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
+
+<script>
+var c = 180;
+
+function start_odp()
+{bezi = true;
+odpocet();
+o = setInterval("odpocet()", 1000);}
+
+function konec()
+{ alert("Vypršel doporuèený èasový limit.");}
+
+function odpocet()
+{if(bezi==false) {
+    clearInterval(o);
+    return;}
+ if(c<0)
+  { clearInterval(o);
+    konec();
+    return;
+  }
+
+  var z="";
+  var m=Math.floor(c%86400%3600/60);
+  var s=Math.floor(c%86400%3600%60);
+
+  if(s<10) s="0"+s;
+  if(m>0) z+=" ";
+  z+=m+" min. "+s+" sek.";
+  document.getElementById("c").innerHTML=z;
+  c--;}
+
+function zast_odp()
+{bezi = false;}
+
+</script>
+<div id="text" style="display:none;">
+<form name="form">
+
+<br>
+<table>
+<tr>
+<td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
+<td width="400px" class="test2">Stùl tlaèí na podložku tíhovou silou (<i>M</i>+<i>m</i>)<i><b>g</b></i>.
+</td>
+</tr>
+
+<tr>
+<td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
+<td width="400px" class="test2">Tíhová síla <i>m<b>g</b></i>, jíž pùsobí Zemì na kostku, a tlaková síla <i><b>T</b></i>, jíž pùsobí stùl na kostku, jsou stejnì velké, protože jde o akci a reakci ve smyslu tøetího Newtonova zákona.
+</td>
+</tr>
+
+<tr>
+<td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
+<td width="400px" class="test2">Tlaková síla <i><b>P</b></i>, jíž pùsobí stùl na podložku, a tlaková síla -<i><b>P</b></i>, jíž pùsobí podložka na stùl, jsou akce a reakce.
+</td>
+</tr>
+
+<tr>
+<td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
+<td width="400px" class="test2">Tlaková síla <i><b>T</b></i>, jíž pùsobí stùl na kostku, a tlaková síla -<i><b>T</b></i>, jíž pùsobí kostka na stùl, jsou stejnì velké a opaènì orientované, protože kostka je vùèi stolu v klidu.
+</td>
+</tr>
+
+<tr>
+<td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
+<td width="400px" class="test2">Dvojice sil, které pøedstavují akci a reakci, jsou mj. tyto: tíhová síla <i>m<b>g</b></i>, jíž pùsobí Zemì na kostku, a  síla -<i>m<b>g</b></i>, jíž pùsobí kostka na Zemi, tlaková síla stolu na podložku a tlaková síla podložky na stùl, tlaková síla kostky na stùl a tlaková síla stolu na kostku.
+</td>
+</tr>
+
+<tr>
+<td width="50px" class="test"><input type="checkbox" name="otazka6"> (f)</td>
+<td width="400px" class="test2">Tlaková síla podložky na stùl kompenzuje celkovou tíhovou sílu pùsobící na stùl a na kostku.
+</td>
+</tr>
+
+<tr>
+<td width="50px" class="test"><input type="checkbox" name="otazka7"> (g)</td>
+<td width="400px" class="test2">Tlakovou sílu <i><b>T</b></i> stolu na kostku a tlakovou sílu -<i><b>T</b></i> kostky na stùl nelze konkrétnì urèit, protože se ve vyjádøení výslednice sil, jimiž okolní objekty pùsobí na soustavu “stùl+kostka“, neuplatní.
+</td>
+</tr>
+
+<tr>
+<td width="50px" class="test"><input type="checkbox" name="otazka8"> (h)</td>
+<td width="400px" class="test2">Tlakovou sílu <i><b>T</b></i> stolu na kostku  lze urèit pouze pomocí podmínky, že stùl se nepohybuje.
+</td>
+</tr>
+
+
+</table>
+<br>
+
+	<input type="button" value="Vyhodnotit" onClick="vyhodnoceni(); zast_odp()">
+</form>
+<script>
+	function vyhodnoceni(){
+
+		if (document.form.otazka1.checked==false &&
+	            document.form.otazka2.checked==false && 	
+		    document.form.otazka3.checked==true && 	 	
+		    document.form.otazka4.checked==false && 
+		    document.form.otazka5.checked==true &&
+		    document.form.otazka6.checked==true && 	 	
+		    document.form.otazka7.checked==false && 
+		    document.form.otazka8.checked==false)
+
+
+			window.open("Spatne/dynamika_lehke/spravne5.htm","Spravne", "height=170px, width=500px, top=300px, left=500px, status=no, toolbar=no, location=no, scrollbars=yes, resizable=no");
+		else 
+	     
+			window.open("Spatne/dynamika_lehke/spatne5.htm","Spatne", "height=170px, width=500px, top=300px, left=500px, status=no, toolbar=no, location=no, scrollbars=yes, resizable=no");
+
+	    }
+</script>
+</div>

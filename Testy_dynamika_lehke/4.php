@@ -1,0 +1,101 @@
+<strong>Na vodorovném stole leží v klidu kostka o hmotnosti <i>m</i>. (Soustava je umístìna v homogenním tíhovém poli Zemì, tíhové zrychlení je <i><b>g</b></i>.) Z následujících tvrzení je právì jedno správné. Vyberte jej.
+</strong>
+
+<p class="odp">Obtížnost: <b>1 bod</b>. Doporuèný èas na vyøešení: <b>2 minuty</b>.</p>
+<p class="odp"><b><span id="c"></span></b></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit možnosti a spustit odpoèet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
+
+<script>
+var c = 120;
+
+function start_odp()
+{bezi = true;
+odpocet();
+o = setInterval("odpocet()", 1000);}
+
+function konec()
+{ alert("Vypršel doporuèený èasový limit.");}
+
+function odpocet()
+{if(bezi==false) {
+    clearInterval(o);
+    return;}
+ if(c<0)
+  { clearInterval(o);
+    konec();
+    return;
+  }
+
+  var z="";
+  var m=Math.floor(c%86400%3600/60);
+  var s=Math.floor(c%86400%3600%60);
+
+  if(s<10) s="0"+s;
+  if(m>0) z+=" ";
+  z+=m+" min. "+s+" sek.";
+  document.getElementById("c").innerHTML=z;
+  c--;}
+
+function zast_odp()
+{bezi = false;}
+
+</script>
+<div id="text" style="display:none;">
+<form name="form">
+
+<br>
+<table>
+<tr>
+<td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
+<td width="400px" class="test2">Na kostku pùsobí tíhová síla <i>m<b>g</b></i> a tlaková síla stolu <i><b>T</b></i>. Tyto síly pøedstavují akci a reakci.
+</td>
+</tr>
+
+<tr>
+<td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
+<td width="400px" class="test2">Reakcí na tíhovou sílu <i>m<b>g</b></i> ve smyslu tøetího Newtonova zákona je síla -<i>m<b>g</b></i>, jíž pùsobí stùl na kostku.
+</td>
+</tr>
+
+<tr>
+<td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
+<td width="400px" class="test2">Reakcí na tlakovou sílu <i><b>T</b></i>, jíž pùsobí stùl na kostku, je ve smyslu tøetího Newtonova zákona tlaková síla, jíž pùsobí stùl na podložku.
+</td>
+</tr>
+
+<tr>
+<td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
+<td width="400px" class="test2">Síly <i>m<b>g</b></i> a <i><b>T</b></i> jsou stejnì velké a opaènì orientované, nejde o akci a reakci ve smyslu tøetího Newtonova zákona.
+</td>
+</tr>
+
+<tr>
+<td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
+<td width="400px" class="test2">V pøípadì sil <i>m<b>g</b></i> a <i><b>T</b></i> nejde o akci a reakci, avšak síly jsou stejné povahy – v obou pøípadech jde o gravitaèní interakci.
+</td>
+</tr>
+
+
+</table>
+<br>
+
+	<input type="button" value="Vyhodnotit" onClick="vyhodnoceni(); zast_odp()">
+</form>
+<script>
+	function vyhodnoceni(){
+
+		if (document.form.otazka1.checked==false &&
+	            document.form.otazka2.checked==false && 	
+		    document.form.otazka3.checked==false && 	 	
+		    document.form.otazka4.checked==true && 
+		    document.form.otazka5.checked==false)
+
+
+			window.open("Spatne/dynamika_lehke/spravne4.htm","Spravne", "height=170px, width=500px, top=300px, left=500px, status=no, toolbar=no, location=no, scrollbars=yes, resizable=no");
+		else 
+	     
+			window.open("Spatne/dynamika_lehke/spatne4.htm","Spatne", "height=170px, width=500px, top=300px, left=500px, status=no, toolbar=no, location=no, scrollbars=yes, resizable=no");
+
+	    }
+</script>
+</div>
