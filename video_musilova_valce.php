@@ -1,9 +1,9 @@
-<h2>Videoukázka: Rámeček se závažím a pružinkami</h2>
+<h2>Videoukázka: Zavody valcu</h2>
 <p class="vid">Z přednášky Prof. RNDr. Jany Musilové, CSc.</p>
 
 
 <iframe width="460" height="315"
-src="http://www.youtube.com/embed/tvV7pT9Y-0Q" frameborder="0"
+src="http://www.youtube.com/embed/NNdoanLSdwo" frameborder="0"
 allowfullscreen></iframe>
 
 <br><br>

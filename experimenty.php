@@ -8,6 +8,16 @@ pokyny pro vlastní samostatnou práci studentů.</p>
 
 <hr>
 
+
+<p class="expnad1"><b>Zavody valcu</b></p>
+<p class="expnad">(Téma: Newtonovy zákony)</p>
+<p class="exp">Videozáznam z přednášky Prof. RNDr. Jany Musilové, CSc.</p>
+<p class="exp">
+<a href="index.php?web=video_musilova_valce"><b>Videoukázka</b></a> - komentovaný demonstrační experiment</p>
+
+
+
+<hr>
 <p class="expnad1"><b>Vysunutí papíru zpod kádinky s vodou</b></p>
 <p class="expnad">(Téma: Newtonovy zákony)</p>
 <p class="exp">

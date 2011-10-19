@@ -1,16 +1,11 @@
 <h2>Videoukázka: Experimenty s bicyklovým kolem (2)</h2>
 <p class="vid">Z přednášky Prof. RNDr. Jany Musilové, CSc.</p>
 
-<object type="application/x-shockwave-flash"
-data="../player.swf?klip=../Video/Musilova_2.flv" width="380" height="315">
-<param name="allowScriptAccess" value="sameDomain" />
-<param name="movie" value="../player.swf?klip=../Video/Musilova_2.flv" />
-<param name="loop" value="false" />
-<param name="menu" value="false" />
-<param name="quality" value="best" />
-<param name="bgcolor" value="#ffffff" />
-<param name="allowFullScreen" value="true"/>
-</object>
+
+<iframe width="460" height="315"
+src="http://www.youtube.com/embed/Dz59UXStu1U" frameborder="0"
+allowfullscreen></iframe>
+
 
 <br><br>
 <center><a href="javascript:history.back()"><b>Vrátit se zpět</b></a></center>

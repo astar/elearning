@@ -7,10 +7,15 @@ usnadnění orientace budoucím generacím.
 
 
 * TODO
-** Verzování "unstable" a "production" verze webu
+** Kontrola uloh lehke/tezke
 ** Vyřešení problému "vyhodnotit" -detaily (zřejmě jen na některých verzích prohlížeče)
 
 * DONE
+** Sestrihano video "zavody valcu"
+** Videa stranek unstable prevedeny na youtube
+** Nahrany videa
+** Vytvoren ucet dtpa.muni@gmail.com youtube.com
+** Verzování "unstable" a "production" verze webu
 ** Vytvořeny testovací a unstable kopie projektu
    testing http://physics.muni.cz/~vazny/elearning/testing/ 
    unstable http://physics.muni.cz/~vazny/elearning/unstable/ 
