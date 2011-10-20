@@ -1,4 +1,4 @@
-<h2>Videoukázka: Zavody valcu</h2>
+<h2>Videoukázka: Závody válců</h2>
 <p class="vid">Z přednášky Prof. RNDr. Jany Musilové, CSc.</p>
 
 

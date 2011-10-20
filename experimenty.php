@@ -6,16 +6,6 @@ pokyny pro vlastní samostatnou práci studentů.</p>
 
 <p class="alert">V případě, že se Vám video nebude zobrazovat, <b>je třeba si nainstalovat <a href="http://get.adobe.com/flashplayer/?promoid=DXLUJ">Adobe Flash Player</a></b> a restartovat Váš prohlížeč.</p>
 
-<hr>
-
-
-<p class="expnad1"><b>Zavody valcu</b></p>
-<p class="expnad">(Téma: Newtonovy zákony)</p>
-<p class="exp">Videozáznam z přednášky Prof. RNDr. Jany Musilové, CSc.</p>
-<p class="exp">
-<a href="index.php?web=video_musilova_valce"><b>Videoukázka</b></a> - komentovaný demonstrační experiment</p>
-
-
 
 <hr>
 <p class="expnad1"><b>Vysunutí papíru zpod kádinky s vodou</b></p>
@@ -43,6 +33,13 @@ Zájemce o podrobný matematický rozbor experimentu odkazujeme na <b><a href="T
 
 <hr>
 
+<p class="expnad1"><b>Závody válců</b></p>
+<p class="expnad">(Téma: Mechanika tuhého tělesa - aplikace impulzových vět)</p>
+<p class="exp">Videozáznam z přednášky Prof. RNDr. Jany Musilové, CSc.</p>
+<p class="exp">
+<a href="index.php?web=video_musilova_valce"><b>Videoukázka</b></a> - komentovaný demonstrační experiment</p>
+
+<hr>
 
 <p class="expnad1"><b>Odvalování cívky</b></p>
 <p class="expnad">(Téma: Mechanika tuhého tělesa - aplikace impulzových vět)</p>
