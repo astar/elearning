@@ -7,10 +7,15 @@ usnadnění orientace budoucím generacím.
 
 
 * TODO
+** Pridani novych uloh
 ** Kontrola uloh lehke/tezke
 ** Vyřešení problému "vyhodnotit" -detaily (zřejmě jen na některých verzích prohlížeče)
-
+   
 * DONE
+
+** Konverze vsech souboru z CP-1250 --> UTF-8
+   sed -i 's/windows-1250/UTF-8/' unstable/*.php
+   enconv -L cs -x utf-8 `find unstable/ -name *.php`
 ** Sestrihano video "zavody valcu"
 ** Videa stranek unstable prevedeny na youtube
 ** Nahrany videa
