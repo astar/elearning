@@ -1,9 +1,9 @@
-<div id="otazka"><strong>Druice o hmotnosti <i>m</i> se pohybuje kolem Zemì (hmotnost <i>M</i>) po kruhové dráze o polomìru <i>R</i> (aproximace). Soustavu Zemì – druice povaujeme za izolovanou, obì tìlesa za hmotné body, vztanou soustavu spojenou se Zemí za inerciální. Z následujících tvrzení je právì jedno správné. Vyberte jej.
+<div id="otazka"><strong>DruÅ¾ice o hmotnosti <i>m</i> se pohybuje kolem ZemÄ› (hmotnost <i>M</i>) po kruhovÃ© drÃ¡ze o polomÄ›ru <i>R</i> (aproximace). Soustavu ZemÄ› â€“ druÅ¾ice povaÅ¾ujeme za izolovanou, obÄ› tÄ›lesa za hmotnÃ© body, vztaÅ¾nou soustavu spojenou se ZemÃ­ za inerciÃ¡lnÃ­. Z nÃ¡sledujÃ­cÃ­ch tvrzenÃ­ je prÃ¡vÄ› jedno sprÃ¡vnÃ©. Vyberte jej.
 </strong></div>
 
-<p class="odp">Obtínost: <b>1 bod</b>. Doporuènı èas na vyøešení: <b>2 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>1 bod</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>2 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 
 <script>
 var c = 120;
@@ -14,7 +14,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -50,31 +50,31 @@ function zast_odp()
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Druice se nachází ve stavu beztíe, v nìm na ni nepùsobí ádné síly.
+<td width="400px" class="test2">DruÅ¾ice se nachÃ¡zÃ­ ve stavu beztÃ­Å¾e, v nÄ›mÅ¾ na ni nepÅ¯sobÃ­ Å¾Ã¡dnÃ© sÃ­ly.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Pohyb druice vùèi Zemi je rovnomìrnı.
+<td width="400px" class="test2">Pohyb druÅ¾ice vÅ¯Äi Zemi je rovnomÄ›rnÃ½.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Èím by druice byla Zemi blíe, tím by perioda <i>T</i> jejího obìhu byla delší (nápovìda: Kepler).
+<td width="400px" class="test2">ÄŒÃ­m by druÅ¾ice byla Zemi blÃ­Å¾e, tÃ­m by perioda <i>T</i> jejÃ­ho obÄ›hu byla delÅ¡Ã­ (nÃ¡povÄ›da: Kepler).
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Druice na Zemi rovnì silovì pùsobí, avšak mnohem menší silou ne Zemì na druici, nebo pomìr hmotností amath m/m endamath je velmi malı.
+<td width="400px" class="test2">DruÅ¾ice na Zemi rovnÄ›Å¾ silovÄ› pÅ¯sobÃ­, avÅ¡ak mnohem menÅ¡Ã­ silou neÅ¾ ZemÄ› na druÅ¾ici, neboÅ¥ pomÄ›r hmotnostÃ­ amath m/m endamath je velmi malÃ½.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Protoe je soustava druice-Zemì izolovaná, je její celková hybnost vzhledem k inerciální soustavì spojené se Sluncem nulová.
+<td width="400px" class="test2">ProtoÅ¾e je soustava druÅ¾ice-ZemÄ› izolovanÃ¡, je jejÃ­ celkovÃ¡ hybnost vzhledem k inerciÃ¡lnÃ­ soustavÄ› spojenÃ© se Sluncem nulovÃ¡.
 </td>
 </tr>
 

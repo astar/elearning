@@ -1,9 +1,9 @@
-<strong>Vıslednice <i><b>F</b></i> sil pùsobících na èástici o konstantní hmotnosti <i>m</i> je konstantní a nenulová. (Pohyb èástice popisujeme v inerciální vztané soustavì.) Z následujících tvrzení je právì jedno správné. Vyberte jej.
+<strong>VÃ½slednice <i><b>F</b></i> sil pÅ¯sobÃ­cÃ­ch na ÄÃ¡stici o konstantnÃ­ hmotnosti <i>m</i> je konstantnÃ­ a nenulovÃ¡. (Pohyb ÄÃ¡stice popisujeme v inerciÃ¡lnÃ­ vztaÅ¾nÃ© soustavÄ›.) Z nÃ¡sledujÃ­cÃ­ch tvrzenÃ­ je prÃ¡vÄ› jedno sprÃ¡vnÃ©. Vyberte jej.
 </strong>
 
-<p class="odp">Obtínost: <b>1 bod</b>. Doporuènı èas na vyøešení: <b>2 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>1 bod</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>2 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 
 <script>
 var c = 120;
@@ -14,7 +14,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -47,31 +47,31 @@ function zast_odp()
 <table>
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Èástice se pohybuje ve smìru síly <i><b>F</b></i>.
+<td width="400px" class="test2">ÄŒÃ¡stice se pohybuje ve smÄ›ru sÃ­ly <i><b>F</b></i>.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Protoe je vıslednice sil konstantní, je pohyb èástice rovnomìrnı pøímoèarı.
+<td width="400px" class="test2">ProtoÅ¾e je vÃ½slednice sil konstantnÃ­, je pohyb ÄÃ¡stice rovnomÄ›rnÃ½ pÅ™Ã­moÄarÃ½.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Pohyb èástice nemùe bıt rovnomìrnı.
+<td width="400px" class="test2">Pohyb ÄÃ¡stice nemÅ¯Å¾e bÃ½t rovnomÄ›rnÃ½.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Pohyb èástice nemùe bıt køivoèarı.
+<td width="400px" class="test2">Pohyb ÄÃ¡stice nemÅ¯Å¾e bÃ½t kÅ™ivoÄarÃ½.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Èástice mùe bıt v klidu.
+<td width="400px" class="test2">ÄŒÃ¡stice mÅ¯Å¾e bÃ½t v klidu.
 </td>
 </tr>
 

@@ -1,8 +1,8 @@
-<strong>Z následujících zápisù vyberte právì ty, které mohou bıt fyzikálnì správné.</strong>
+<strong>Z nÃ¡sledujÃ­cÃ­ch zÃ¡pisÅ¯ vyberte prÃ¡vÄ› ty, kterÃ© mohou bÃ½t fyzikÃ¡lnÄ› sprÃ¡vnÃ©.</strong>
 
-<p class="odp">Obtínost: <b>1 bod</b>. Doporuènı èas na vyøešení: <b>1,5 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>1 bod</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>1,5 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 
 <script>
 var c = 90;
@@ -13,7 +13,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {

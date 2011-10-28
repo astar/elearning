@@ -1,8 +1,8 @@
-<strong>Na letišti v Madridu usnadòuje cestujícím pøesun vodorovnı pohyblivı chodník, kterı se vùèi letištní hale pohybuje konstantní rychlostí <i><b>v</b></i>. Z následujících tvrzení je právì jedno  NESPRÁVNÉ. Vyberte jej. Odpor vzduchu zanedbáváme.</strong>
+<strong>Na letiÅ¡ti v Madridu usnadÅˆuje cestujÃ­cÃ­m pÅ™esun vodorovnÃ½ pohyblivÃ½ chodnÃ­k, kterÃ½ se vÅ¯Äi letiÅ¡tnÃ­ hale pohybuje konstantnÃ­ rychlostÃ­ <i><b>v</b></i>. Z nÃ¡sledujÃ­cÃ­ch tvrzenÃ­ je prÃ¡vÄ› jedno  NESPRÃVNÃ‰. Vyberte jej. Odpor vzduchu zanedbÃ¡vÃ¡me.</strong>
 
-<p class="odp">Obtínost: <b>1 bod</b>. Doporuènı èas na vyøešení: <b>3 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>1 bod</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>3 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 
 <script>
 var c = 180;
@@ -13,7 +13,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -46,27 +46,27 @@ function zast_odp()
 <table>
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Míèek, kterı se vùèi chodníku pohybuje po trajektorii vodorovného vrhu, se po trajektorii vodorovného vrhu musí pohybovat i vùèi letištní hale.</td>
+<td width="400px" class="test2">MÃ­Äek, kterÃ½ se vÅ¯Äi chodnÃ­ku pohybuje po trajektorii vodorovnÃ©ho vrhu, se po trajektorii vodorovnÃ©ho vrhu musÃ­ pohybovat i vÅ¯Äi letiÅ¡tnÃ­ hale.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Míèek, kterı se vùèi chodníku pohybuje se zrychlením, se s tímté zrychlením musí pohybovat i vùèi letištní hale.</td>
+<td width="400px" class="test2">MÃ­Äek, kterÃ½ se vÅ¯Äi chodnÃ­ku pohybuje se zrychlenÃ­m, se s tÃ­mtÃ©Å¾ zrychlenÃ­m musÃ­ pohybovat i vÅ¯Äi letiÅ¡tnÃ­ hale.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Míèek, kterı se vùèi chodníku pohybuje po pøímce, se po pøímce mùe pohybovat i vùèi letištní hale.</td>
+<td width="400px" class="test2">MÃ­Äek, kterÃ½ se vÅ¯Äi chodnÃ­ku pohybuje po pÅ™Ã­mce, se po pÅ™Ã­mce mÅ¯Å¾e pohybovat i vÅ¯Äi letiÅ¡tnÃ­ hale.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Míèek, kterı se vùèi chodníku pohybuje s promìnnou rychlostí, se s promìnnou rychlostí musí pohybovat i vùèi letištní hale.</td>
+<td width="400px" class="test2">MÃ­Äek, kterÃ½ se vÅ¯Äi chodnÃ­ku pohybuje s promÄ›nnou rychlostÃ­, se s promÄ›nnou rychlostÃ­ musÃ­ pohybovat i vÅ¯Äi letiÅ¡tnÃ­ hale.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Míèek, kterı se vùèi chodníku pohybuje rovnomìrnì, se vùèi letištní hale rovnomìrnì pohybovat nemusí.</td>
+<td width="400px" class="test2">MÃ­Äek, kterÃ½ se vÅ¯Äi chodnÃ­ku pohybuje rovnomÄ›rnÄ›, se vÅ¯Äi letiÅ¡tnÃ­ hale rovnomÄ›rnÄ› pohybovat nemusÃ­.</td>
 </tr>
 
 </table>

@@ -1,8 +1,8 @@
-<strong>Na obrázku jsou znázornìny síly <b><i>F</i><sub>1</sub></b> a <b><i>F<sub>2</i></sub></b> leící v rovinì <i>Oxy</i>. Z následujících tvrzení je právì jedno správné. Vyberte jej.</strong>
+<strong>Na obrÃ¡zku jsou znÃ¡zornÄ›ny sÃ­ly <b><i>F</i><sub>1</sub></b> a <b><i>F<sub>2</i></sub></b> leÅ¾Ã­cÃ­ v rovinÄ› <i>Oxy</i>. Z nÃ¡sledujÃ­cÃ­ch tvrzenÃ­ je prÃ¡vÄ› jedno sprÃ¡vnÃ©. Vyberte jej.</strong>
 
-<p class="odp">Obtínost: <b>0,5 bodu</b>. Doporuènı èas na vyøešení: <b>2 minuty</b>.<br>
+<p class="odp">ObtÃ­Å¾nost: <b>0,5 bodu</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>2 minuty</b>.<br>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 
 <script>
 var c = 120;
@@ -13,7 +13,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -46,27 +46,27 @@ function zast_odp()
 <table>
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Prùmìt vıslednice sil <b><i>F</i><sub>1</sub></b> a <b><i>F</i><sub>2</sub></b> do osy <i>x</i> je s osou <i>x</i> nesouhlasnì rovnobìnı, nebo <i>&alpha;</i><sub>1</sub> > <i>&alpha;</i><sub>2</sub>.</td>
+<td width="400px" class="test2">PrÅ¯mÄ›t vÃ½slednice sil <b><i>F</i><sub>1</sub></b> a <b><i>F</i><sub>2</sub></b> do osy <i>x</i> je s osou <i>x</i> nesouhlasnÄ› rovnobÄ›Å¾nÃ½, neboÅ¥ <i>&alpha;</i><sub>1</sub> > <i>&alpha;</i><sub>2</sub>.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2"><i>Z</i>-ovou sloku vıslednice sil <b><i>F</i><sub>1</sub></b> a <b><i>F</i><sub>2</sub></b> nelze urèit, nebo nejsou zadány <i>z</i>-ové sloky sil <b><i>F</i><sub>1</sub></b> a <b><i>F</i><sub>2</sub></b>.</td>
+<td width="400px" class="test2"><i>Z</i>-ovou sloÅ¾ku vÃ½slednice sil <b><i>F</i><sub>1</sub></b> a <b><i>F</i><sub>2</sub></b> nelze urÄit, neboÅ¥ nejsou zadÃ¡ny <i>z</i>-ovÃ© sloÅ¾ky sil <b><i>F</i><sub>1</sub></b> a <b><i>F</i><sub>2</sub></b>.</td>
 </tr>
 
 <tr>	
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2"><i>X</i>-ová sloka vıslednice sil <b><i>F</i><sub>1</sub></b> a <b><i>F</i><sub>2</sub></b> je nenulová, nebo <i>x</i>-ové sloky obou sil <b><i>F</i><sub>1</sub></b> a <b><i>F</i><sub>2</sub></b> jsou nenulové.</td>
+<td width="400px" class="test2"><i>X</i>-ovÃ¡ sloÅ¾ka vÃ½slednice sil <b><i>F</i><sub>1</sub></b> a <b><i>F</i><sub>2</sub></b> je nenulovÃ¡, neboÅ¥ <i>x</i>-ovÃ© sloÅ¾ky obou sil <b><i>F</i><sub>1</sub></b> a <b><i>F</i><sub>2</sub></b> jsou nenulovÃ©.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Prùmìt vıslednice sil <b><i>F</i><sub>1</sub></b> a <b><i>F</i><sub>2</sub></b> do osy <i>y</i> je v daném pøípadì s osou <i>y</i> souhlasnì rovnobìnı, nebo je urèen vektorovım souètem <i>y</i>-ovıch prùmìtù sil <b><i>F</i><sub>1</sub></b> a <b><i>F</i><sub>2</sub></b>.</td>
+<td width="400px" class="test2">PrÅ¯mÄ›t vÃ½slednice sil <b><i>F</i><sub>1</sub></b> a <b><i>F</i><sub>2</sub></b> do osy <i>y</i> je v danÃ©m pÅ™Ã­padÄ› s osou <i>y</i> souhlasnÄ› rovnobÄ›Å¾nÃ½, neboÅ¥ je urÄen vektorovÃ½m souÄtem <i>y</i>-ovÃ½ch prÅ¯mÄ›tÅ¯ sil <b><i>F</i><sub>1</sub></b> a <b><i>F</i><sub>2</sub></b>.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2"><i>X</i>-ovou sloku vıslednice sil nelze urèit, nebo obrázkem jsou zadány pouze velikosti sil <b><i>F</i><sub>1</sub></b> a <b><i>F</i><sub>2</sub></b> a úhly <i>&alpha;</i><sub>1</sub>, <i>&alpha;</i><sub>2</sub>, nikoli <i>x</i>-ové sloky jednotlivıch sil.</td>
+<td width="400px" class="test2"><i>X</i>-ovou sloÅ¾ku vÃ½slednice sil nelze urÄit, neboÅ¥ obrÃ¡zkem jsou zadÃ¡ny pouze velikosti sil <b><i>F</i><sub>1</sub></b> a <b><i>F</i><sub>2</sub></b> a Ãºhly <i>&alpha;</i><sub>1</sub>, <i>&alpha;</i><sub>2</sub>, nikoli <i>x</i>-ovÃ© sloÅ¾ky jednotlivÃ½ch sil.</td>
 </tr>
 
 </table>

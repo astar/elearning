@@ -1,9 +1,9 @@
-<div id="otazka"><strong>Je známo, e proud vody vytékající z vodovodního kohoutku se zuuje (viz obrázek). Vodu povaujeme za nestlaèitelnou, proudìní za ustálené a laminární. Z následujících tvrzení je právì jedno správné. Vyberte jej.
+<div id="otazka"><strong>Je znÃ¡mo, Å¾e proud vody vytÃ©kajÃ­cÃ­ z vodovodnÃ­ho kohoutku se zuÅ¾uje (viz obrÃ¡zek). Vodu povaÅ¾ujeme za nestlaÄitelnou, proudÄ›nÃ­ za ustÃ¡lenÃ© a laminÃ¡rnÃ­. Z nÃ¡sledujÃ­cÃ­ch tvrzenÃ­ je prÃ¡vÄ› jedno sprÃ¡vnÃ©. Vyberte jej.
 </strong></div>
 
-<p class="odp">Obtínost: <b>0,5 bodu</b>. Doporuènı èas na vyøešení: <b>2 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>0,5 bodu</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>2 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 
 <script>
 var c = 120;
@@ -14,7 +14,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -51,31 +51,31 @@ function zast_odp()
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Proud vody se zuuje proto, e se v nìm mìní objemovı tok. Ten je s rostoucí vzdáleností od vodorovné roviny procházející ústím kohoutku menší.
+<td width="400px" class="test2">Proud vody se zuÅ¾uje proto, Å¾e se v nÄ›m mÄ›nÃ­ objemovÃ½ tok. Ten je s rostoucÃ­ vzdÃ¡lenostÃ­ od vodorovnÃ© roviny prochÃ¡zejÃ­cÃ­ ÃºstÃ­m kohoutku menÅ¡Ã­.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Proud vody se zuuje proto, e se v nìm mìní rychlost kapaliny. Ta je s rostoucí vzdáleností od vodorovné roviny procházející ústím kohoutku vìtší.
+<td width="400px" class="test2">Proud vody se zuÅ¾uje proto, Å¾e se v nÄ›m mÄ›nÃ­ rychlost kapaliny. Ta je s rostoucÃ­ vzdÃ¡lenostÃ­ od vodorovnÃ© roviny prochÃ¡zejÃ­cÃ­ ÃºstÃ­m kohoutku vÄ›tÅ¡Ã­.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Proud vody se zuuje proto, e se podél nìj vıraznì mìní okolní tlak. Ten s rostoucí vzdáleností od vodorovné roviny procházející ústím kohoutku narùstá.
+<td width="400px" class="test2">Proud vody se zuÅ¾uje proto, Å¾e se podÃ©l nÄ›j vÃ½raznÄ› mÄ›nÃ­ okolnÃ­ tlak. Ten s rostoucÃ­ vzdÃ¡lenostÃ­ od vodorovnÃ© roviny prochÃ¡zejÃ­cÃ­ ÃºstÃ­m kohoutku narÅ¯stÃ¡.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Proud vody se zuuje vlivem odporu vzduchu a vnitøního tøení ve vodì. S rostoucí vzdáleností od vodorovné roviny procházející ústím kohoutku tak klesá kinetická  energie objemové jednotky vody.
+<td width="400px" class="test2">Proud vody se zuÅ¾uje vlivem odporu vzduchu a vnitÅ™nÃ­ho tÅ™enÃ­ ve vodÄ›. S rostoucÃ­ vzdÃ¡lenostÃ­ od vodorovnÃ© roviny prochÃ¡zejÃ­cÃ­ ÃºstÃ­m kohoutku tak klesÃ¡ kinetickÃ¡  energie objemovÃ© jednotky vody.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Tvrzení a pøedpoklady v zadání jsou nesprávné. Proud vody se toti zuuje díky turbulencím a vnitønímu tøení ve vodì.
+<td width="400px" class="test2">TvrzenÃ­ a pÅ™edpoklady v zadÃ¡nÃ­ jsou nesprÃ¡vnÃ©. Proud vody se totiÅ¾ zuÅ¾uje dÃ­ky turbulencÃ­m a vnitÅ™nÃ­mu tÅ™enÃ­ ve vodÄ›.
 </td>
 </tr>
 

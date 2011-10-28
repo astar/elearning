@@ -1,9 +1,9 @@
-<strong>Tuhé tìleso se v inerciální vztané soustavì otáèí kolem pevné osy.<br>Z následujících tvrzení je právì jedno správné. Vyberte jej.
+<strong>TuhÃ© tÄ›leso se v inerciÃ¡lnÃ­ vztaÅ¾nÃ© soustavÄ› otÃ¡ÄÃ­ kolem pevnÃ© osy.<br>Z nÃ¡sledujÃ­cÃ­ch tvrzenÃ­ je prÃ¡vÄ› jedno sprÃ¡vnÃ©. Vyberte jej.
 </strong>
 
-<p class="odp">Obtínost: <b>0,5 bodu</b>. Doporuènı èas na vyøešení: <b>1,5 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>0,5 bodu</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>1,5 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 
 <script>
 var c = 90;
@@ -14,7 +14,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -47,31 +47,31 @@ function zast_odp()
 <table>
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Na tìleso mohou pùsobit jen takové síly, které jsou kolmé k ose otáèení.
+<td width="400px" class="test2">Na tÄ›leso mohou pÅ¯sobit jen takovÃ© sÃ­ly, kterÃ© jsou kolmÃ© k ose otÃ¡ÄenÃ­.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Celkovı moment hybnosti tìlesa musí bıt rovnobìnı s osou otáèení.
+<td width="400px" class="test2">CelkovÃ½ moment hybnosti tÄ›lesa musÃ­ bÃ½t rovnobÄ›Å¾nÃ½ s osou otÃ¡ÄenÃ­.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Zrychlení tìištì tìlesa musí bıt nulové.
+<td width="400px" class="test2">ZrychlenÃ­ tÄ›Å¾iÅ¡tÄ› tÄ›lesa musÃ­ bÃ½t nulovÃ©.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Rychlosti jednotlivıch bodù tìlesa mohou bıt rùzné.
+<td width="400px" class="test2">Rychlosti jednotlivÃ½ch bodÅ¯ tÄ›lesa mohou bÃ½t rÅ¯znÃ©.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Moment setrvaènosti tìlesa se vzhledem k ose otáèení mùe mìnit.
+<td width="400px" class="test2">Moment setrvaÄnosti tÄ›lesa se vzhledem k ose otÃ¡ÄenÃ­ mÅ¯Å¾e mÄ›nit.
 </td>
 </tr>
 

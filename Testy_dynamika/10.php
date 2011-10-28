@@ -1,9 +1,9 @@
-<strong>Na naklonìnou rovinu s úhlem sklonu <i>&alpha;</i> &ne; 0 poloíme krabici a uvolníme ji. Pøedpokládáme, e odpor prostøedí je zanedbatelnı. Vyberte právì ta tvrzení, která jsou správná.
+<strong>Na naklonÄ›nou rovinu s Ãºhlem sklonu <i>&alpha;</i> &ne; 0 poloÅ¾Ã­me krabici a uvolnÃ­me ji. PÅ™edpoklÃ¡dÃ¡me, Å¾e odpor prostÅ™edÃ­ je zanedbatelnÃ½. Vyberte prÃ¡vÄ› ta tvrzenÃ­, kterÃ¡ jsou sprÃ¡vnÃ¡.
 </strong>
 
-<p class="odp">Obtínost: <b>1 bod</b>. Doporuènı èas na vyøešení: <b>2,5 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>1 bod</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>2,5 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 
 <script>
 var c = 150;
@@ -14,7 +14,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -47,42 +47,42 @@ function zast_odp()
 <table>
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Na krabici pùsobí tíhová síla a tlaková síla naklonìné roviny. Jejich vıslednice je rovnobìná s naklonìnou rovinou.</td>
+<td width="400px" class="test2">Na krabici pÅ¯sobÃ­ tÃ­hovÃ¡ sÃ­la a tlakovÃ¡ sÃ­la naklonÄ›nÃ© roviny. Jejich vÃ½slednice je rovnobÄ›Å¾nÃ¡ s naklonÄ›nou rovinou.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Tlaková síla, jí pùsobí naklonìná rovina na krabici, je reakcí na prùmìt tíhové síly do smìru kolmého k naklonìné rovinì.</td>
+<td width="400px" class="test2">TlakovÃ¡ sÃ­la, jÃ­Å¾ pÅ¯sobÃ­ naklonÄ›nÃ¡ rovina na krabici, je reakcÃ­ na prÅ¯mÄ›t tÃ­hovÃ© sÃ­ly do smÄ›ru kolmÃ©ho k naklonÄ›nÃ© rovinÄ›.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Na krabici pùsobí celkem tøi síly: dvì z nich jsou k naklonìné rovinì kolmé a ruší se, tøetí je s naklonìnou rovinou rovnobìná.</td>
+<td width="400px" class="test2">Na krabici pÅ¯sobÃ­ celkem tÅ™i sÃ­ly: dvÄ› z nich jsou k naklonÄ›nÃ© rovinÄ› kolmÃ© a ruÅ¡Ã­ se, tÅ™etÃ­ je s naklonÄ›nou rovinou rovnobÄ›Å¾nÃ¡.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Tlaková síla naklonìné roviny má svislı smìr, ale menší velikost ne tíhová síla. Krabice proto klesá se zrychlením.</td>
+<td width="400px" class="test2">TlakovÃ¡ sÃ­la naklonÄ›nÃ© roviny mÃ¡ svislÃ½ smÄ›r, ale menÅ¡Ã­ velikost neÅ¾ tÃ­hovÃ¡ sÃ­la. Krabice proto klesÃ¡ se zrychlenÃ­m.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Pøi vhodném sklonu naklonìné roviny je vıslednice sil pùsobících na krabici nulová. Krabice pak klesá s konstantní rychlostí.</td>
+<td width="400px" class="test2">PÅ™i vhodnÃ©m sklonu naklonÄ›nÃ© roviny je vÃ½slednice sil pÅ¯sobÃ­cÃ­ch na krabici nulovÃ¡. Krabice pak klesÃ¡ s konstantnÃ­ rychlostÃ­.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka6"> (f)</td>
-<td width="400px" class="test2">Zemì pùsobí na krabici dvìma silami: jedna je s naklonìnou rovinou rovnobìná, druhá je k naklonìné rovinì kolmá a deformuje ji.</td>
+<td width="400px" class="test2">ZemÄ› pÅ¯sobÃ­ na krabici dvÄ›ma silami: jedna je s naklonÄ›nou rovinou rovnobÄ›Å¾nÃ¡, druhÃ¡ je k naklonÄ›nÃ© rovinÄ› kolmÃ¡ a deformuje ji.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka7"> (g)</td>
-<td width="400px" class="test2">Zrychlení krabice má smìr naklonìné roviny, proto je tlaková síla naklonìné roviny stejnì velká jako prùmìt tíhové síly do smìru kolmého k naklonìné rovinì.</td>
+<td width="400px" class="test2">ZrychlenÃ­ krabice mÃ¡ smÄ›r naklonÄ›nÃ© roviny, proto je tlakovÃ¡ sÃ­la naklonÄ›nÃ© roviny stejnÄ› velkÃ¡ jako prÅ¯mÄ›t tÃ­hovÃ© sÃ­ly do smÄ›ru kolmÃ©ho k naklonÄ›nÃ© rovinÄ›.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka8"> (h)</td>
-<td width="400px" class="test2">Prùmìt zrychlení krabice do svislého smìru je nulovı, proto se svislı prùmìt tlakové síly naklonìné roviny ruší s tíhovou silou.</td>
+<td width="400px" class="test2">PrÅ¯mÄ›t zrychlenÃ­ krabice do svislÃ©ho smÄ›ru je nulovÃ½, proto se svislÃ½ prÅ¯mÄ›t tlakovÃ© sÃ­ly naklonÄ›nÃ© roviny ruÅ¡Ã­ s tÃ­hovou silou.</td>
 </tr>
 
 </table>

@@ -1,9 +1,9 @@
-<div id="otazka"><strong>Z následujících tvrzení vyberte právì to, které je obecnì správné.
+<div id="otazka"><strong>Z nÃ¡sledujÃ­cÃ­ch tvrzenÃ­ vyberte prÃ¡vÄ› to, kterÃ© je obecnÄ› sprÃ¡vnÃ©.
 </strong></div>
 
-<p class="odp">Obtínost: <b>1 bod</b>. Doporuènı èas na vyøešení: <b>2 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>1 bod</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>2 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 
 <script>
 var c = 120;
@@ -14,7 +14,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -50,31 +50,31 @@ function zast_odp()
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Pokud se zvıší teplota plynu, vzroste velikost  rychlosti kadé z jeho molekul.
+<td width="400px" class="test2">Pokud se zvÃ½Å¡Ã­ teplota plynu, vzroste velikost  rychlosti kaÅ¾dÃ© z jeho molekul.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Pøi dané teplotì má polovina molekul plynu menší velikost rychlosti, ne je støední velikost rychlosti molekul.
+<td width="400px" class="test2">PÅ™i danÃ© teplotÄ› mÃ¡ polovina molekul plynu menÅ¡Ã­ velikost rychlosti, neÅ¾ je stÅ™ednÃ­ velikost rychlosti molekul.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Pøi dané teplotì mohou mít rùzné plyny rùzné støední velikosti rychlosti molekul.
+<td width="400px" class="test2">PÅ™i danÃ© teplotÄ› mohou mÃ­t rÅ¯znÃ© plyny rÅ¯znÃ© stÅ™ednÃ­ velikosti rychlosti molekul.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Pokud se sníí teplota plynu, klesne poèet molekul s danou velikostí rychlostí.
+<td width="400px" class="test2">Pokud se snÃ­Å¾Ã­ teplota plynu, klesne poÄet molekul s danou velikostÃ­ rychlostÃ­.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Pøi dané teplotì plynu se velikost rychlosti jednotlivıch molekul plynu nemìní.
+<td width="400px" class="test2">PÅ™i danÃ© teplotÄ› plynu se velikost rychlosti jednotlivÃ½ch molekul plynu nemÄ›nÃ­.
 </td>
 </tr>
 

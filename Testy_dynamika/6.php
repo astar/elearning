@@ -1,9 +1,9 @@
-<strong>Na obrázku je zakreslen graf závislosti velikosti vıslednice sil pùsobících na èástici s konstantní hmotností na èase. Pohyb èástice sledujeme v inerciální vztané soustavì. Z následujících tvrzení je právì jedno správné. Vyberte jej.
+<strong>Na obrÃ¡zku je zakreslen graf zÃ¡vislosti velikosti vÃ½slednice sil pÅ¯sobÃ­cÃ­ch na ÄÃ¡stici s konstantnÃ­ hmotnostÃ­ na Äase. Pohyb ÄÃ¡stice sledujeme v inerciÃ¡lnÃ­ vztaÅ¾nÃ© soustavÄ›. Z nÃ¡sledujÃ­cÃ­ch tvrzenÃ­ je prÃ¡vÄ› jedno sprÃ¡vnÃ©. Vyberte jej.
 </strong>
 
-<p class="odp">Obtínost: <b>1 bod</b>. Doporuènı èas na vyøešení: <b>3 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>1 bod</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>3 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 
 <script>
 var c = 180;
@@ -14,7 +14,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -48,29 +48,29 @@ function zast_odp()
 <table>
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">V okamiku <i>t</i>=2 s je derivace hybnosti èástice stejnì velká jako v okamiku <i>t</i>=14 s, nebo  vıslednice sil má v tìchto okamicích stejnou velikost.
+<td width="400px" class="test2">V okamÅ¾iku <i>t</i>=2 s je derivace hybnosti ÄÃ¡stice stejnÄ› velkÃ¡ jako v okamÅ¾iku <i>t</i>=14 s, neboÅ¥  vÃ½slednice sil mÃ¡ v tÄ›chto okamÅ¾icÃ­ch stejnou velikost.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">V intervalu [0,3] s se èástice pohybuje rovnomìrnì zrychlenì, nebo vıslednice na ni pùsobících sil a tím i zrychlení èástice mají konstantní velikost.
+<td width="400px" class="test2">V intervalu [0,3] s se ÄÃ¡stice pohybuje rovnomÄ›rnÄ› zrychlenÄ›, neboÅ¥ vÃ½slednice na ni pÅ¯sobÃ­cÃ­ch sil a tÃ­m i zrychlenÃ­ ÄÃ¡stice majÃ­ konstantnÃ­ velikost.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">V okamiku <i>t</i>=8 s se mìní pohyb èástice ze zrychleného na zpomalenı (velikost rychlosti tedy nabıvá maxima), nebo funkce <i>F(t)</i> zde nabıvá svého maxima.</td>
+<td width="400px" class="test2">V okamÅ¾iku <i>t</i>=8 s se mÄ›nÃ­ pohyb ÄÃ¡stice ze zrychlenÃ©ho na zpomalenÃ½ (velikost rychlosti tedy nabÃ½vÃ¡ maxima), neboÅ¥ funkce <i>F(t)</i> zde nabÃ½vÃ¡ svÃ©ho maxima.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">V okamicích <i>t</i>=6 s a <i>t</i>=10 s je velikost zrychlení èástice stejná, nebo graf funkce <i>F(t)</i> má stejnı sklon.</td>
+<td width="400px" class="test2">V okamÅ¾icÃ­ch <i>t</i>=6 s a <i>t</i>=10 s je velikost zrychlenÃ­ ÄÃ¡stice stejnÃ¡, neboÅ¥ graf funkce <i>F(t)</i> mÃ¡ stejnÃ½ sklon.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">V okamiku <i>t</i>=8 s je rychlost èástice maximální, nebo maximální je i velikost vıslednice sil pùsobících na èástici.</td>
+<td width="400px" class="test2">V okamÅ¾iku <i>t</i>=8 s je rychlost ÄÃ¡stice maximÃ¡lnÃ­, neboÅ¥ maximÃ¡lnÃ­ je i velikost vÃ½slednice sil pÅ¯sobÃ­cÃ­ch na ÄÃ¡stici.</td>
 </tr>
 
 </table>

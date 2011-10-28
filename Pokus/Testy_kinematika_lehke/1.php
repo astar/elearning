@@ -1,9 +1,9 @@
-<div id="otazka"><strong>Malá kulièka (hmotnı bod) se pohybuje v rovinì <i>Oxy</i> rovnomìrnì po krunici o polomìru <i>R</i>. Bod <i>O</i> je støedem krunice. Velikost rychlosti kulièky je <i>v</i>. Z následujících tvrzení je právì jedno správné. Vyberte jej.
+<div id="otazka"><strong>MalÃ¡ kuliÄka (hmotnÃ½ bod) se pohybuje v rovinÄ› <i>Oxy</i> rovnomÄ›rnÄ› po kruÅ¾nici o polomÄ›ru <i>R</i>. Bod <i>O</i> je stÅ™edem kruÅ¾nice. Velikost rychlosti kuliÄky je <i>v</i>. Z nÃ¡sledujÃ­cÃ­ch tvrzenÃ­ je prÃ¡vÄ› jedno sprÃ¡vnÃ©. Vyberte jej.
 </strong></div>
 
-<p class="odp">Obtínost: <b>1 bod</b>. Doporuènı èas na vyøešení: <b>1 minuta</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>1 bod</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>1 minuta</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 
 <script>
 var c = 60;
@@ -14,7 +14,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -51,37 +51,37 @@ function zast_odp()
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Rychlost kulièky se nemìní, nebo její pohyb je rovnomìrnı.
+<td width="400px" class="test2">Rychlost kuliÄky se nemÄ›nÃ­, neboÅ¥ jejÃ­ pohyb je rovnomÄ›rnÃ½.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Zrychlení kulièky je nulové.
+<td width="400px" class="test2">ZrychlenÃ­ kuliÄky je nulovÃ©.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Úhel, kterı svírá vektor rychlosti kulièky s osou <i>x</i>, je úmìrnı èasu.
+<td width="400px" class="test2">Ãšhel, kterÃ½ svÃ­rÃ¡ vektor rychlosti kuliÄky s osou <i>x</i>, je ÃºmÄ›rnÃ½ Äasu.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Úhel opsanı prùvodièem kulièky s èasem neustále roste, a proto je úhlové zrychlení kulièky nenulové.
+<td width="400px" class="test2">Ãšhel opsanÃ½ prÅ¯vodiÄem kuliÄky s Äasem neustÃ¡le roste, a proto je ÃºhlovÃ© zrychlenÃ­ kuliÄky nenulovÃ©.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Celkové zrychlení kulièky je v kadém okamiku rovno zrychlení normálovému a jeho velikost je dána vztahem 
+<td width="400px" class="test2">CelkovÃ© zrychlenÃ­ kuliÄky je v kaÅ¾dÃ©m okamÅ¾iku rovno zrychlenÃ­ normÃ¡lovÃ©mu a jeho velikost je dÃ¡na vztahem 
 
 amath
 a = v^2 / kappa
 endamath, 
 
-kde <i>&kappa;</i> je køivost krunice.
+kde <i>&kappa;</i> je kÅ™ivost kruÅ¾nice.
 </td>
 </tr>
 

@@ -1,22 +1,22 @@
 <div id="otazka"><strong>
-V ideálním plynu probíhá cyklus sloenı z tìchto vratnıch dìjù:
+V ideÃ¡lnÃ­m plynu probÃ­hÃ¡ cyklus sloÅ¾enÃ½ z tÄ›chto vratnÃ½ch dÄ›jÅ¯:
 
 <ul>
-<li>1 &rarr; 2 … izobarická expanze, </li>
-<li>2 &rarr; 3 … izotermická expanze,</li>
-<li>3 &rarr; 4 … adiabatická expanze,</li>
-<li>4 &rarr; 5 … izobarická komprese,</li>
-<li>5 &rarr; 1 … izochorickı dìj.</li>
+<li>1 &rarr; 2 â€¦ izobarickÃ¡ expanze, </li>
+<li>2 &rarr; 3 â€¦ izotermickÃ¡ expanze,</li>
+<li>3 &rarr; 4 â€¦ adiabatickÃ¡ expanze,</li>
+<li>4 &rarr; 5 â€¦ izobarickÃ¡ komprese,</li>
+<li>5 &rarr; 1 â€¦ izochorickÃ½ dÄ›j.</li>
 </ul>
 
-Teploty ve stavech 1 a 5 jsou <i>T</i><sub>1</sub>, <i>T</i><sub>2</sub>, <i>T</i><sub>3</sub>, 
+Teploty ve stavech 1 aÅ¾ 5 jsou <i>T</i><sub>1</sub>, <i>T</i><sub>2</sub>, <i>T</i><sub>3</sub>, 
 <i>T</i><sub>4</sub>, <i>T</i><sub>5</sub>, objem ve stavu 1 je <i>V</i><sub>1</sub>. 
-Z následujících tvrzení vyberte právì ta, která jsou pro danou situaci správná.
+Z nÃ¡sledujÃ­cÃ­ch tvrzenÃ­ vyberte prÃ¡vÄ› ta, kterÃ¡ jsou pro danou situaci sprÃ¡vnÃ¡.
 </strong></div>
 
-<p class="odp">Obtínost: <b>2 body</b>. Doporuènı èas na vyøešení: <b>5 minut</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>2 body</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>5 minut</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 
 <script>
 var c = 300;
@@ -27,7 +27,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -63,49 +63,49 @@ function zast_odp()
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Zadání souboru hodnot <i>T</i><sub>1</sub>, <i>T</i><sub>2</sub>, <i>T</i><sub>3</sub>, <i>T</i><sub>4</sub>, <i>T</i><sub>5</sub>, <i>V</i><sub>1</sub> je dostaèující k tomu, abychom urèili tlak a objem plynu ve všech stavech.
+<td width="400px" class="test2">ZadÃ¡nÃ­ souboru hodnot <i>T</i><sub>1</sub>, <i>T</i><sub>2</sub>, <i>T</i><sub>3</sub>, <i>T</i><sub>4</sub>, <i>T</i><sub>5</sub>, <i>V</i><sub>1</sub> je dostaÄujÃ­cÃ­ k tomu, abychom urÄili tlak a objem plynu ve vÅ¡ech stavech.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Teplota <i>T</i><sub>5</sub> nemusí bıt nejniší teplotou v celém cyklu.
+<td width="400px" class="test2">Teplota <i>T</i><sub>5</sub> nemusÃ­ bÃ½t nejniÅ¾Å¡Ã­ teplotou v celÃ©m cyklu.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Je moné, aby teploty <i>T</i><sub>1</sub> a <i>T</i><sub>4</sub> byly stejné.
+<td width="400px" class="test2">Je moÅ¾nÃ©, aby teploty <i>T</i><sub>1</sub> a <i>T</i><sub>4</sub> byly stejnÃ©.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Teplota <i>T</i><sub>2</sub> je vyšší ne teplota <i>T</i><sub>4</sub>.
+<td width="400px" class="test2">Teplota <i>T</i><sub>2</sub> je vyÅ¡Å¡Ã­ neÅ¾ teplota <i>T</i><sub>4</sub>.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Pøi dìji 1 &rarr; 2 pøijal plyn více tepla, ne odevzdal pøi dìji 4 &rarr; 5.
+<td width="400px" class="test2">PÅ™i dÄ›ji 1 &rarr; 2 pÅ™ijal plyn vÃ­ce tepla, neÅ¾ odevzdal pÅ™i dÄ›ji 4 &rarr; 5.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka6"> (f)</td>
-<td width="400px" class="test2">Pøi dìji 5 &rarr; 1 plyn odevzdává teplo, take jeho vnitøní energie na úkor toho roste.
+<td width="400px" class="test2">PÅ™i dÄ›ji 5 &rarr; 1 plyn odevzdÃ¡vÃ¡ teplo, takÅ¾e jeho vnitÅ™nÃ­ energie na Ãºkor toho roste.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka7"> (g)</td>
-<td width="400px" class="test2">Teplo, které plyn pøijímá, je dáno souèinem jeho teplené kapacity a rozdílu teplot; pøi dìji 2 &rarr; 3 se nemìní teplota plynu, a proto je teplo pøijaté pøi tomto dìji nulové.
+<td width="400px" class="test2">Teplo, kterÃ© plyn pÅ™ijÃ­mÃ¡, je dÃ¡no souÄinem jeho teplenÃ© kapacity a rozdÃ­lu teplot; pÅ™i dÄ›ji 2 &rarr; 3 se nemÄ›nÃ­ teplota plynu, a proto je teplo pÅ™ijatÃ© pÅ™i tomto dÄ›ji nulovÃ©.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka8"> (h)</td>
-<td width="400px" class="test2">Zmìna vnitøní energie plynu pøi jednom cyklu je nulová.
+<td width="400px" class="test2">ZmÄ›na vnitÅ™nÃ­ energie plynu pÅ™i jednom cyklu je nulovÃ¡.
 </td>
 </tr>
 

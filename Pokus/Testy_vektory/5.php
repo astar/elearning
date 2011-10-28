@@ -1,8 +1,8 @@
-<div id="otazka"><strong>Na obrázku je znázornìna síla <b><i>F</i></b> leící v rovinì <i>Oxy</i>. Z následujících tvrzení je právì jedno NESPRÁVNÉ. Vyberte jej.</strong></div>
+<div id="otazka"><strong>Na obrÃ¡zku je znÃ¡zornÄ›na sÃ­la <b><i>F</i></b> leÅ¾Ã­cÃ­ v rovinÄ› <i>Oxy</i>. Z nÃ¡sledujÃ­cÃ­ch tvrzenÃ­ je prÃ¡vÄ› jedno NESPRÃVNÃ‰. Vyberte jej.</strong></div>
 
-<p class="odp">Obtínost: <b>0,5 bodu</b>. Doporuènı èas na vyøešení: <b>1,5 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>0,5 bodu</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>1,5 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 
 <script>
 var c = 90;
@@ -13,7 +13,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -49,27 +49,27 @@ function zast_odp()
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2"><i>X</i>-ová sloka síly amath vec bb F endamath je rovna <i>F</i>cos<i>&alpha;</i>.</td>
+<td width="400px" class="test2"><i>X</i>-ovÃ¡ sloÅ¾ka sÃ­ly amath vec bb F endamath je rovna <i>F</i>cos<i>&alpha;</i>.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2"><i>Y</i>-ová sloka síly amath vec bb F endamath je rovna <i>F</i>sin<i>&alpha;</i>.</td>
+<td width="400px" class="test2"><i>Y</i>-ovÃ¡ sloÅ¾ka sÃ­ly amath vec bb F endamath je rovna <i>F</i>sin<i>&alpha;</i>.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2"><i>Y</i>-ová sloka síly amath vec bb F endamath je rovna <i>F</i>sin<i>&beta;</i>.</td>
+<td width="400px" class="test2"><i>Y</i>-ovÃ¡ sloÅ¾ka sÃ­ly amath vec bb F endamath je rovna <i>F</i>sin<i>&beta;</i>.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2"><i>X</i>-ová sloka síly amath vec bb F endamath je rovna <i>F</i>cos<i>&beta;</i>.</td>
+<td width="400px" class="test2"><i>X</i>-ovÃ¡ sloÅ¾ka sÃ­ly amath vec bb F endamath je rovna <i>F</i>cos<i>&beta;</i>.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2"><i>Y</i>-ová sloka síly amath vec bb F endamath je rovna <i>F</i>cos(90° - <i>&beta;)</i>.</td>
+<td width="400px" class="test2"><i>Y</i>-ovÃ¡ sloÅ¾ka sÃ­ly amath vec bb F endamath je rovna <i>F</i>cos(90Â° - <i>&beta;)</i>.</td>
 </tr>
 </table>
 <br>

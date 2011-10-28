@@ -1,9 +1,9 @@
-<div id="otazka"><strong>Lyaø sjídí z kopce za úplného bezvìtøí tak, e se neodráí holemi ani nebruslí. Ve vıšce <i>h</i><sub>1</sub> nad úpatím je velikost jeho rychlosti <i>v</i><sub>1</sub>, ve vıšce <i>h</i><sub>2</sub> < <i>h</i><sub>1</sub> je velikost jeho  rychlosti <i>v</i><sub>2</sub>. Z následujících tvrzení vyberte právì ta, která jsou NESPRÁVNÁ.
+<div id="otazka"><strong>LyÅ¾aÅ™ sjÃ­Å¾dÃ­ z kopce za ÃºplnÃ©ho bezvÄ›tÅ™Ã­ tak, Å¾e se neodrÃ¡Å¾Ã­ holemi ani nebruslÃ­. Ve vÃ½Å¡ce <i>h</i><sub>1</sub> nad ÃºpatÃ­m je velikost jeho rychlosti <i>v</i><sub>1</sub>, ve vÃ½Å¡ce <i>h</i><sub>2</sub> < <i>h</i><sub>1</sub> je velikost jeho  rychlosti <i>v</i><sub>2</sub>. Z nÃ¡sledujÃ­cÃ­ch tvrzenÃ­ vyberte prÃ¡vÄ› ta, kterÃ¡ jsou NESPRÃVNÃ.
 </strong></div>
 
-<p class="odp">Obtínost: <b>1,5 bodu</b>. Doporuènı èas na vyøešení: <b>3 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>1,5 bodu</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>3 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 
 <script>
 var c = 180;
@@ -14,7 +14,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -50,49 +50,49 @@ function zast_odp()
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Práci odporovıch sil nelze urèit, nebo neznáme tvar trajektorie lyaøe.
+<td width="400px" class="test2">PrÃ¡ci odporovÃ½ch sil nelze urÄit, neboÅ¥ neznÃ¡me tvar trajektorie lyÅ¾aÅ™e.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Práci odporovıch sil nelze urèit, nebo neznáme koeficient dynamického tøení mezi snìhem a lyemi.
+<td width="400px" class="test2">PrÃ¡ci odporovÃ½ch sil nelze urÄit, neboÅ¥ neznÃ¡me koeficient dynamickÃ©ho tÅ™enÃ­ mezi snÄ›hem a lyÅ¾emi.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Práci tíhové síly nelze urèit, nebo nevíme, jaká je trajektorie lyaøe.
+<td width="400px" class="test2">PrÃ¡ci tÃ­hovÃ© sÃ­ly nelze urÄit, neboÅ¥ nevÃ­me, jakÃ¡ je trajektorie lyÅ¾aÅ™e.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Práci tíhové síly nelze urèit, nebo nevíme, kde je zvolena hladina nulové tíhové potenciální energie.
+<td width="400px" class="test2">PrÃ¡ci tÃ­hovÃ© sÃ­ly nelze urÄit, neboÅ¥ nevÃ­me, kde je zvolena hladina nulovÃ© tÃ­hovÃ© potenciÃ¡lnÃ­ energie.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Práce odporovıch sil je záporná, nebo velikost rychlosti lyaøe klesá.
+<td width="400px" class="test2">PrÃ¡ce odporovÃ½ch sil je zÃ¡pornÃ¡, neboÅ¥ velikost rychlosti lyÅ¾aÅ™e klesÃ¡.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka6"> (f)</td>
-<td width="400px" class="test2">Práce tíhové síly je nezáporná, nebo tíhová síla svírá s rychlostí lyaøe ostrı úhel.
+<td width="400px" class="test2">PrÃ¡ce tÃ­hovÃ© sÃ­ly je nezÃ¡pornÃ¡, neboÅ¥ tÃ­hovÃ¡ sÃ­la svÃ­rÃ¡ s rychlostÃ­ lyÅ¾aÅ™e ostrÃ½ Ãºhel.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka7"> (g)</td>
-<td width="400px" class="test2">Zmìna mechanické energie lyaøe nemùe bıt kladná, nebo podle pøedpokladu v zadání je bezvìtøí, lyaø se neodráí holemi a nebruslí.
+<td width="400px" class="test2">ZmÄ›na mechanickÃ© energie lyÅ¾aÅ™e nemÅ¯Å¾e bÃ½t kladnÃ¡, neboÅ¥ podle pÅ™edpokladu v zadÃ¡nÃ­ je bezvÄ›tÅ™Ã­, lyÅ¾aÅ™ se neodrÃ¡Å¾Ã­ holemi a nebruslÃ­.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka8"> (h)</td>
-<td width="400px" class="test2">Zmìna mechanické energie lyaøe je ovlivnìna zpùsobem sjezdu, nebo velièina <i>v</i><sub>2</sub> závisí napøíklad na tom, zda lyaø dìlá oblouèky, èi nikoli.
+<td width="400px" class="test2">ZmÄ›na mechanickÃ© energie lyÅ¾aÅ™e je ovlivnÄ›na zpÅ¯sobem sjezdu, neboÅ¥ veliÄina <i>v</i><sub>2</sub> zÃ¡visÃ­ napÅ™Ã­klad na tom, zda lyÅ¾aÅ™ dÄ›lÃ¡ oblouÄky, Äi nikoli.
 </td>
 </tr>
 

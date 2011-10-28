@@ -1,8 +1,8 @@
-<strong>Z následujících fyzikálních velièin vyberte právì ty, které jsou vektorové.</strong>
+<strong>Z nÃ¡sledujÃ­cÃ­ch fyzikÃ¡lnÃ­ch veliÄin vyberte prÃ¡vÄ› ty, kterÃ© jsou vektorovÃ©.</strong>
 
-<p class="odp">Obtínost: <b>1 bod</b>. Doporuènı èas na vyøešení: <b>1 minuta</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>1 bod</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>1 minuta</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 
 <script>
 var c = 60;
@@ -13,7 +13,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -51,37 +51,37 @@ function zast_odp()
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Velikost zrychlení.</td>
+<td width="400px" class="test2">Velikost zrychlenÃ­.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Prùmìt síly do svislé roviny.</td>
+<td width="400px" class="test2">PrÅ¯mÄ›t sÃ­ly do svislÃ© roviny.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Prùmìrná rychlost.</td>
+<td width="400px" class="test2">PrÅ¯mÄ›rnÃ¡ rychlost.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Dráha.</td>
+<td width="400px" class="test2">DrÃ¡ha.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka6"> (f)</td>
-<td width="400px" class="test2">Prùmìt tíhové síly do vodorovné roviny.</td>
+<td width="400px" class="test2">PrÅ¯mÄ›t tÃ­hovÃ© sÃ­ly do vodorovnÃ© roviny.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka7"> (g)</td>
-<td width="400px" class="test2">Teèné zrychlení.</td>
+<td width="400px" class="test2">TeÄnÃ© zrychlenÃ­.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka8"> (h)</td>
-<td width="400px" class="test2"><i>Z</i>-ová sloka dané síly.</td>
+<td width="400px" class="test2"><i>Z</i>-ovÃ¡ sloÅ¾ka danÃ© sÃ­ly.</td>
 </tr>
 
 </table>

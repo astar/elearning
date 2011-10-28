@@ -1,9 +1,9 @@
-<div id="otazka"><strong>Mezi dvìma èásticemi (hmotnımi body) o rùznıch hmotnostech, které tvoøí izolovanou soustavu, došlo k pøímé pruné sráce (pøi pøímé sráce leí poèáteèní rychlosti èástic v jedné pøímce).  Sráku popisujeme v laboratorní (inerciální) vztané soustavì. Z následujících tvrzení je právì jedno správné. Vyberte je.
+<div id="otazka"><strong>Mezi dvÄ›ma ÄÃ¡sticemi (hmotnÃ½mi body) o rÅ¯znÃ½ch hmotnostech, kterÃ© tvoÅ™Ã­ izolovanou soustavu, doÅ¡lo k pÅ™Ã­mÃ© pruÅ¾nÃ© srÃ¡Å¾ce (pÅ™i pÅ™Ã­mÃ© srÃ¡Å¾ce leÅ¾Ã­ poÄÃ¡teÄnÃ­ rychlosti ÄÃ¡stic v jednÃ© pÅ™Ã­mce).  SrÃ¡Å¾ku popisujeme v laboratornÃ­ (inerciÃ¡lnÃ­) vztaÅ¾nÃ© soustavÄ›. Z nÃ¡sledujÃ­cÃ­ch tvrzenÃ­ je prÃ¡vÄ› jedno sprÃ¡vnÃ©. Vyberte je.
 </strong></div>
 
-<p class="odp">Obtínost: <b>0,5 bodu</b>. Doporuènı èas na vyøešení: <b>2,5 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>0,5 bodu</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>2,5 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 
 <script>
 var c = 150;
@@ -14,7 +14,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -50,31 +50,31 @@ function zast_odp()
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Smìr a orientace rychlosti tìší èástice se srákou mùe zmìnit.
+<td width="400px" class="test2">SmÄ›r a orientace rychlosti tÄ›Å¾Å¡Ã­ ÄÃ¡stice se srÃ¡Å¾kou mÅ¯Å¾e zmÄ›nit.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Smìr a orientace rychlosti lehèí èástice se srákou zmìní.
+<td width="400px" class="test2">SmÄ›r a orientace rychlosti lehÄÃ­ ÄÃ¡stice se srÃ¡Å¾kou zmÄ›nÃ­.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Smìr a orientace rychlosti tìištì soustavy se srákou mùe zmìnit.
+<td width="400px" class="test2">SmÄ›r a orientace rychlosti tÄ›Å¾iÅ¡tÄ› soustavy se srÃ¡Å¾kou mÅ¯Å¾e zmÄ›nit.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Smìr a orientace vzájemné rychlosti èástic se srákou zmìní.
+<td width="400px" class="test2">SmÄ›r a orientace vzÃ¡jemnÃ© rychlosti ÄÃ¡stic se srÃ¡Å¾kou zmÄ›nÃ­.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Smìr a orientace rychlostí èástic po sráce musí bıt opaèné.
+<td width="400px" class="test2">SmÄ›r a orientace rychlostÃ­ ÄÃ¡stic po srÃ¡Å¾ce musÃ­ bÃ½t opaÄnÃ©.
 </td>
 </tr>
 

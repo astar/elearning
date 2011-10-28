@@ -1,8 +1,8 @@
-<div id="otazka"><strong>Z následujících tvrzení vyberte právì to, které je správné.</strong></div>
+<div id="otazka"><strong>Z nÃ¡sledujÃ­cÃ­ch tvrzenÃ­ vyberte prÃ¡vÄ› to, kterÃ© je sprÃ¡vnÃ©.</strong></div>
 
-<p class="odp">Obtínost: <b>0,5 bodu</b>. Doporuènı èas na vyøešení: <b>1,5 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>0,5 bodu</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>1,5 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 
 <script>
 var c = 90;
@@ -13,7 +13,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -49,27 +49,27 @@ function zast_odp()
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Velikost rychlosti nemùe bıt urèena zápornım èíslem.</td>
+<td width="400px" class="test2">Velikost rychlosti nemÅ¯Å¾e bÃ½t urÄena zÃ¡pornÃ½m ÄÃ­slem.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Prùmìtem vektoru nemùe bıt nulovı vektor.</td>
+<td width="400px" class="test2">PrÅ¯mÄ›tem vektoru nemÅ¯Å¾e bÃ½t nulovÃ½ vektor.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2"><i>X</i>-ová sloka síly nemùe bıt urèena zápornım èíslem opatøenım jednotkou.</td>
+<td width="400px" class="test2"><i>X</i>-ovÃ¡ sloÅ¾ka sÃ­ly nemÅ¯Å¾e bÃ½t urÄena zÃ¡pornÃ½m ÄÃ­slem opatÅ™enÃ½m jednotkou.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Vektor nemùe bıt opatøen zápornım znaménkem.</td>
+<td width="400px" class="test2">Vektor nemÅ¯Å¾e bÃ½t opatÅ™en zÃ¡pornÃ½m znamÃ©nkem.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Nenulovı vektor nemùe mít ani jednu ze sloek nulovou.</td>
+<td width="400px" class="test2">NenulovÃ½ vektor nemÅ¯Å¾e mÃ­t ani jednu ze sloÅ¾ek nulovou.</td>
 </tr>
 </table>
 <br>

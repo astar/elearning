@@ -1,9 +1,9 @@
-<div id="otazka"><strong>Z následujících tvrzení vyberte právì ta, která jsou správná.
+<div id="otazka"><strong>Z nÃ¡sledujÃ­cÃ­ch tvrzenÃ­ vyberte prÃ¡vÄ› ta, kterÃ¡ jsou sprÃ¡vnÃ¡.
 </strong></div>
 
-<p class="odp">Obtínost: <b>1 bod</b>. Doporuènı èas na vyøešení: <b>3 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>1 bod</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>3 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 
 <script>
 var c = 180;
@@ -14,7 +14,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -50,49 +50,49 @@ function zast_odp()
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Èím hloubìji je tìleso v kapalinì zcela ponoøeno, tím vìtší hydrostatická vztlaková síla na nì pùsobí.
+<td width="400px" class="test2">ÄŒÃ­m hloubÄ›ji je tÄ›leso v kapalinÄ› zcela ponoÅ™eno, tÃ­m vÄ›tÅ¡Ã­ hydrostatickÃ¡ vztlakovÃ¡ sÃ­la na nÄ› pÅ¯sobÃ­.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">O tom, zda tìleso zcela ponoøené do kapaliny a následnì uvolnìné bude klesat, stoupat, nebo se vznášet, rozhoduje pouze jeho hustota.
+<td width="400px" class="test2">O tom, zda tÄ›leso zcela ponoÅ™enÃ© do kapaliny a nÃ¡slednÄ› uvolnÄ›nÃ© bude klesat, stoupat, nebo se vznÃ¡Å¡et, rozhoduje pouze jeho hustota.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Tlaková síla, jí pùsobí kapalina na dno nádoby, je urèena hustotou kapaliny, vzdáleností dna od volného povrchu, plochou dna a tvarem nádoby.
+<td width="400px" class="test2">TlakovÃ¡ sÃ­la, jÃ­Å¾ pÅ¯sobÃ­ kapalina na dno nÃ¡doby, je urÄena hustotou kapaliny, vzdÃ¡lenostÃ­ dna od volnÃ©ho povrchu, plochou dna a tvarem nÃ¡doby.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Dvì nemísící se kapaliny nalité do U-trubice mohou mít hladiny v rùzné vıšce.
+<td width="400px" class="test2">DvÄ› nemÃ­sÃ­cÃ­ se kapaliny nalitÃ© do U-trubice mohou mÃ­t hladiny v rÅ¯znÃ© vÃ½Å¡ce.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Rozhraní dvou nemísících se kapalin nalitıch do U-trubice bude v nejniším bodì trubice.
+<td width="400px" class="test2">RozhranÃ­ dvou nemÃ­sÃ­cÃ­ch se kapalin nalitÃ½ch do U-trubice bude v nejniÅ¾Å¡Ã­m bodÄ› trubice.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka6"> (f)</td>
-<td width="400px" class="test2">Hydrostatická vztlaková síla závisí nejen na tom, jaká èást tìlesa je v kapalinì ponoøena, ale rovnì na hustotì tìlesa.
+<td width="400px" class="test2">HydrostatickÃ¡ vztlakovÃ¡ sÃ­la zÃ¡visÃ­ nejen na tom, jakÃ¡ ÄÃ¡st tÄ›lesa je v kapalinÄ› ponoÅ™ena, ale rovnÄ›Å¾ na hustotÄ› tÄ›lesa.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka7"> (g)</td>
-<td width="400px" class="test2">Ve spojenıch nádobách je nejvyšší tlak v èásti, která má nejmenší prùøez.
+<td width="400px" class="test2">Ve spojenÃ½ch nÃ¡dobÃ¡ch je nejvyÅ¡Å¡Ã­ tlak v ÄÃ¡sti, kterÃ¡ mÃ¡ nejmenÅ¡Ã­ prÅ¯Å™ez.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka8"> (h)</td>
-<td width="400px" class="test2">Hydrostatická vztlaková síla pùsobící na ponoøené tìleso nezávisí na atmosférickém tlaku <i>p</i><sub>A</sub>, zatímco tlak v kapalinì ano.
+<td width="400px" class="test2">HydrostatickÃ¡ vztlakovÃ¡ sÃ­la pÅ¯sobÃ­cÃ­ na ponoÅ™enÃ© tÄ›leso nezÃ¡visÃ­ na atmosfÃ©rickÃ©m tlaku <i>p</i><sub>A</sub>, zatÃ­mco tlak v kapalinÄ› ano.
 </td>
 </tr>
 

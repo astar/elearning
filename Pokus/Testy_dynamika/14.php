@@ -1,8 +1,8 @@
-<div id="otazka"><strong>Na vláknì zanedbatelné hmotnosti a nepromìnné délky je zavìšena malá kulièka. Napnuté vlákno i s kulièkou vychılíme o úhel <i>&theta;</i><sub>0</sub> z nejniší polohy a udìlíme kulièce takovou rychlost, e se pohybuje rovnomìrnì po krunici ve vodorovné rovinì (kónické kyvadlo). Pohyb kulièky sledujeme v inerciální vztané soustavì spojené se Zemí. Pøedpokládáme, e odpor prostøedí je zanedbatelnı. Vyberte právì ta tvrzení, která jsou správná.</strong></div>
+<div id="otazka"><strong>Na vlÃ¡knÄ› zanedbatelnÃ© hmotnosti a nepromÄ›nnÃ© dÃ©lky je zavÄ›Å¡ena malÃ¡ kuliÄka. NapnutÃ© vlÃ¡kno i s kuliÄkou vychÃ½lÃ­me o Ãºhel <i>&theta;</i><sub>0</sub> z nejniÅ¾Å¡Ã­ polohy a udÄ›lÃ­me kuliÄce takovou rychlost, Å¾e se pohybuje rovnomÄ›rnÄ› po kruÅ¾nici ve vodorovnÃ© rovinÄ› (kÃ³nickÃ© kyvadlo). Pohyb kuliÄky sledujeme v inerciÃ¡lnÃ­ vztaÅ¾nÃ© soustavÄ› spojenÃ© se ZemÃ­. PÅ™edpoklÃ¡dÃ¡me, Å¾e odpor prostÅ™edÃ­ je zanedbatelnÃ½. Vyberte prÃ¡vÄ› ta tvrzenÃ­, kterÃ¡ jsou sprÃ¡vnÃ¡.</strong></div>
 
-<p class="odp">Obtínost: <b>1 bod</b>. Doporuènı èas na vyøešení: <b>2,5 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>1 bod</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>2,5 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 
 <script>
 var c = 150;
@@ -13,7 +13,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -49,42 +49,42 @@ function zast_odp()
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Na kulièku pùsobí mimo jiné tíhová síla a dostøedivá síla.</td>
+<td width="400px" class="test2">Na kuliÄku pÅ¯sobÃ­ mimo jinÃ© tÃ­hovÃ¡ sÃ­la a dostÅ™edivÃ¡ sÃ­la.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Vıslednice sil pùsobících na kulièku je tím vìtší, èím vìtší je úhel <i>&theta;</i><sub>0</sub>.</td>
+<td width="400px" class="test2">VÃ½slednice sil pÅ¯sobÃ­cÃ­ch na kuliÄku je tÃ­m vÄ›tÅ¡Ã­, ÄÃ­m vÄ›tÅ¡Ã­ je Ãºhel <i>&theta;</i><sub>0</sub>.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Na kulièku pùsobí mimo jiné tahová síla vlákna a odstøedivá síla.</td>
+<td width="400px" class="test2">Na kuliÄku pÅ¯sobÃ­ mimo jinÃ© tahovÃ¡ sÃ­la vlÃ¡kna a odstÅ™edivÃ¡ sÃ­la.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Vıslednice sil pùsobících na kulièku je v kadém okamiku teèná k trajektorii.</td>
+<td width="400px" class="test2">VÃ½slednice sil pÅ¯sobÃ­cÃ­ch na kuliÄku je v kaÅ¾dÃ©m okamÅ¾iku teÄnÃ¡ k trajektorii.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Svislı prùmìt vıslednice sil pùsobících na kulièku je v kadém okamiku nulovı.</td>
+<td width="400px" class="test2">SvislÃ½ prÅ¯mÄ›t vÃ½slednice sil pÅ¯sobÃ­cÃ­ch na kuliÄku je v kaÅ¾dÃ©m okamÅ¾iku nulovÃ½.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka6"> (f)</td>
-<td width="400px" class="test2">Vlákno je napínáno silou, která je stejnì velká jako tíhová síla pùsobící na kulièku.</td>
+<td width="400px" class="test2">VlÃ¡kno je napÃ­nÃ¡no silou, kterÃ¡ je stejnÄ› velkÃ¡ jako tÃ­hovÃ¡ sÃ­la pÅ¯sobÃ­cÃ­ na kuliÄku.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka7"> (g)</td>
-<td width="400px" class="test2">Kulièka mùe konat popsanı pohyb pouze pro úhly <i>&theta;</i><sub>0</sub> &le; 5°.</td>
+<td width="400px" class="test2">KuliÄka mÅ¯Å¾e konat popsanÃ½ pohyb pouze pro Ãºhly <i>&theta;</i><sub>0</sub> &le; 5Â°.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka8"> (h)</td>
-<td width="400px" class="test2">Velikost tahové síly vlákna se v prùbìhu pohybu kulièky nemìní.</td>
+<td width="400px" class="test2">Velikost tahovÃ© sÃ­ly vlÃ¡kna se v prÅ¯bÄ›hu pohybu kuliÄky nemÄ›nÃ­.</td>
 </tr>
 
 </table>

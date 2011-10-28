@@ -1,8 +1,8 @@
-<div id="otazka"><strong>Z tého místa ve vıšce <i>h</i> &ne; 0 nad povrchem Zemì byly souèasnì vystøeleny dva projektily, první vodorovnì a druhı svisle vzhùru. Pøedpokládáme, e projektily lze povaovat za hmotné body, které se pohybují v homogenním tíhovém poli Zemì, a odpor vzduchu je zanedbatelnı. Vyberte právì to tvrzení, které je pro èasové rozmezí, kdy se oba projektily vùèi Zemi pohybují, správné.</strong></div>
+<div id="otazka"><strong>Z tÃ©hoÅ¾ mÃ­sta ve vÃ½Å¡ce <i>h</i> &ne; 0 nad povrchem ZemÄ› byly souÄasnÄ› vystÅ™eleny dva projektily, prvnÃ­ vodorovnÄ› a druhÃ½ svisle vzhÅ¯ru. PÅ™edpoklÃ¡dÃ¡me, Å¾e projektily lze povaÅ¾ovat za hmotnÃ© body, kterÃ© se pohybujÃ­ v homogennÃ­m tÃ­hovÃ©m poli ZemÄ›, a odpor vzduchu je zanedbatelnÃ½. Vyberte prÃ¡vÄ› to tvrzenÃ­, kterÃ© je pro ÄasovÃ© rozmezÃ­, kdy se oba projektily vÅ¯Äi Zemi pohybujÃ­, sprÃ¡vnÃ©.</strong></div>
 
-<p class="odp">Obtínost: <b>1 bod</b>. Doporuènı èas na vyøešení: <b>3 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>1 bod</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>3 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 
 <script>
 var c = 180;
@@ -13,7 +13,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -49,27 +49,27 @@ function zast_odp()
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Druhı projektil se vùèi prvnímu pohybuje nejprve zpomalenì, nebo jeho poèáteèní rychlost je nesouhlasnì rovnobìná s tíhovım zrychlením.</td>
+<td width="400px" class="test2">DruhÃ½ projektil se vÅ¯Äi prvnÃ­mu pohybuje nejprve zpomalenÄ›, neboÅ¥ jeho poÄÃ¡teÄnÃ­ rychlost je nesouhlasnÄ› rovnobÄ›Å¾nÃ¡ s tÃ­hovÃ½m zrychlenÃ­m.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">První projektil se vùèi druhému pohybuje rovnomìrnì, nebo projektily mají vùèi Zemi stejné zrychlení.</td>
+<td width="400px" class="test2">PrvnÃ­ projektil se vÅ¯Äi druhÃ©mu pohybuje rovnomÄ›rnÄ›, neboÅ¥ projektily majÃ­ vÅ¯Äi Zemi stejnÃ© zrychlenÃ­.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Druhı projektil se vùèi prvnímu pohybuje po parabole, nebo smìry poèáteèních rychlostí projektilù jsou rùzné.</td>
+<td width="400px" class="test2">DruhÃ½ projektil se vÅ¯Äi prvnÃ­mu pohybuje po parabole, neboÅ¥ smÄ›ry poÄÃ¡teÄnÃ­ch rychlostÃ­ projektilÅ¯ jsou rÅ¯znÃ©.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">O vzájemném pohybu projektilù nelze èinit ádné závìry, nebo není známo, jak jsou konkrétnì zvoleny vztané soustavy s nimi spojené.</td>
+<td width="400px" class="test2">O vzÃ¡jemnÃ©m pohybu projektilÅ¯ nelze Äinit Å¾Ã¡dnÃ© zÃ¡vÄ›ry, neboÅ¥ nenÃ­ znÃ¡mo, jak jsou konkrÃ©tnÄ› zvoleny vztaÅ¾nÃ© soustavy s nimi spojenÃ©.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Vzdálenost projektilù roste kvadraticky s èasem, nebo oba projektily se vùèi Zemi pohybují rovnomìrnì zrychlenì.</td>
+<td width="400px" class="test2">VzdÃ¡lenost projektilÅ¯ roste kvadraticky s Äasem, neboÅ¥ oba projektily se vÅ¯Äi Zemi pohybujÃ­ rovnomÄ›rnÄ› zrychlenÄ›.</td>
 </tr>
 
 </table>

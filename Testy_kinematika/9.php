@@ -1,8 +1,8 @@
-<strong>Na obrázku je zakreslen graf závislosti <i>x</i>-ové sloky zrychlení na èase pro èástici, její <i>x</i>-ová sloka rychlosti v okamiku <i>t</i>=0 je <i>v<sub>x</sub></i>(0) =  1,0 m.s<sup>-1</sup>. Vyberte právì správná tvrzení.</strong>
+<strong>Na obrÃ¡zku je zakreslen graf zÃ¡vislosti <i>x</i>-ovÃ© sloÅ¾ky zrychlenÃ­ na Äase pro ÄÃ¡stici, jejÃ­Å¾ <i>x</i>-ovÃ¡ sloÅ¾ka rychlosti v okamÅ¾iku <i>t</i>=0 je <i>v<sub>x</sub></i>(0) =  1,0 m.s<sup>-1</sup>. Vyberte prÃ¡vÄ› sprÃ¡vnÃ¡ tvrzenÃ­.</strong>
 
-<p class="odp">Obtínost: <b>2 body</b>. Doporuènı èas na vyøešení: <b>4 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>2 body</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>4 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 
 <script>
 var c = 240;
@@ -13,7 +13,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -47,42 +47,42 @@ function zast_odp()
 <table>
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">V okamicích <i>t</i>=2 s a <i>t</i>=4 s je <i>x</i>-ová sloka rychlosti èástice stejná.</td>
+<td width="400px" class="test2">V okamÅ¾icÃ­ch <i>t</i>=2 s a <i>t</i>=4 s je <i>x</i>-ovÃ¡ sloÅ¾ka rychlosti ÄÃ¡stice stejnÃ¡.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">V okamiku <i>t</i>=3 s se mìní znaménko <i>x</i>-ové sloky rychlosti èástice.</td>
+<td width="400px" class="test2">V okamÅ¾iku <i>t</i>=3 s se mÄ›nÃ­ znamÃ©nko <i>x</i>-ovÃ© sloÅ¾ky rychlosti ÄÃ¡stice.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">V intervalu [2,3] s velikost <i>x</i>-ové sloky rychlosti èástice klesá.</td>
+<td width="400px" class="test2">V intervalu [2,3] s velikost <i>x</i>-ovÃ© sloÅ¾ky rychlosti ÄÃ¡stice klesÃ¡.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">V okamiku <i>t</i>=6 s je <i>x</i>-ová sloka rychlosti stejná jako v okamiku <i>t</i>=0 s.</td>
+<td width="400px" class="test2">V okamÅ¾iku <i>t</i>=6 s je <i>x</i>-ovÃ¡ sloÅ¾ka rychlosti stejnÃ¡ jako v okamÅ¾iku <i>t</i>=0 s.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">V intervalech [0,1] s a [5,6] s jsou <i>x</i>-ové prùmìty rychlosti èástice souhlasnì rovnobìné.</td>
+<td width="400px" class="test2">V intervalech [0,1] s a [5,6] s jsou <i>x</i>-ovÃ© prÅ¯mÄ›ty rychlosti ÄÃ¡stice souhlasnÄ› rovnobÄ›Å¾nÃ©.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka6"> (f)</td>
-<td width="400px" class="test2">V okamicích <i>t</i>=7 s a <i>t</i>=9 s má <i>x</i>-ovı prùmìt rychlosti èástice opaènou orientaci.</td>
+<td width="400px" class="test2">V okamÅ¾icÃ­ch <i>t</i>=7 s a <i>t</i>=9 s mÃ¡ <i>x</i>-ovÃ½ prÅ¯mÄ›t rychlosti ÄÃ¡stice opaÄnou orientaci.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka7"> (g)</td>
-<td width="400px" class="test2">V okamiku <i>t</i>=8 s je <i>x</i>-ová sloka rychlosti èástice nulová.</td>
+<td width="400px" class="test2">V okamÅ¾iku <i>t</i>=8 s je <i>x</i>-ovÃ¡ sloÅ¾ka rychlosti ÄÃ¡stice nulovÃ¡.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka8"> (h)</td>
-<td width="400px" class="test2">V okamiku <i>t</i>=15 s je <i>x</i>-ová sloka rychlosti èástice nulová.</td>
+<td width="400px" class="test2">V okamÅ¾iku <i>t</i>=15 s je <i>x</i>-ovÃ¡ sloÅ¾ka rychlosti ÄÃ¡stice nulovÃ¡.</td>
 </tr>
 
 </table>

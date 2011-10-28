@@ -1,14 +1,14 @@
-<strong>Na podlaze vagónu, kterı je do okamiku <i>t</i>=<i>t</i><sub>0</sub> vzhledem k nástupišti v klidu, 
-leí bedna o hmotnosti <i>m</i>. Koeficient statického tøení mezi bednou a podlahou je <i>f</i><sub>0</sub>, 
-koeficient dynamického tøení mezi bednou a podlahou je <i>f</i>. V okamiku <i>t</i>=<i>t</i><sub>0</sub> se zaène vagón rozjídìt 
-po pøímıch vodorovnıch kolejích se zrychlením <i><b>A</b></i>. Velikost zrychlení se mìní podle vztahu 
+<strong>Na podlaze vagÃ³nu, kterÃ½ je do okamÅ¾iku <i>t</i>=<i>t</i><sub>0</sub> vzhledem k nÃ¡stupiÅ¡ti v klidu, 
+leÅ¾Ã­ bedna o hmotnosti <i>m</i>. Koeficient statickÃ©ho tÅ™enÃ­ mezi bednou a podlahou je <i>f</i><sub>0</sub>, 
+koeficient dynamickÃ©ho tÅ™enÃ­ mezi bednou a podlahou je <i>f</i>. V okamÅ¾iku <i>t</i>=<i>t</i><sub>0</sub> se zaÄne vagÃ³n rozjÃ­Å¾dÄ›t 
+po pÅ™Ã­mÃ½ch vodorovnÃ½ch kolejÃ­ch se zrychlenÃ­m <i><b>A</b></i>. Velikost zrychlenÃ­ se mÄ›nÃ­ podle vztahu 
 <i>A</i>=<i>k</i>(<i>t</i>-<i>t</i><sub>0</sub>), kde <i>k</i> je 
-konstanta úmìrnosti a <i>t</i> je èas. Tíhové zrychlení je <i><b>g</b></i>. Odpor vzduchu zanedbáváme. 
-Vyberte právì ta tvrzení, která jsou správná.</strong>
+konstanta ÃºmÄ›rnosti a <i>t</i> je Äas. TÃ­hovÃ© zrychlenÃ­ je <i><b>g</b></i>. Odpor vzduchu zanedbÃ¡vÃ¡me. 
+Vyberte prÃ¡vÄ› ta tvrzenÃ­, kterÃ¡ jsou sprÃ¡vnÃ¡.</strong>
 
-<p class="odp">Obtínost: <b>2 body</b>. Doporuènı èas na vyøešení: <b>4 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>2 body</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>4 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 
 <script>
 var c = 240;
@@ -19,7 +19,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -52,43 +52,43 @@ function zast_odp()
 <table>
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Po celou dobu, kdy je bedna vzhledem k jedoucímu vagónu v klidu, na ni pùsobí statická tøecí síla o velikosti <i>mgf</i><sub>0</sub>. Tato síla je orientovaná ve smìru pohybu vagónu.</td>
+<td width="400px" class="test2">Po celou dobu, kdy je bedna vzhledem k jedoucÃ­mu vagÃ³nu v klidu, na ni pÅ¯sobÃ­ statickÃ¡ tÅ™ecÃ­ sÃ­la o velikosti <i>mgf</i><sub>0</sub>. Tato sÃ­la je orientovanÃ¡ ve smÄ›ru pohybu vagÃ³nu.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Jakmile se dá bedna vzhledem k jedoucímu vagónu do pohybu, pùsobí na ni dynamická tøecí síla o velikosti <i>mgf</i>. Tato síla je orientovaná ve smìru pohybu vagónu.</td>
+<td width="400px" class="test2">Jakmile se dÃ¡ bedna vzhledem k jedoucÃ­mu vagÃ³nu do pohybu, pÅ¯sobÃ­ na ni dynamickÃ¡ tÅ™ecÃ­ sÃ­la o velikosti <i>mgf</i>. Tato sÃ­la je orientovanÃ¡ ve smÄ›ru pohybu vagÃ³nu.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Do okamiku <i>t</i>=<i>t</i><sub>0</sub>, kdy se vagón zaène rozjídìt, je statická tøecí síla pùsobící na bednu nulová.
+<td width="400px" class="test2">Do okamÅ¾iku <i>t</i>=<i>t</i><sub>0</sub>, kdy se vagÃ³n zaÄne rozjÃ­Å¾dÄ›t, je statickÃ¡ tÅ™ecÃ­ sÃ­la pÅ¯sobÃ­cÃ­ na bednu nulovÃ¡.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Velikost statické tøecí síly pùsobící na bednu roste spolu se zrychlením vagónu a do hodnoty <i>mgf</i><sub>0</sub>. Tato síla má opaènou orientaci ne zrychlení vagónu.</td>
+<td width="400px" class="test2">Velikost statickÃ© tÅ™ecÃ­ sÃ­ly pÅ¯sobÃ­cÃ­ na bednu roste spolu se zrychlenÃ­m vagÃ³nu aÅ¾ do hodnoty <i>mgf</i><sub>0</sub>. Tato sÃ­la mÃ¡ opaÄnou orientaci neÅ¾ zrychlenÃ­ vagÃ³nu.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">V okamiku <i>t</i>=<i>t</i><sub>0</sub> nabıvá statická tøecí síla pùsobící na bednu velikosti  <i>mgf</i><sub>0</sub> a bedna se zaèíná vzhledem k vagónu pohybovat.</td>
+<td width="400px" class="test2">V okamÅ¾iku <i>t</i>=<i>t</i><sub>0</sub> nabÃ½vÃ¡ statickÃ¡ tÅ™ecÃ­ sÃ­la pÅ¯sobÃ­cÃ­ na bednu velikosti  <i>mgf</i><sub>0</sub> a bedna se zaÄÃ­nÃ¡ vzhledem k vagÃ³nu pohybovat.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka6"> (f)</td>
-<td width="400px" class="test2">Do okamiku, kdy se zaène bedna vzhledem k vagónu pohybovat, na ni pùsobí statická tøecí síla o velikosti <i>mA</i>. Tato síla urychluje bednu vzhledem k nástupišti.</td>
+<td width="400px" class="test2">Do okamÅ¾iku, kdy se zaÄne bedna vzhledem k vagÃ³nu pohybovat, na ni pÅ¯sobÃ­ statickÃ¡ tÅ™ecÃ­ sÃ­la o velikosti <i>mA</i>. Tato sÃ­la urychluje bednu vzhledem k nÃ¡stupiÅ¡ti.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka7"> (g)</td>
-<td width="400px" class="test2">Pokud se zmìní hmotnost bedny, bude se bedna (jakmile se dá vzhledem k vagónu do pohybu) pohybovat s jinım zrychlením.</td>
+<td width="400px" class="test2">Pokud se zmÄ›nÃ­ hmotnost bedny, bude se bedna (jakmile se dÃ¡ vzhledem k vagÃ³nu do pohybu) pohybovat s jinÃ½m zrychlenÃ­m.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka8"> (h)</td>
-<td width="400px" class="test2">Pokud se zmìní hmotnost bedny, zaène se bedna vzhledem k vagónu pohybovat v jiném  okamiku.</td>
+<td width="400px" class="test2">Pokud se zmÄ›nÃ­ hmotnost bedny, zaÄne se bedna vzhledem k vagÃ³nu pohybovat v jinÃ©m  okamÅ¾iku.</td>
 </tr>
 
 </table>

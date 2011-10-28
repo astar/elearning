@@ -1,9 +1,9 @@
-<strong>Na vodorovném stole leí v klidu kostka o hmotnosti <i>m</i>. (Soustava je umístìna v homogenním tíhovém poli Zemì, tíhové zrychlení je <i><b>g</b></i>.) Z následujících tvrzení je právì jedno správné. Vyberte jej.
+<strong>Na vodorovnÃ©m stole leÅ¾Ã­ v klidu kostka o hmotnosti <i>m</i>. (Soustava je umÃ­stÄ›na v homogennÃ­m tÃ­hovÃ©m poli ZemÄ›, tÃ­hovÃ© zrychlenÃ­ je <i><b>g</b></i>.) Z nÃ¡sledujÃ­cÃ­ch tvrzenÃ­ je prÃ¡vÄ› jedno sprÃ¡vnÃ©. Vyberte jej.
 </strong>
 
-<p class="odp">Obtínost: <b>1 bod</b>. Doporuènı èas na vyøešení: <b>2 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>1 bod</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>2 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 
 <script>
 var c = 120;
@@ -14,7 +14,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -47,31 +47,31 @@ function zast_odp()
 <table>
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Na kostku pùsobí tíhová síla <i>m<b>g</b></i> a tlaková síla stolu <i><b>T</b></i>. Tyto síly pøedstavují akci a reakci.
+<td width="400px" class="test2">Na kostku pÅ¯sobÃ­ tÃ­hovÃ¡ sÃ­la <i>m<b>g</b></i> a tlakovÃ¡ sÃ­la stolu <i><b>T</b></i>. Tyto sÃ­ly pÅ™edstavujÃ­ akci a reakci.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Reakcí na tíhovou sílu <i>m<b>g</b></i> ve smyslu tøetího Newtonova zákona je síla -<i>m<b>g</b></i>, jí pùsobí stùl na kostku.
+<td width="400px" class="test2">ReakcÃ­ na tÃ­hovou sÃ­lu <i>m<b>g</b></i> ve smyslu tÅ™etÃ­ho Newtonova zÃ¡kona je sÃ­la -<i>m<b>g</b></i>, jÃ­Å¾ pÅ¯sobÃ­ stÅ¯l na kostku.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Reakcí na tlakovou sílu <i><b>T</b></i>, jí pùsobí stùl na kostku, je ve smyslu tøetího Newtonova zákona tlaková síla, jí pùsobí stùl na podloku.
+<td width="400px" class="test2">ReakcÃ­ na tlakovou sÃ­lu <i><b>T</b></i>, jÃ­Å¾ pÅ¯sobÃ­ stÅ¯l na kostku, je ve smyslu tÅ™etÃ­ho Newtonova zÃ¡kona tlakovÃ¡ sÃ­la, jÃ­Å¾ pÅ¯sobÃ­ stÅ¯l na podloÅ¾ku.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Síly <i>m<b>g</b></i> a <i><b>T</b></i> jsou stejnì velké a opaènì orientované, nejde o akci a reakci ve smyslu tøetího Newtonova zákona.
+<td width="400px" class="test2">SÃ­ly <i>m<b>g</b></i> a <i><b>T</b></i> jsou stejnÄ› velkÃ© a opaÄnÄ› orientovanÃ©, nejde o akci a reakci ve smyslu tÅ™etÃ­ho Newtonova zÃ¡kona.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">V pøípadì sil <i>m<b>g</b></i> a <i><b>T</b></i> nejde o akci a reakci, avšak síly jsou stejné povahy – v obou pøípadech jde o gravitaèní interakci.
+<td width="400px" class="test2">V pÅ™Ã­padÄ› sil <i>m<b>g</b></i> a <i><b>T</b></i> nejde o akci a reakci, avÅ¡ak sÃ­ly jsou stejnÃ© povahy â€“ v obou pÅ™Ã­padech jde o gravitaÄnÃ­ interakci.
 </td>
 </tr>
 

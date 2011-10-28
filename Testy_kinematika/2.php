@@ -1,9 +1,9 @@
-<strong>Èástice se pohybuje rovnomìrnì po krunici. Perioda jejího obìhu je <i>T</i>. Z následujících tvrzení je právì jedno správné. Vyberte jej.
+<strong>ÄŒÃ¡stice se pohybuje rovnomÄ›rnÄ› po kruÅ¾nici. Perioda jejÃ­ho obÄ›hu je <i>T</i>. Z nÃ¡sledujÃ­cÃ­ch tvrzenÃ­ je prÃ¡vÄ› jedno sprÃ¡vnÃ©. Vyberte jej.
 </strong>
 
-<p class="odp">Obtínost: <b>0,5 bodu</b>. Doporuènı èas na vyøešení: <b>2,5 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>0,5 bodu</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>2,5 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 
 <script>
 var c = 150;
@@ -14,7 +14,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -47,29 +47,29 @@ function zast_odp()
 <table>
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Vektor prùmìrné rychlosti èástice v intervalu [0,<i>T</i>]  je nenulovı, nebo dráha èástice s èasem roste.</td>
+<td width="400px" class="test2">Vektor prÅ¯mÄ›rnÃ© rychlosti ÄÃ¡stice v intervalu [0,<i>T</i>]  je nenulovÃ½, neboÅ¥ drÃ¡ha ÄÃ¡stice s Äasem roste.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Velikost vektoru prùmìrné rychlosti èástice v libovolném intervalu [<i>t</i><sub>1</sub>,<i>t</i><sub>2</sub>] je stejná, nebo èástice se pohybuje rovnomìrnì.</td>
+<td width="400px" class="test2">Velikost vektoru prÅ¯mÄ›rnÃ© rychlosti ÄÃ¡stice v libovolnÃ©m intervalu [<i>t</i><sub>1</sub>,<i>t</i><sub>2</sub>] je stejnÃ¡, neboÅ¥ ÄÃ¡stice se pohybuje rovnomÄ›rnÄ›.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Vektor prùmìrné rychlosti èástice v intervalu [0,<i>T</i>/2] je nulovı, nebo vektory rychlosti v poèáteèním a koncovém okamiku tohoto intervalu jsou opaèné.</td>
+<td width="400px" class="test2">Vektor prÅ¯mÄ›rnÃ© rychlosti ÄÃ¡stice v intervalu [0,<i>T</i>/2] je nulovÃ½, neboÅ¥ vektory rychlosti v poÄÃ¡teÄnÃ­m a koncovÃ©m okamÅ¾iku tohoto intervalu jsou opaÄnÃ©.</td>
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Prùmìrná velikost rychlosti èástice v intervalu [0,<i>T</i>] je stejná jako v intervalu [0,<i>T</i>/2], nebo èástice se pohybuje s nulovım zrychlením.</td>
+<td width="400px" class="test2">PrÅ¯mÄ›rnÃ¡ velikost rychlosti ÄÃ¡stice v intervalu [0,<i>T</i>] je stejnÃ¡ jako v intervalu [0,<i>T</i>/2], neboÅ¥ ÄÃ¡stice se pohybuje s nulovÃ½m zrychlenÃ­m.</td>
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Velikost vektoru prùmìrné rychlosti èástice v intervalech [0,<i>T</i>] a [0,2<i>T</i>] je stejná, nebo v krajních bodech obou intervalù má èástice tuté polohu.</td>
+<td width="400px" class="test2">Velikost vektoru prÅ¯mÄ›rnÃ© rychlosti ÄÃ¡stice v intervalech [0,<i>T</i>] a [0,2<i>T</i>] je stejnÃ¡, neboÅ¥ v krajnÃ­ch bodech obou intervalÅ¯ mÃ¡ ÄÃ¡stice tutÃ©Å¾ polohu.</td>
 </td>
 </tr>
 

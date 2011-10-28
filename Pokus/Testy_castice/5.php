@@ -1,9 +1,9 @@
-<div id="otazka"><strong>Z nejvyššího bodu naklonìné roviny s nenulovım úhlem sklonu souèasnì uvolníme  homogenní tuhou kouli a homogenní tuhı válec. Pøedpokládejme, e osa symetrie válce je vodorovná, obì tìlesa mají stejnou hmotnost a stejnı polomìr, po naklonìné rovinì se valí bez podkluzování a odpor vzduchu je zanedbatelnı. Z následujících tvrzení je právì jedno správné. Vyberte jej.
+<div id="otazka"><strong>Z nejvyÅ¡Å¡Ã­ho bodu naklonÄ›nÃ© roviny s nenulovÃ½m Ãºhlem sklonu souÄasnÄ› uvolnÃ­me  homogennÃ­ tuhou kouli a homogennÃ­ tuhÃ½ vÃ¡lec. PÅ™edpoklÃ¡dejme, Å¾e osa symetrie vÃ¡lce je vodorovnÃ¡, obÄ› tÄ›lesa majÃ­ stejnou hmotnost a stejnÃ½ polomÄ›r, po naklonÄ›nÃ© rovinÄ› se valÃ­ bez podkluzovÃ¡nÃ­ a odpor vzduchu je zanedbatelnÃ½. Z nÃ¡sledujÃ­cÃ­ch tvrzenÃ­ je prÃ¡vÄ› jedno sprÃ¡vnÃ©. Vyberte jej.
 </strong></div>
 
-<p class="odp">Obtínost: <b>1 bod</b>. Doporuènı èas na vyøešení: <b>3 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>1 bod</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>3 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 
 <script>
 var c = 180;
@@ -14,7 +14,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -50,27 +50,27 @@ function zast_odp()
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Zrychlení tìištì válce i koule je stejné, nebo prùmìt tíhové síly do smìru naklonìné roviny je pro obì tìlesa tentı.</td>
+<td width="400px" class="test2">ZrychlenÃ­ tÄ›Å¾iÅ¡tÄ› vÃ¡lce i koule je stejnÃ©, neboÅ¥ prÅ¯mÄ›t tÃ­hovÃ© sÃ­ly do smÄ›ru naklonÄ›nÃ© roviny je pro obÄ› tÄ›lesa tentÃ½Å¾.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Rychlost tìištì válce a  koule se liší, nebo tìlesa mají vzhledem k vodorovné ose procházející tìištìm jiné momenty setrvaènosti.</td>
+<td width="400px" class="test2">Rychlost tÄ›Å¾iÅ¡tÄ› vÃ¡lce a  koule se liÅ¡Ã­, neboÅ¥ tÄ›lesa majÃ­ vzhledem k vodorovnÃ© ose prochÃ¡zejÃ­cÃ­ tÄ›Å¾iÅ¡tÄ›m jinÃ© momenty setrvaÄnosti.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Úhlová zrychlení tìles jsou rùzná, nebo statická tøecí síla naklonìné roviny pùsobí na kouli v jediném bodì, kdeto na válec podél úseèky.</td>
+<td width="400px" class="test2">ÃšhlovÃ¡ zrychlenÃ­ tÄ›les jsou rÅ¯znÃ¡, neboÅ¥ statickÃ¡ tÅ™ecÃ­ sÃ­la naklonÄ›nÃ© roviny pÅ¯sobÃ­ na kouli v jedinÃ©m bodÄ›, kdeÅ¾to na vÃ¡lec podÃ©l ÃºseÄky.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Kinetická energie tìles je rùzná, nebo úhlové rychlosti tìles kolem vodorovné osy procházející tìištìm jsou rùzné.</td>
+<td width="400px" class="test2">KinetickÃ¡ energie tÄ›les je rÅ¯znÃ¡, neboÅ¥ ÃºhlovÃ© rychlosti tÄ›les kolem vodorovnÃ© osy prochÃ¡zejÃ­cÃ­ tÄ›Å¾iÅ¡tÄ›m jsou rÅ¯znÃ©.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Velikost rychlosti tìištì válce a koule není moné zjistit, nebo není zadán koeficient statického tøení mezi naklonìnou rovinou a tìlesy.</td>
+<td width="400px" class="test2">Velikost rychlosti tÄ›Å¾iÅ¡tÄ› vÃ¡lce a koule nenÃ­ moÅ¾nÃ© zjistit, neboÅ¥ nenÃ­ zadÃ¡n koeficient statickÃ©ho tÅ™enÃ­ mezi naklonÄ›nou rovinou a tÄ›lesy.</td>
 </tr>
 
 </table>

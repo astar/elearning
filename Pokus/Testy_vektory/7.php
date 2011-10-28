@@ -1,8 +1,8 @@
-<div id="otazka"><strong>Uvame dvì síly <b><i>F</i><sub>1</sub></b>, <b><i>F</i><sub>2</sub></b>, které mají ve zvolené kartézské soustavì souøadnic <i>Oxyz</i> sloky <b><i>F</i><sub>1</sub></b> = (<i>F</i><sub>1x</sub>, <i>F</i><sub>1y</sub>, <i>F</i><sub>1z</sub>), <b><i>F</i><sub>2</sub></b> = (<i>F</i><sub>2x</sub>, <i>F</i><sub>2y</sub>, <i>F</i><sub>2z</sub>). Vyberte právì správná tvrzení.</strong></div>
+<div id="otazka"><strong>UvaÅ¾me dvÄ› sÃ­ly <b><i>F</i><sub>1</sub></b>, <b><i>F</i><sub>2</sub></b>, kterÃ© majÃ­ ve zvolenÃ© kartÃ©zskÃ© soustavÄ› souÅ™adnic <i>Oxyz</i> sloÅ¾ky <b><i>F</i><sub>1</sub></b> = (<i>F</i><sub>1x</sub>, <i>F</i><sub>1y</sub>, <i>F</i><sub>1z</sub>), <b><i>F</i><sub>2</sub></b> = (<i>F</i><sub>2x</sub>, <i>F</i><sub>2y</sub>, <i>F</i><sub>2z</sub>). Vyberte prÃ¡vÄ› sprÃ¡vnÃ¡ tvrzenÃ­.</strong></div>
 
-<p class="odp">Obtínost: <b>2 body</b>. Doporuènı èas na vyøešení: <b>3,5 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>2 body</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>3,5 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 
 <script>
 var c = 210;
@@ -13,7 +13,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -49,43 +49,43 @@ function zast_odp()
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Pokud platí |<i>F</i><sub>1x</sub>| > |<i>F</i><sub>2x</sub>|, je <i>x</i>-ová sloka vıslednice sil amath vec bb F_1 endamath a amath vec bb F_2 endamath nenulová.</td>
+<td width="400px" class="test2">Pokud platÃ­ |<i>F</i><sub>1x</sub>| > |<i>F</i><sub>2x</sub>|, je <i>x</i>-ovÃ¡ sloÅ¾ka vÃ½slednice sil amath vec bb F_1 endamath a amath vec bb F_2 endamath nenulovÃ¡.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Pokud souèasnì platí <i>F</i><sub>1x</sub> > <i>F</i><sub>2x</sub>, <i>F</i><sub>1y</sub> > <i>F</i><sub>2y</sub>, <i>F</i><sub>1z</sub> > <i>F</i><sub>2z</sub>, je velikost síly amath vec bb F_1 endamath vìtší ne velikost síly amath vec bb F_2 endamath.</td>
+<td width="400px" class="test2">Pokud souÄasnÄ› platÃ­ <i>F</i><sub>1x</sub> > <i>F</i><sub>2x</sub>, <i>F</i><sub>1y</sub> > <i>F</i><sub>2y</sub>, <i>F</i><sub>1z</sub> > <i>F</i><sub>2z</sub>, je velikost sÃ­ly amath vec bb F_1 endamath vÄ›tÅ¡Ã­ neÅ¾ velikost sÃ­ly amath vec bb F_2 endamath.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2"><i>X</i>-ová sloka vıslednice sil amath vec bb F_1 endamath a amath vec bb F_2 endamath je nenulová právì kdy jsou nenulové odpovídající sloky jednotlivıch sil.
+<td width="400px" class="test2"><i>X</i>-ovÃ¡ sloÅ¾ka vÃ½slednice sil amath vec bb F_1 endamath a amath vec bb F_2 endamath je nenulovÃ¡ prÃ¡vÄ› kdyÅ¾ jsou nenulovÃ© odpovÃ­dajÃ­cÃ­ sloÅ¾ky jednotlivÃ½ch sil.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Velikost síly amath vec bb F_2 endamath je nulová právì v pøípadì, e jsou nulové všechny její sloky.</td>
+<td width="400px" class="test2">Velikost sÃ­ly amath vec bb F_2 endamath je nulovÃ¡ prÃ¡vÄ› v pÅ™Ã­padÄ›, Å¾e jsou nulovÃ© vÅ¡echny jejÃ­ sloÅ¾ky.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Na velikost <i>y</i>-ové sloky vıslednice sil amath vec bb F_1 endamath a amath vec bb F_2 endamath nemají vliv <i>x</i>-ové a <i>z</i>-ové sloky sil amath vec bb F_1 endamath a amath vec bb F_2 endamath.</td>
+<td width="400px" class="test2">Na velikost <i>y</i>-ovÃ© sloÅ¾ky vÃ½slednice sil amath vec bb F_1 endamath a amath vec bb F_2 endamath nemajÃ­ vliv <i>x</i>-ovÃ© a <i>z</i>-ovÃ© sloÅ¾ky sil amath vec bb F_1 endamath a amath vec bb F_2 endamath.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka6"> (f)</td>
-<td width="400px" class="test2">Pokud je síla amath vec bb F_1 endamath nenulová, známe její velikost a její sloky <i>F</i><sub>1x</sub>, <i>F</i><sub>1y</sub>, dokáeme uitím Pythagorovy vìty vypoèítat sloku <i>F</i><sub>1z</sub>.</td>
+<td width="400px" class="test2">Pokud je sÃ­la amath vec bb F_1 endamath nenulovÃ¡, znÃ¡me jejÃ­ velikost a jejÃ­ sloÅ¾ky <i>F</i><sub>1x</sub>, <i>F</i><sub>1y</sub>, dokÃ¡Å¾eme uÅ¾itÃ­m Pythagorovy vÄ›ty vypoÄÃ­tat sloÅ¾ku <i>F</i><sub>1z</sub>.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka7"> (g)</td>
-<td width="400px" class="test2">Pokud jsou znaménka odpovídajících si sloek sil amath vec bb F_1 endamath a amath vec bb F_2 endamath opaèná, jsou opaèné i síly amath vec bb F_1 endamath a amath vec bb F_2 endamath.</td>
+<td width="400px" class="test2">Pokud jsou znamÃ©nka odpovÃ­dajÃ­cÃ­ch si sloÅ¾ek sil amath vec bb F_1 endamath a amath vec bb F_2 endamath opaÄnÃ¡, jsou opaÄnÃ© i sÃ­ly amath vec bb F_1 endamath a amath vec bb F_2 endamath.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka8"> (h)</td>
-<td width="400px" class="test2">O orientaci prùmìtu vıslednice sil amath vec bb F_1 endamath a amath vec bb F_2 endamath do osy <i>x</i> rozhoduje znaménko rozdílu <i>F</i><sub>1x</sub> - <i>F</i><sub>2x</sub>.</td>
+<td width="400px" class="test2">O orientaci prÅ¯mÄ›tu vÃ½slednice sil amath vec bb F_1 endamath a amath vec bb F_2 endamath do osy <i>x</i> rozhoduje znamÃ©nko rozdÃ­lu <i>F</i><sub>1x</sub> - <i>F</i><sub>2x</sub>.</td>
 </tr>
 </table>
 <br>

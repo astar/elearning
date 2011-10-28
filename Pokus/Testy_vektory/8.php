@@ -1,8 +1,8 @@
-<div id="otazka"><strong>Nenulová síla <b><i>F</i></b> má ve zvolené kartézské soustavì souøadnic sloky <b><i>F</i></b> = (<i>F</i><sub>x</sub>, <i>F</i><sub>y</sub>, <i>F</i><sub>z</sub>). Z následujících tvrzení je právì jedno správné. Vyberte je.</strong></div>
+<div id="otazka"><strong>NenulovÃ¡ sÃ­la <b><i>F</i></b> mÃ¡ ve zvolenÃ© kartÃ©zskÃ© soustavÄ› souÅ™adnic sloÅ¾ky <b><i>F</i></b> = (<i>F</i><sub>x</sub>, <i>F</i><sub>y</sub>, <i>F</i><sub>z</sub>). Z nÃ¡sledujÃ­cÃ­ch tvrzenÃ­ je prÃ¡vÄ› jedno sprÃ¡vnÃ©. Vyberte je.</strong></div>
 
-<p class="odp">Obtínost: <b>0,5 bodu</b>. Doporuènı èas na vyøešení: <b>2 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>0,5 bodu</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>2 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 <script>
 var c = 120;
 
@@ -12,7 +12,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -48,27 +48,27 @@ function zast_odp()
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Síla amath vec bb F endamath mùe mít v jiné kartézské soustavì souøadnic jiné sloky, nebo soustavy souøadnic mohou mít rùznı poèátek.</td>
+<td width="400px" class="test2">SÃ­la amath vec bb F endamath mÅ¯Å¾e mÃ­t v jinÃ© kartÃ©zskÃ© soustavÄ› souÅ™adnic jinÃ© sloÅ¾ky, neboÅ¥ soustavy souÅ™adnic mohou mÃ­t rÅ¯znÃ½ poÄÃ¡tek.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Pokud platí <i>F</i><sub>x</sub> &ne; <i>F</i><sub>y</sub>, bude tomu tak i v kadé jiné kartézské soustavì souøadnic, nebo všechny sloky síly amath vec bb F endamath se transformují podle stejnıch pravidel.</td>
+<td width="400px" class="test2">Pokud platÃ­ <i>F</i><sub>x</sub> &ne; <i>F</i><sub>y</sub>, bude tomu tak i v kaÅ¾dÃ© jinÃ© kartÃ©zskÃ© soustavÄ› souÅ™adnic, neboÅ¥ vÅ¡echny sloÅ¾ky sÃ­ly amath vec bb F endamath se transformujÃ­ podle stejnÃ½ch pravidel.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Pokud platí <i>F</i><sub>x</sub> = 0, bude tomu tak i v kadé jiné kartézské soustavì souøadnic, nebo transformací nulové sloky vektoru dostáváme opìt nulovou sloku.</td>
+<td width="400px" class="test2">Pokud platÃ­ <i>F</i><sub>x</sub> = 0, bude tomu tak i v kaÅ¾dÃ© jinÃ© kartÃ©zskÃ© soustavÄ› souÅ™adnic, neboÅ¥ transformacÃ­ nulovÃ© sloÅ¾ky vektoru dostÃ¡vÃ¡me opÄ›t nulovou sloÅ¾ku.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Síla amath vec bb F endamath mùe mít v jiné kartézské soustavì souøadnic jinou velikost, nebo v ní mùe mít jiné sloky.</td>
+<td width="400px" class="test2">SÃ­la amath vec bb F endamath mÅ¯Å¾e mÃ­t v jinÃ© kartÃ©zskÃ© soustavÄ› souÅ™adnic jinou velikost, neboÅ¥ v nÃ­ mÅ¯Å¾e mÃ­t jinÃ© sloÅ¾ky.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Síla amath vec bb F endamath bude nenulová v kadé kartézské soustavì souøadnic, nebo jde stále o tentı vektor.</td>
+<td width="400px" class="test2">SÃ­la amath vec bb F endamath bude nenulovÃ¡ v kaÅ¾dÃ© kartÃ©zskÃ© soustavÄ› souÅ™adnic, neboÅ¥ jde stÃ¡le o tentÃ½Å¾ vektor.</td>
 </tr>
 </table>
 <br>

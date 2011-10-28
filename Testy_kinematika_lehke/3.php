@@ -1,9 +1,9 @@
-<strong>Malı míèek (hmotnı bod) koná šikmı vrh v homogenním tíhovém poli Zemì. Odpor prostøedí je zanedbatelnı. Poèáteèní rychlost míèku leí v rovinì <i>Oxy</i>, má velikost <i>v</i><sub>0</sub> a s vodorovnou osou <i>x</i> svírá úhel &alpha; < 90°. Osa <i>y</i> je svislá a míøí vzhùru. Z následujících tvrzení vyberte právì ta, která jsou správná.
+<strong>MalÃ½ mÃ­Äek (hmotnÃ½ bod) konÃ¡ Å¡ikmÃ½ vrh v homogennÃ­m tÃ­hovÃ©m poli ZemÄ›. Odpor prostÅ™edÃ­ je zanedbatelnÃ½. PoÄÃ¡teÄnÃ­ rychlost mÃ­Äku leÅ¾Ã­ v rovinÄ› <i>Oxy</i>, mÃ¡ velikost <i>v</i><sub>0</sub> a s vodorovnou osou <i>x</i> svÃ­rÃ¡ Ãºhel &alpha; < 90Â°. Osa <i>y</i> je svislÃ¡ a mÃ­Å™Ã­ vzhÅ¯ru. Z nÃ¡sledujÃ­cÃ­ch tvrzenÃ­ vyberte prÃ¡vÄ› ta, kterÃ¡ jsou sprÃ¡vnÃ¡.
 </strong>
 
-<p class="odp">Obtínost: <b>2 body</b>. Doporuènı èas na vyøešení: <b>3 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>2 body</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>3 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 
 <script>
 var c = 180;
@@ -14,7 +14,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -47,49 +47,49 @@ function zast_odp()
 <table>
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Obì sloky rychlosti, <i>x</i>-ová i <i>y</i>-ová, pøed dosaením nejvyššího bodu klesají, poté rostou.
+<td width="400px" class="test2">ObÄ› sloÅ¾ky rychlosti, <i>x</i>-ovÃ¡ i <i>y</i>-ovÃ¡, pÅ™ed dosaÅ¾enÃ­m nejvyÅ¡Å¡Ã­ho bodu klesajÃ­, potÃ© rostou.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Ve vrcholu parabolické trajektorie dosahuje míèek nulové rychlosti.
+<td width="400px" class="test2">Ve vrcholu parabolickÃ© trajektorie dosahuje mÃ­Äek nulovÃ© rychlosti.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Ve vrcholu parabolické trajektorie dosahuje míèek minimální rychlosti, nebo zrychlení je v tomto okamiku nulové.
+<td width="400px" class="test2">Ve vrcholu parabolickÃ© trajektorie dosahuje mÃ­Äek minimÃ¡lnÃ­ rychlosti, neboÅ¥ zrychlenÃ­ je v tomto okamÅ¾iku nulovÃ©.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Ve vrcholu parabolické trajektorie má míèek nenulové normálové a nulové teèné zrychlení, take velikost celkového zrychlení je zde menší ne v ostatních bodech trajektorie.
+<td width="400px" class="test2">Ve vrcholu parabolickÃ© trajektorie mÃ¡ mÃ­Äek nenulovÃ© normÃ¡lovÃ© a nulovÃ© teÄnÃ© zrychlenÃ­, takÅ¾e velikost celkovÃ©ho zrychlenÃ­ je zde menÅ¡Ã­ neÅ¾ v ostatnÃ­ch bodech trajektorie.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">V kadém bodì trajektorie je souèet teèného a normálového zrychlení míèku roven tíhovému zrychlení.
+<td width="400px" class="test2">V kaÅ¾dÃ©m bodÄ› trajektorie je souÄet teÄnÃ©ho a normÃ¡lovÃ©ho zrychlenÃ­ mÃ­Äku roven tÃ­hovÃ©mu zrychlenÃ­.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka6"> (f)</td>
-<td width="400px" class="test2">Vıška vıstupu míèku dosahuje pro danou velikost rychlosti maxima pro <i>&alpha;</i> = 90°.
+<td width="400px" class="test2">VÃ½Å¡ka vÃ½stupu mÃ­Äku dosahuje pro danou velikost rychlosti maxima pro <i>&alpha;</i> = 90Â°.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka7"> (g)</td>
-<td width="400px" class="test2">Polomìr køivosti <i>R</i> trajektorie v jejím nejvyšším bodì lze urèit ze vztahu <i>g</i> = <i>v</i><sub>0</sub><sup>2</sup>/<i>R</i>, nebo <i>g</i> je velikost normálového (dostøedivého) zrychlení v tomto bodì.
+<td width="400px" class="test2">PolomÄ›r kÅ™ivosti <i>R</i> trajektorie v jejÃ­m nejvyÅ¡Å¡Ã­m bodÄ› lze urÄit ze vztahu <i>g</i> = <i>v</i><sub>0</sub><sup>2</sup>/<i>R</i>, neboÅ¥ <i>g</i> je velikost normÃ¡lovÃ©ho (dostÅ™edivÃ©ho) zrychlenÃ­ v tomto bodÄ›.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka8"> (h)</td>
-<td width="400px" class="test2">Velikost normálového zrychlení míèku bezprostøednì po vypuštìní je <i>&alpha;<sub>n</sub></i> = <i>g</i>cos<i>&alpha;</i>.
+<td width="400px" class="test2">Velikost normÃ¡lovÃ©ho zrychlenÃ­ mÃ­Äku bezprostÅ™ednÄ› po vypuÅ¡tÄ›nÃ­ je <i>&alpha;<sub>n</sub></i> = <i>g</i>cos<i>&alpha;</i>.
 </td>
 </tr>
 

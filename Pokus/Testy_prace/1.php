@@ -1,9 +1,9 @@
-<div id="otazka"><strong>Èlovìk pøemisuje knihu v homogenním tíhovém poli Zemì po rùznıch trajektoriích. Pøedpokládáme, e kromì nìj a Zemì na knihu ádné další objekty nepùsobí. Z následujících tvrzení vyberte právì to, které je správné.
+<div id="otazka"><strong>ÄŒlovÄ›k pÅ™emisÅ¥uje knihu v homogennÃ­m tÃ­hovÃ©m poli ZemÄ› po rÅ¯znÃ½ch trajektoriÃ­ch. PÅ™edpoklÃ¡dÃ¡me, Å¾e kromÄ› nÄ›j a ZemÄ› na knihu Å¾Ã¡dnÃ© dalÅ¡Ã­ objekty nepÅ¯sobÃ­. Z nÃ¡sledujÃ­cÃ­ch tvrzenÃ­ vyberte prÃ¡vÄ› to, kterÃ© je sprÃ¡vnÃ©.
 </strong></div>
 
-<p class="odp">Obtínost: <b>0,5 bodu</b>. Doporuènı èas na vyøešení: <b>2,5 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>0,5 bodu</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>2,5 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 
 <script>
 var c = 150;
@@ -14,7 +14,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -50,31 +50,31 @@ function zast_odp()
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Èlovìk pøemístí knihu rovnomìrnì pøímoèaøe ve vodorovné rovinì. Síla, jí na knihu pùsobí, je nulová, a proto nekoná práci.
+<td width="400px" class="test2">ÄŒlovÄ›k pÅ™emÃ­stÃ­ knihu rovnomÄ›rnÄ› pÅ™Ã­moÄaÅ™e ve vodorovnÃ© rovinÄ›. SÃ­la, jÃ­Å¾ na knihu pÅ¯sobÃ­, je nulovÃ¡, a proto nekonÃ¡ prÃ¡ci.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Èlovìk pøemístí knihu rovnomìrnì zrychlenì svisle vzhùru. Síla, jí na knihu pùsobí, pøekonává tíhovou sílu, a proto vykoná práci, která je rovna zmìnì potenciální energie knihy.
+<td width="400px" class="test2">ÄŒlovÄ›k pÅ™emÃ­stÃ­ knihu rovnomÄ›rnÄ› zrychlenÄ› svisle vzhÅ¯ru. SÃ­la, jÃ­Å¾ na knihu pÅ¯sobÃ­, pÅ™ekonÃ¡vÃ¡ tÃ­hovou sÃ­lu, a proto vykonÃ¡ prÃ¡ci, kterÃ¡ je rovna zmÄ›nÄ› potenciÃ¡lnÃ­ energie knihy.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Èlovìk pøemístí knihu rovnomìrnì køivoèaøe ve vodorovné rovinì. Síla, jí na knihu pùsobí, nekoná  práci, nebo  zmìna kinetické energie knihy je nulová.
+<td width="400px" class="test2">ÄŒlovÄ›k pÅ™emÃ­stÃ­ knihu rovnomÄ›rnÄ› kÅ™ivoÄaÅ™e ve vodorovnÃ© rovinÄ›. SÃ­la, jÃ­Å¾ na knihu pÅ¯sobÃ­, nekonÃ¡  prÃ¡ci, neboÅ¥  zmÄ›na kinetickÃ© energie knihy je nulovÃ¡.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Èlovìk pøemístí knihu tak, e její poèáteèní a koncová poloha je stejná. Síla, jí na knihu pùsobí, vykoná nulovou práci, nebo vektor posunutí knihy je nulovı.
+<td width="400px" class="test2">ÄŒlovÄ›k pÅ™emÃ­stÃ­ knihu tak, Å¾e jejÃ­ poÄÃ¡teÄnÃ­ a koncovÃ¡ poloha je stejnÃ¡. SÃ­la, jÃ­Å¾ na knihu pÅ¯sobÃ­, vykonÃ¡ nulovou prÃ¡ci, neboÅ¥ vektor posunutÃ­ knihy je nulovÃ½.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Èlovìk pøemístí knihu rovnomìrnì pøímoèaøe svisle dolù. Síla, jí na knihu pùsobí, odpovídá její tíze, a proto vykoná nezápornou práci.
+<td width="400px" class="test2">ÄŒlovÄ›k pÅ™emÃ­stÃ­ knihu rovnomÄ›rnÄ› pÅ™Ã­moÄaÅ™e svisle dolÅ¯. SÃ­la, jÃ­Å¾ na knihu pÅ¯sobÃ­, odpovÃ­dÃ¡ jejÃ­ tÃ­ze, a proto vykonÃ¡ nezÃ¡pornou prÃ¡ci.
 </td>
 </tr>
 

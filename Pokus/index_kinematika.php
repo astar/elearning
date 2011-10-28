@@ -1,116 +1,116 @@
 <?php
-// Nìkolik základních pokynù:
-// Pokud script nefunguje jak má, odkomentovat toto:
+// NÄ›kolik zÃ¡kladnÃ­ch pokynÅ¯:
+// Pokud script nefunguje jak mÃ¡, odkomentovat toto:
 
 //session_start();
 
 /*
-Pokud nefunguje ètení z adresáøe (chyba u pøíkazu dir), doporuèuji nastavit chmod na 0777 na FTP serveru
-pro adresáø "soubory".
+Pokud nefunguje ÄtenÃ­ z adresÃ¡Å™e (chyba u pÅ™Ã­kazu dir), doporuÄuji nastavit chmod na 0777 na FTP serveru
+pro adresÃ¡Å™ "soubory".
 
-Soubory v adresáøi musí bıt TXT nebo PHP!
+Soubory v adresÃ¡Å™i musÃ­ bÃ½t TXT nebo PHP!
 
-Tento skript pouívá COOKIE pro ukládání seznamu ji otevøenıch souborù. Pro bezproblémové fungování doporuèuji
-mít v adresáøi max. 10 souborù s názvy bez háèkù a èárek. Ale jinak jména souborù nemusí bıt 1,2,3...
-klidnì tøeba cervena.txt, zelena.txt apod.
+Tento skript pouÅ¾Ã­vÃ¡ COOKIE pro uklÃ¡dÃ¡nÃ­ seznamu jiÅ¾ otevÅ™enÃ½ch souborÅ¯. Pro bezproblÃ©movÃ© fungovÃ¡nÃ­ doporuÄuji
+mÃ­t v adresÃ¡Å™i max. 10 souborÅ¯ s nÃ¡zvy bez hÃ¡ÄkÅ¯ a ÄÃ¡rek. Ale jinak jmÃ©na souborÅ¯ nemusÃ­ bÃ½t 1,2,3...
+klidnÄ› tÅ™eba cervena.txt, zelena.txt apod.
 
-Pro optimální zobrazení textu (háèky a èárky) uvnitø souborù doporuèuji, aby kódování souborù bylo UTF-8!
+Pro optimÃ¡lnÃ­ zobrazenÃ­ textu (hÃ¡Äky a ÄÃ¡rky) uvnitÅ™ souborÅ¯ doporuÄuji, aby kÃ³dovÃ¡nÃ­ souborÅ¯ bylo UTF-8!
 */
 
-// Poèet nalezenıch souborù defaultnì nastavíme na 0
+// PoÄet nalezenÃ½ch souborÅ¯ defaultnÄ› nastavÃ­me na 0
 $kolik = 0;
 
-// Nastavíme root pro otevírání souborù
-// - toto není nutné, ale doporuèuji
+// NastavÃ­me root pro otevÃ­rÃ¡nÃ­ souborÅ¯
+// - toto nenÃ­ nutnÃ©, ale doporuÄuji
 $root = dirname(__FILE__);
 
-// AKCE 1: Chceme smazat cookie, kde je uloen seznam ji otevøenıch souborù?
-// Voláno pomocí "?del"
+// AKCE 1: Chceme smazat cookie, kde je uloÅ¾en seznam jiÅ¾ otevÅ™enÃ½ch souborÅ¯?
+// VolÃ¡no pomocÃ­ "?del"
 if(isset($_GET['del'])):
   // Ano, chceme:
   setcookie("archiv", "");
   
-  // Pøesmìrujeme se zpìt na hlavní stránku:
+  // PÅ™esmÄ›rujeme se zpÄ›t na hlavnÃ­ strÃ¡nku:
   header("Location: index_kinematika.php");
-  // Mùeme pouít i alternativu:
+  // MÅ¯Å¾eme pouÅ¾Ã­t i alternativu:
   //header("Location: index.php");
   
-  // Pro vyšší bezpeènost ukonèíme èinnost php skriptu
+  // Pro vyÅ¡Å¡Ã­ bezpeÄnost ukonÄÃ­me Äinnost php skriptu
   exit;
 endif;
 
-// AKCE 2: Chceme zobrazit nìjakı soubor?
-// Voláno pomocí "?akce"
+// AKCE 2: Chceme zobrazit nÄ›jakÃ½ soubor?
+// VolÃ¡no pomocÃ­ "?akce"
 if(isset($_GET['akce'])):
   // Ano, chceme:
-  // Nejdøíve si vytvoøíme archív ji otevøenıch souborù (array), zatím bude prázdnı
+  // NejdÅ™Ã­ve si vytvoÅ™Ã­me archÃ­v jiÅ¾ otevÅ™enÃ½ch souborÅ¯ (array), zatÃ­m bude prÃ¡zdnÃ½
   $archiv = array();
   
-  // Nyní se jej pokusíme naplnit, ale jen za pøedpokladu, e nìjaké soubory u otevøeny byly
+  // NynÃ­ se jej pokusÃ­me naplnit, ale jen za pÅ™edpokladu, Å¾e nÄ›jakÃ© soubory uÅ¾ otevÅ™eny byly
   // - pokud se tak stalo, bude existovat cookie ARCHIV:
   if(isset($_COOKIE['archiv'])):
-    // Cookie archive obsahuje názvy souborù vèetnì koncovek a ty jsou oddìleny ";"
+    // Cookie archive obsahuje nÃ¡zvy souborÅ¯ vÄetnÄ› koncovek a ty jsou oddÄ›leny ";"
     $archiv_beta = $_COOKIE['archiv'];
     
-    // Rozdìlíme si názvy souborù do pole
+    // RozdÄ›lÃ­me si nÃ¡zvy souborÅ¯ do pole
     $archiv = explode(";", $archiv_beta);
   endif;
 
-  // Nyní vytvoøíme seznam (array) ještì neotevøenıch souborù - zatím je prázdnı
+  // NynÃ­ vytvoÅ™Ã­me seznam (array) jeÅ¡tÄ› neotevÅ™enÃ½ch souborÅ¯ - zatÃ­m je prÃ¡zdnÃ½
   $indexer = array();
 
-  // Abychom ho naplnili budeme procházet sloku "soubory", kde jsou jednotlivé soubory
-  // JE NUTNÉ, ABY VE SLOCE BYLY JEN SOUBORY, KTERÉ LZE INCLUDOVAT DO PHP (txt, php) !!!!
+  // Abychom ho naplnili budeme prochÃ¡zet sloÅ¾ku "soubory", kde jsou jednotlivÃ© soubory
+  // JE NUTNÃ‰, ABY VE SLOÅ½CE BYLY JEN SOUBORY, KTERÃ‰ LZE INCLUDOVAT DO PHP (txt, php) !!!!
   $adresar=dir("./Testy_kinematika/");
 
-  // Následující øádky skipnou pøidání "." a ".." do seznamu souborù, protoe to nejsou soubory
+  // NÃ¡sledujÃ­cÃ­ Å™Ã¡dky skipnou pÅ™idÃ¡nÃ­ "." a ".." do seznamu souborÅ¯, protoÅ¾e to nejsou soubory
   $tmp=$adresar->Read();
   $tmp=$adresar->Read();
 
-  // Následující cyklus projede adresáø a bude pøidávat jména souborù do pole "indexer"
+  // NÃ¡sledujÃ­cÃ­ cyklus projede adresÃ¡Å™ a bude pÅ™idÃ¡vat jmÃ©na souborÅ¯ do pole "indexer"
   while($polozka=$adresar->Read())
   {
-    // ALE pokud byl soubor ji pouit (byl v cookie tzn. je v $archiv), tak se do indexeru nepøidá
+    // ALE pokud byl soubor jiÅ¾ pouÅ¾it (byl v cookie tzn. je v $archiv), tak se do indexeru nepÅ™idÃ¡
     if(in_array($polozka,$archiv)) continue;
     
-    // Jinak tedy podle plánu pøidáme:
+    // Jinak tedy podle plÃ¡nu pÅ™idÃ¡me:
     $indexer[] = $polozka;
   }
   
-  // Nyní máme v poli indexer potencionální seznam jmen souborù, které mùeme otevøít
-  // Zbıvá jen vybrat jakı
+  // NynÃ­ mÃ¡me v poli indexer potencionÃ¡lnÃ­ seznam jmen souborÅ¯, kterÃ© mÅ¯Å¾eme otevÅ™Ã­t
+  // ZbÃ½vÃ¡ jen vybrat jakÃ½
   
-  // Zavøeme ètení z adresáøe
+  // ZavÅ™eme ÄtenÃ­ z adresÃ¡Å™e
   $adresar->Close();
   
   //------------------------------
 
-  // Nyní si spoèítáme kolik máme souborù v indexeru (a odeèeteme 1 protoe pole je od indexu 0 a random níe musí vybírat od 0 ne od 1)
+  // NynÃ­ si spoÄÃ­tÃ¡me kolik mÃ¡me souborÅ¯ v indexeru (a odeÄeteme 1 protoÅ¾e pole je od indexu 0 a random nÃ­Å¾e musÃ­ vybÃ­rat od 0 ne od 1)
   $kolik = count($indexer)-1;
   
-  // Nyní se mùe stát, e "kolik" bude rovno -1, co by znamenalo, e ji ve sloce není ádnı soubor, kterı by mohl bıt zobrazen
-  //  - pokud není co zobrazit ji se nic neøeší a zobrazí se odkaz na hlavní stránku
+  // NynÃ­ se mÅ¯Å¾e stÃ¡t, Å¾e "kolik" bude rovno -1, coÅ¾ by znamenalo, Å¾e jiÅ¾ ve sloÅ¾ce nenÃ­ Å¾Ã¡dnÃ½ soubor, kterÃ½ by mohl bÃ½t zobrazen
+  //  - pokud nenÃ­ co zobrazit jiÅ¾ se nic neÅ™eÅ¡Ã­ a zobrazÃ­ se odkaz na hlavnÃ­ strÃ¡nku
   if($kolik>-1):
-    // Pokud je co zobrazit, vybereme náhodnì nìjaké èíslo v rozsahu indexù pole indexer
-    // - pod tímto èíslem pak z indexeru vybereme název souboru tzn. $indexer[$random], kde záznam v poli reprezentuje cestu k souboru
-    // tzn. pro pøíklad $indexer[$random]=="1.txt" (tøeba), obsah pole pak vloíme do include níe
+    // Pokud je co zobrazit, vybereme nÃ¡hodnÄ› nÄ›jakÃ© ÄÃ­slo v rozsahu indexÅ¯ pole indexer
+    // - pod tÃ­mto ÄÃ­slem pak z indexeru vybereme nÃ¡zev souboru tzn. $indexer[$random], kde zÃ¡znam v poli reprezentuje cestu k souboru
+    // tzn. pro pÅ™Ã­klad $indexer[$random]=="1.txt" (tÅ™eba), obsah pole pak vloÅ¾Ã­me do include nÃ­Å¾e
     $random = rand(0,$kolik);
 
-    // Ještì ale musíme tento soubor, kterı zobrazíme pøidat do cookie, aby se pøíštì ji nevybíral
-    //  - Prozatím obsah nové cookie nastavíme na null
+    // JeÅ¡tÄ› ale musÃ­me tento soubor, kterÃ½ zobrazÃ­me pÅ™idat do cookie, aby se pÅ™Ã­Å¡tÄ› jiÅ¾ nevybÃ­ral
+    //  - ProzatÃ­m obsah novÃ© cookie nastavÃ­me na null
     $archivace = null;
     
-    // Nyní si projedeme všechny záznamy v poli $archiv, které obsahu ji všechny døíve zobrazené soubory
+    // NynÃ­ si projedeme vÅ¡echny zÃ¡znamy v poli $archiv, kterÃ© obsahu jiÅ¾ vÅ¡echny dÅ™Ã­ve zobrazenÃ© soubory
     for($i=0;$i<count($archiv);$i++)
     {
-      // Všechny døíve zobrazené soubory samozøejmì opìt pøidáme do seznamu a oddìlujeme je ";"
+      // VÅ¡echny dÅ™Ã­ve zobrazenÃ© soubory samozÅ™ejmÄ› opÄ›t pÅ™idÃ¡me do seznamu a oddÄ›lujeme je ";"
       $archivace .= $archiv[$i].";";
     }
     
-    // + pøidáme novı soubor, kterı zobrazujeme nyní
+    // + pÅ™idÃ¡me novÃ½ soubor, kterÃ½ zobrazujeme nynÃ­
     $archivace .= $indexer[$random];
 
-    // a nastavíme cookie (pokud ji existuje, tak bude stará pøepsána novou)
+    // a nastavÃ­me cookie (pokud jiÅ¾ existuje, tak bude starÃ¡ pÅ™epsÃ¡na novou)
     setcookie ("archiv", $archivace);
   endif;
 endif;
@@ -119,11 +119,11 @@ endif;
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html>
 
-<head><title>Kurz klasické mechaniky v úlohách a testech pro e-learning</title>
-  <meta name="AUTHOR" content="Petr Horálek">
+<head><title>Kurz klasickÃ© mechaniky v ÃºlohÃ¡ch a testech pro e-learning</title>
+  <meta name="AUTHOR" content="Petr HorÃ¡lek">
   <meta http-equiv="Content-Type" content="text/html; charset=windows-1250">
   <meta name="Keywords" content="Informace">
-  <meta name="description" content="Kurz klasické mechaniky v úlohách a testech pro e-learning">
+  <meta name="description" content="Kurz klasickÃ© mechaniky v ÃºlohÃ¡ch a testech pro e-learning">
   <link rel="STYLESHEET" href="Styl.css" type="text/css">
   <script type="text/javascript" src="skripty.js"></script>
 
@@ -138,7 +138,7 @@ endif;
  
 
 <div id="hlavicka1">
-  <a href="index.php?web=projekt" title="O projektu Kurs klasické mechaniky"><img src="Obrazky/Hlavicka1.jpg" border="0" alt=""></a>
+  <a href="index.php?web=projekt" title="O projektu Kurs klasickÃ© mechaniky"><img src="Obrazky/Hlavicka1.jpg" border="0" alt=""></a>
 </div>
 
 <div id="hlavicka2">
@@ -163,7 +163,7 @@ endif;
 </table>
 
 <div style="width: 200px; height: 52px; margin-left: 10px">
-<center><small><i>Poznání je hluboké jako moøe nebo vesmír kolem nás. Staèí se ponoøit<br>a jeho bohatství pøijde samo.</i></small></center>
+<center><small><i>PoznÃ¡nÃ­ je hlubokÃ© jako moÅ™e nebo vesmÃ­r kolem nÃ¡s. StaÄÃ­ se ponoÅ™it<br>a jeho bohatstvÃ­ pÅ™ijde samo.</i></small></center>
 </div>
 
 </div>
@@ -172,9 +172,9 @@ endif;
 <div id="levys">
 <font size="1">
 <center>
-Optimalizováno pro rozlišení<br>
-1024x756 px nebo vyšší<br>
-a pro webové prohlíeèe<br>
+OptimalizovÃ¡no pro rozliÅ¡enÃ­<br>
+1024x756 px nebo vyÅ¡Å¡Ã­<br>
+a pro webovÃ© prohlÃ­Å¾eÄe<br>
 <a href="http://firefox.czilla.cz/" target="_blank"><b>Mozilla Firefox 4+</b></a>,<br><a href="http://windows.microsoft.com/cs-CZ/internet-explorer/products/ie/home" target="_blank"><b>Internet Explorer 8+</b></a>.</center><br>
 </font>
 
@@ -182,14 +182,14 @@ a pro webové prohlíeèe<br>
 <tr>
  <td width="100">
    <font size="1" face="Tahoma">
-	Poèítadlo návštìv<br>od 3. bøezna 2009
+	PoÄÃ­tadlo nÃ¡vÅ¡tÄ›v<br>od 3. bÅ™ezna 2009
    </font>
  </td>
 
 
  <td width="100">
  <!-- ---- ABZ rychle pocitadlo ---- -->
- <a href="http://pocitadlo.abz.cz/" title="Poèítadlo návštìv"><img src="http://pocitadlo.abz.cz/aip.php?tp=bb" alt="Poèítadlo návštìv" border="0"></a>
+ <a href="http://pocitadlo.abz.cz/" title="PoÄÃ­tadlo nÃ¡vÅ¡tÄ›v"><img src="http://pocitadlo.abz.cz/aip.php?tp=bb" alt="PoÄÃ­tadlo nÃ¡vÅ¡tÄ›v" border="0"></a>
  <!-- ---- http://pocitadlo.abz.cz/ ---- -->
  </td>
 </tr>
@@ -209,20 +209,20 @@ a pro webové prohlíeèe<br>
 
 
 
-<h2>Kinematika èástice - obtíné otázky</h2>
+<h2>Kinematika ÄÃ¡stice - obtÃ­Å¾nÃ© otÃ¡zky</h2>
 
 <?php
-		  // Zde øešíme obsah HTML stránky
+		  // Zde Å™eÅ¡Ã­me obsah HTML strÃ¡nky
 		  
-		  // Pokud jsme ji nevyèerpali všechny soubory, zobrazíme odkaz "Vyber soubor"
+		  // Pokud jsme jiÅ¾ nevyÄerpali vÅ¡echny soubory, zobrazÃ­me odkaz "Vyber soubor"
       if($kolik>-1):
-        // Jo a taky pokud máme právì aktivní "?akce", tak zobrazíme soubor, kterı byl vybrán pøes rand
+        // Jo a taky pokud mÃ¡me prÃ¡vÄ› aktivnÃ­ "?akce", tak zobrazÃ­me soubor, kterÃ½ byl vybrÃ¡n pÅ™es rand
         if(isset($_GET['akce'])) include $root."/Testy_kinematika/".$indexer[$random];
-        echo '<a href="?akce"><b>Vygeneruj novou otázku</b></a>';
+        echo '<a href="?akce"><b>Vygeneruj novou otÃ¡zku</b></a>';
       else:
-	// Pokud není co vybrat (všechny soubory vyèerpány), zobrazíme menu s odkazem na hlavní stránku
-        echo 'Úlohy z tohoto tematického celku jsou vyèerpány (právì nyní nebo v nedávné minulosti jste z tohoto poèítaèe ji otázky procházel/a).<br>Co chcete udìlat?<br><br><a href="index.php?web=testy"><b>Opustit tematickı celek</b></a><br />';
-        echo '<a href="?del"><b>Vygenerovat otázky znovu</b></a>';
+	// Pokud nenÃ­ co vybrat (vÅ¡echny soubory vyÄerpÃ¡ny), zobrazÃ­me menu s odkazem na hlavnÃ­ strÃ¡nku
+        echo 'Ãšlohy z tohoto tematickÃ©ho celku jsou vyÄerpÃ¡ny (prÃ¡vÄ› nynÃ­ nebo v nedÃ¡vnÃ© minulosti jste z tohoto poÄÃ­taÄe jiÅ¾ otÃ¡zky prochÃ¡zel/a).<br>Co chcete udÄ›lat?<br><br><a href="index.php?web=testy"><b>Opustit tematickÃ½ celek</b></a><br />';
+        echo '<a href="?del"><b>Vygenerovat otÃ¡zky znovu</b></a>';
       endif;
 ?>
 
@@ -237,13 +237,13 @@ a pro webové prohlíeèe<br>
 <div id="menu">
  <table width="790px">
  <tr>
- <td height="30px" class="odk" style="border: solid #FFFFFF 1px; background-color: rgb(187, 216, 246);" onmouseover="onMysiPresHmenu(this)" onmouseout="onMysiPrycHmenu(this)" onclick="window.location='index.php?web=uvod'" 		width="90"  align="center" bgcolor="#FFFFFF"><font size="-1"><a class="odk" href="index.php?web=uvod" title="Úvod">				<font style="font-size: 13px; font-weight:bold">Úvod		</font></a></font></td>
+ <td height="30px" class="odk" style="border: solid #FFFFFF 1px; background-color: rgb(187, 216, 246);" onmouseover="onMysiPresHmenu(this)" onmouseout="onMysiPrycHmenu(this)" onclick="window.location='index.php?web=uvod'" 		width="90"  align="center" bgcolor="#FFFFFF"><font size="-1"><a class="odk" href="index.php?web=uvod" title="Ãšvod">				<font style="font-size: 13px; font-weight:bold">Ãšvod		</font></a></font></td>
  <td height="30px" class="odk" style="border: solid #FFFFFF 1px; background-color: rgb(187, 216, 246);" onmouseover="onMysiPresHmenu(this)" onmouseout="onMysiPrycHmenu(this)" onclick="window.location='index.php?web=projekt'" 	width="110" align="center" bgcolor="#FFFFFF"><font size="-1"><a class="odk" href="index.php?web=projekt" title="O projektu">			<font style="font-size: 13px; font-weight:bold">O projektu	</font></a></font></td>
- <td height="30px" class="odk" style="border: solid #FFFFFF 1px; background-color: rgb(187, 216, 246);" onmouseover="onMysiPresHmenu(this)" onmouseout="onMysiPrycHmenu(this)" onclick="window.location='index.php?web=nastrahy'" 	width="150" align="center" bgcolor="#FFFFFF"><font size="-1"><a class="odk" href="index.php?web=nastrahy" title="Nástrahy fyziky">		<font style="font-size: 13px; font-weight:bold">Nástrahy fyziky	</font></a></font></td>
- <td height="30px" class="odk" style="border: solid #FFFFFF 1px; background-color: rgb(187, 216, 246);" onmouseover="onMysiPresHmenu(this)" onmouseout="onMysiPrycHmenu(this)" onclick="window.location='index.php?web=zasobnik'" 	width="130" align="center" bgcolor="#FFFFFF"><font size="-1"><a class="odk" href="index.php?web=zasobnik" title="Zásobník úloh">		<font style="font-size: 13px; font-weight:bold">Zásobník úloh	</font></a></font></td>
- <td height="30px" class="odk" style="border: solid #FFFFFF 1px; background-color: rgb(187, 216, 246);" onmouseover="onMysiPresHmenu(this)" onmouseout="onMysiPrycHmenu(this)" onclick="window.location='index.php?web=testy'" 		width="60"  align="center" bgcolor="#FFFFFF"><font size="-1"><a class="odk" href="index.php?web=testy" title="Interaktivní testy">		<font style="font-size: 13px; font-weight:bold">Testy	  	</font></a></font></td>
- <td height="30px" class="odk" style="border: solid #FFFFFF 1px; background-color: rgb(187, 216, 246);" onmouseover="onMysiPresHmenu(this)" onmouseout="onMysiPrycHmenu(this)" onclick="window.location='index.php?web=experimenty'" 	width="120" align="center" bgcolor="#FFFFFF"><font size="-1"><a class="odk" href="index.php?web=experimenty" title="Demonstraèní experimenty">  <font style="font-size: 13px; font-weight:bold">Experimenty	</font></a></font></td>
- <td height="30px" class="odk" style="border: solid #FFFFFF 1px; background-color: rgb(187, 216, 246);" onmouseover="onMysiPresHmenu(this)" onmouseout="onMysiPrycHmenu(this)" onclick="window.location='index.php?web=odkazy'" 	width="80"  align="center" bgcolor="#FFFFFF"><font size="-1"><a class="odk" href="index.php?web=odkazy" title="Zajímavé odkazy">		<font style="font-size: 13px; font-weight:bold">Odkazy		</font></a></font></td>
+ <td height="30px" class="odk" style="border: solid #FFFFFF 1px; background-color: rgb(187, 216, 246);" onmouseover="onMysiPresHmenu(this)" onmouseout="onMysiPrycHmenu(this)" onclick="window.location='index.php?web=nastrahy'" 	width="150" align="center" bgcolor="#FFFFFF"><font size="-1"><a class="odk" href="index.php?web=nastrahy" title="NÃ¡strahy fyziky">		<font style="font-size: 13px; font-weight:bold">NÃ¡strahy fyziky	</font></a></font></td>
+ <td height="30px" class="odk" style="border: solid #FFFFFF 1px; background-color: rgb(187, 216, 246);" onmouseover="onMysiPresHmenu(this)" onmouseout="onMysiPrycHmenu(this)" onclick="window.location='index.php?web=zasobnik'" 	width="130" align="center" bgcolor="#FFFFFF"><font size="-1"><a class="odk" href="index.php?web=zasobnik" title="ZÃ¡sobnÃ­k Ãºloh">		<font style="font-size: 13px; font-weight:bold">ZÃ¡sobnÃ­k Ãºloh	</font></a></font></td>
+ <td height="30px" class="odk" style="border: solid #FFFFFF 1px; background-color: rgb(187, 216, 246);" onmouseover="onMysiPresHmenu(this)" onmouseout="onMysiPrycHmenu(this)" onclick="window.location='index.php?web=testy'" 		width="60"  align="center" bgcolor="#FFFFFF"><font size="-1"><a class="odk" href="index.php?web=testy" title="InteraktivnÃ­ testy">		<font style="font-size: 13px; font-weight:bold">Testy	  	</font></a></font></td>
+ <td height="30px" class="odk" style="border: solid #FFFFFF 1px; background-color: rgb(187, 216, 246);" onmouseover="onMysiPresHmenu(this)" onmouseout="onMysiPrycHmenu(this)" onclick="window.location='index.php?web=experimenty'" 	width="120" align="center" bgcolor="#FFFFFF"><font size="-1"><a class="odk" href="index.php?web=experimenty" title="DemonstraÄnÃ­ experimenty">  <font style="font-size: 13px; font-weight:bold">Experimenty	</font></a></font></td>
+ <td height="30px" class="odk" style="border: solid #FFFFFF 1px; background-color: rgb(187, 216, 246);" onmouseover="onMysiPresHmenu(this)" onmouseout="onMysiPrycHmenu(this)" onclick="window.location='index.php?web=odkazy'" 	width="80"  align="center" bgcolor="#FFFFFF"><font size="-1"><a class="odk" href="index.php?web=odkazy" title="ZajÃ­mavÃ© odkazy">		<font style="font-size: 13px; font-weight:bold">Odkazy		</font></a></font></td>
  <td height="30px" class="odk" style="border: solid #FFFFFF 1px; background-color: rgb(187, 216, 246);" onmouseover="onMysiPresHmenu(this)" onmouseout="onMysiPrycHmenu(this)" onclick="window.location='index.php?web=kontakty'" 	width="90"  align="center" bgcolor="#FFFFFF"><font size="-1"><a class="odk" href="index.php?web=kontakty" title="Kontakty">			<font style="font-size: 13px; font-weight:bold">Kontakty	</font></a></font></td>
  </tr>
 </table>

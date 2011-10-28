@@ -1,9 +1,9 @@
-<div id="otazka"><strong>Pohyb èástice s konstantní hmotností je popisován v inerciální vztané soustavì. Z následujících tvrzení je právì jedno NESPRÁVNÉ. Vyberte jej.
+<div id="otazka"><strong>Pohyb ÄÃ¡stice s konstantnÃ­ hmotnostÃ­ je popisovÃ¡n v inerciÃ¡lnÃ­ vztaÅ¾nÃ© soustavÄ›. Z nÃ¡sledujÃ­cÃ­ch tvrzenÃ­ je prÃ¡vÄ› jedno NESPRÃVNÃ‰. Vyberte jej.
 </strong></div>
 
-<p class="odp">Obtínost: <b>0,5 bodu</b>. Doporuènı èas na vyøešení: <b>2 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>0,5 bodu</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>2 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 
 <script>
 var c = 120;
@@ -14,7 +14,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -50,29 +50,29 @@ function zast_odp()
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Nenulová vıslednice sil pùsobících na èástici, která se pohybuje rovnomìrnì, má konstantní velikost.</td>
+<td width="400px" class="test2">NenulovÃ¡ vÃ½slednice sil pÅ¯sobÃ­cÃ­ch na ÄÃ¡stici, kterÃ¡ se pohybuje rovnomÄ›rnÄ›, mÃ¡ konstantnÃ­ velikost.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Nenulová vıslednice sil pùsobících na èástici, která se pohybuje rovnomìrnì køivoèaøe, svírá s nenulovou rychlostí èástice nenulovı úhel.</td>
+<td width="400px" class="test2">NenulovÃ¡ vÃ½slednice sil pÅ¯sobÃ­cÃ­ch na ÄÃ¡stici, kterÃ¡ se pohybuje rovnomÄ›rnÄ› kÅ™ivoÄaÅ™e, svÃ­rÃ¡ s nenulovou rychlostÃ­ ÄÃ¡stice nenulovÃ½ Ãºhel.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Je-li vıslednice sil pùsobících na èástici konstantní a nenulová, mùe se smìr pohybu èástice mìnit.
+<td width="400px" class="test2">Je-li vÃ½slednice sil pÅ¯sobÃ­cÃ­ch na ÄÃ¡stici konstantnÃ­ a nenulovÃ¡, mÅ¯Å¾e se smÄ›r pohybu ÄÃ¡stice mÄ›nit.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Je-li vıslednice sil pùsobících na èástici konstantní a nenulová, nemùe se mìnit smìr zrychlení èástice.
+<td width="400px" class="test2">Je-li vÃ½slednice sil pÅ¯sobÃ­cÃ­ch na ÄÃ¡stici konstantnÃ­ a nenulovÃ¡, nemÅ¯Å¾e se mÄ›nit smÄ›r zrychlenÃ­ ÄÃ¡stice.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Je-li  vıslednice sil  pùsobících na èástici  konstantní a nenulová, mìní se rychlost èástice.
+<td width="400px" class="test2">Je-li  vÃ½slednice sil  pÅ¯sobÃ­cÃ­ch na ÄÃ¡stici  konstantnÃ­ a nenulovÃ¡, mÄ›nÃ­ se rychlost ÄÃ¡stice.
 </td>
 </tr>
 

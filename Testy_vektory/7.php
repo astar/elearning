@@ -1,8 +1,8 @@
-<strong>Uvame dvì síly <b><i>F</i><sub>1</sub></b>, <b><i>F</i><sub>2</sub></b>, které mají ve zvolené kartézské soustavì souøadnic <i>Oxyz</i> sloky <b><i>F</i><sub>1</sub></b> = (<i>F</i><sub>1x</sub>, <i>F</i><sub>1y</sub>, <i>F</i><sub>1z</sub>), <b><i>F</i><sub>2</sub></b> = (<i>F</i><sub>2x</sub>, <i>F</i><sub>2y</sub>, <i>F</i><sub>2z</sub>). Vyberte právì správná tvrzení.</strong>
+<strong>UvaÅ¾me dvÄ› sÃ­ly <b><i>F</i><sub>1</sub></b>, <b><i>F</i><sub>2</sub></b>, kterÃ© majÃ­ ve zvolenÃ© kartÃ©zskÃ© soustavÄ› souÅ™adnic <i>Oxyz</i> sloÅ¾ky <b><i>F</i><sub>1</sub></b> = (<i>F</i><sub>1x</sub>, <i>F</i><sub>1y</sub>, <i>F</i><sub>1z</sub>), <b><i>F</i><sub>2</sub></b> = (<i>F</i><sub>2x</sub>, <i>F</i><sub>2y</sub>, <i>F</i><sub>2z</sub>). Vyberte prÃ¡vÄ› sprÃ¡vnÃ¡ tvrzenÃ­.</strong>
 
-<p class="odp">Obtínost: <b>2 body</b>. Doporuènı èas na vyøešení: <b>3,5 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>2 body</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>3,5 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 
 <script>
 var c = 210;
@@ -13,7 +13,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -46,43 +46,43 @@ function zast_odp()
 <table>
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Pokud platí |<i>F</i><sub>1x</sub>| > |<i>F</i><sub>2x</sub>|, je <i>x</i>-ová sloka vıslednice sil <b><i>F</i><sub>1</sub></b> a <b><i>F</i><sub>2</sub></b> nenulová.</td>
+<td width="400px" class="test2">Pokud platÃ­ |<i>F</i><sub>1x</sub>| > |<i>F</i><sub>2x</sub>|, je <i>x</i>-ovÃ¡ sloÅ¾ka vÃ½slednice sil <b><i>F</i><sub>1</sub></b> a <b><i>F</i><sub>2</sub></b> nenulovÃ¡.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Pokud souèasnì platí <i>F</i><sub>1x</sub> > <i>F</i><sub>2x</sub>, <i>F</i><sub>1y</sub> > <i>F</i><sub>2y</sub>, <i>F</i><sub>1z</sub> > <i>F</i><sub>2z</sub>, je velikost síly <b><i>F</i><sub>1</sub></b> vìtší ne velikost síly <b><i>F</i><sub>2</sub></b>.</td>
+<td width="400px" class="test2">Pokud souÄasnÄ› platÃ­ <i>F</i><sub>1x</sub> > <i>F</i><sub>2x</sub>, <i>F</i><sub>1y</sub> > <i>F</i><sub>2y</sub>, <i>F</i><sub>1z</sub> > <i>F</i><sub>2z</sub>, je velikost sÃ­ly <b><i>F</i><sub>1</sub></b> vÄ›tÅ¡Ã­ neÅ¾ velikost sÃ­ly <b><i>F</i><sub>2</sub></b>.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2"><i>X</i>-ová sloka vıslednice sil <b><i>F</i><sub>1</sub></b> a <b><i>F</i><sub>2</sub></b> je nenulová právì kdy jsou nenulové odpovídající sloky jednotlivıch sil.
+<td width="400px" class="test2"><i>X</i>-ovÃ¡ sloÅ¾ka vÃ½slednice sil <b><i>F</i><sub>1</sub></b> a <b><i>F</i><sub>2</sub></b> je nenulovÃ¡ prÃ¡vÄ› kdyÅ¾ jsou nenulovÃ© odpovÃ­dajÃ­cÃ­ sloÅ¾ky jednotlivÃ½ch sil.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Velikost síly <b><i>F</i><sub>2</sub></b> je nulová právì v pøípadì, e jsou nulové všechny její sloky.</td>
+<td width="400px" class="test2">Velikost sÃ­ly <b><i>F</i><sub>2</sub></b> je nulovÃ¡ prÃ¡vÄ› v pÅ™Ã­padÄ›, Å¾e jsou nulovÃ© vÅ¡echny jejÃ­ sloÅ¾ky.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Na velikost <i>y</i>-ové sloky vıslednice sil <b><i>F</i><sub>1</sub></b> a <b><i>F</i><sub>2</sub></b> nemají vliv <i>x</i>-ové a <i>z</i>-ové sloky sil <b><i>F</i><sub>1</sub></b> a <b><i>F</i><sub>2</sub></b>.</td>
+<td width="400px" class="test2">Na velikost <i>y</i>-ovÃ© sloÅ¾ky vÃ½slednice sil <b><i>F</i><sub>1</sub></b> a <b><i>F</i><sub>2</sub></b> nemajÃ­ vliv <i>x</i>-ovÃ© a <i>z</i>-ovÃ© sloÅ¾ky sil <b><i>F</i><sub>1</sub></b> a <b><i>F</i><sub>2</sub></b>.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka6"> (f)</td>
-<td width="400px" class="test2">Pokud je síla <b><i>F</i><sub>1</sub></b> nenulová, známe její velikost a její sloky <i>F</i><sub>1x</sub>, <i>F</i><sub>1y</sub>, dokáeme uitím Pythagorovy vìty vypoèítat sloku <i>F</i><sub>1z</sub>.</td>
+<td width="400px" class="test2">Pokud je sÃ­la <b><i>F</i><sub>1</sub></b> nenulovÃ¡, znÃ¡me jejÃ­ velikost a jejÃ­ sloÅ¾ky <i>F</i><sub>1x</sub>, <i>F</i><sub>1y</sub>, dokÃ¡Å¾eme uÅ¾itÃ­m Pythagorovy vÄ›ty vypoÄÃ­tat sloÅ¾ku <i>F</i><sub>1z</sub>.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka7"> (g)</td>
-<td width="400px" class="test2">Pokud jsou znaménka odpovídajících si sloek sil <b><i>F</i><sub>1</sub></b> a <b><i>F</i><sub>2</sub></b> opaèná, jsou opaèné i síly <b><i>F</i><sub>1</sub></b> a <b><i>F</i><sub>2</sub></b>.</td>
+<td width="400px" class="test2">Pokud jsou znamÃ©nka odpovÃ­dajÃ­cÃ­ch si sloÅ¾ek sil <b><i>F</i><sub>1</sub></b> a <b><i>F</i><sub>2</sub></b> opaÄnÃ¡, jsou opaÄnÃ© i sÃ­ly <b><i>F</i><sub>1</sub></b> a <b><i>F</i><sub>2</sub></b>.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka8"> (h)</td>
-<td width="400px" class="test2">O orientaci prùmìtu vıslednice sil <b><i>F</i><sub>1</sub></b> a <b><i>F</i><sub>2</sub></b> do osy <i>x</i> rozhoduje znaménko rozdílu <i>F</i><sub>1x</sub> - <i>F</i><sub>2x</sub>.</td>
+<td width="400px" class="test2">O orientaci prÅ¯mÄ›tu vÃ½slednice sil <b><i>F</i><sub>1</sub></b> a <b><i>F</i><sub>2</sub></b> do osy <i>x</i> rozhoduje znamÃ©nko rozdÃ­lu <i>F</i><sub>1x</sub> - <i>F</i><sub>2x</sub>.</td>
 </tr>
 </table>
 <br>

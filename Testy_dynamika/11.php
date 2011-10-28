@@ -1,8 +1,8 @@
-<strong>Na vláknì zanedbatelné hmotnosti a nepromìnné délky je zavìšena malá kulièka. Napnuté vlákno i s kulièkou vychılíme o úhel <i>&theta;</i><sub>0</sub> z rovnováné polohy a uvolníme (matematické kyvadlo). Pohyb kulièky sledujeme v inerciální vztané soustavì spojené se Zemí. Pøedpokládáme, e odpor prostøedí je zanedbatelnı. Vyberte právì ta tvrzení, která jsou správná.</strong>
+<strong>Na vlÃ¡knÄ› zanedbatelnÃ© hmotnosti a nepromÄ›nnÃ© dÃ©lky je zavÄ›Å¡ena malÃ¡ kuliÄka. NapnutÃ© vlÃ¡kno i s kuliÄkou vychÃ½lÃ­me o Ãºhel <i>&theta;</i><sub>0</sub> z rovnovÃ¡Å¾nÃ© polohy a uvolnÃ­me (matematickÃ© kyvadlo). Pohyb kuliÄky sledujeme v inerciÃ¡lnÃ­ vztaÅ¾nÃ© soustavÄ› spojenÃ© se ZemÃ­. PÅ™edpoklÃ¡dÃ¡me, Å¾e odpor prostÅ™edÃ­ je zanedbatelnÃ½. Vyberte prÃ¡vÄ› ta tvrzenÃ­, kterÃ¡ jsou sprÃ¡vnÃ¡.</strong>
 
-<p class="odp">Obtínost: <b>1 bod</b>. Doporuènı èas na vyøešení: <b>3 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>1 bod</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>3 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 
 <script>
 var c = 180;
@@ -13,7 +13,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -46,42 +46,42 @@ function zast_odp()
 <table>
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Pøi prùchodu rovnovánou polohou je vıslednice sil pùsobících na kulièku nulová.</td>
+<td width="400px" class="test2">PÅ™i prÅ¯chodu rovnovÃ¡Å¾nou polohou je vÃ½slednice sil pÅ¯sobÃ­cÃ­ch na kuliÄku nulovÃ¡.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">V prùbìhu pohybu kyvadla je tahová síla vlákna silou dostøedivou, která udílí kulièce odpovídající normálové zrychlení.</td>
+<td width="400px" class="test2">V prÅ¯bÄ›hu pohybu kyvadla je tahovÃ¡ sÃ­la vlÃ¡kna silou dostÅ™edivou, kterÃ¡ udÃ­lÃ­ kuliÄce odpovÃ­dajÃ­cÃ­ normÃ¡lovÃ© zrychlenÃ­.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Pøi prùchodu rovnovánou polohou pùsobí na kulièku tíhová síla, tahová síla vlákna a odstøedivá síla.</td>
+<td width="400px" class="test2">PÅ™i prÅ¯chodu rovnovÃ¡Å¾nou polohou pÅ¯sobÃ­ na kuliÄku tÃ­hovÃ¡ sÃ­la, tahovÃ¡ sÃ­la vlÃ¡kna a odstÅ™edivÃ¡ sÃ­la.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">V bodì obratu nabıvá tahová síla vlákna své nejmenší velikosti. Kulièka je tak ve stavu beztíe.</td>
+<td width="400px" class="test2">V bodÄ› obratu nabÃ½vÃ¡ tahovÃ¡ sÃ­la vlÃ¡kna svÃ© nejmenÅ¡Ã­ velikosti. KuliÄka je tak ve stavu beztÃ­Å¾e.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">V obecné poloze (tj. pro úhlovou vıchylku <i>&theta;</i> &ne; 0, <i>&theta;</i> &ne; &plusmn;<i>&theta;</i><sub>0</sub>) je vıslednice sil pùsobících na kulièku vodorovná a vrací tak kulièku zpìt do rovnováné polohy.</td>
+<td width="400px" class="test2">V obecnÃ© poloze (tj. pro Ãºhlovou vÃ½chylku <i>&theta;</i> &ne; 0, <i>&theta;</i> &ne; &plusmn;<i>&theta;</i><sub>0</sub>) je vÃ½slednice sil pÅ¯sobÃ­cÃ­ch na kuliÄku vodorovnÃ¡ a vracÃ­ tak kuliÄku zpÄ›t do rovnovÃ¡Å¾nÃ© polohy.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka6"> (f)</td>
-<td width="400px" class="test2">Tahová síla vlákna je v kadém okamiku stejnì velká jako prùmìt tíhové síly do smìru vlákna.</td>
+<td width="400px" class="test2">TahovÃ¡ sÃ­la vlÃ¡kna je v kaÅ¾dÃ©m okamÅ¾iku stejnÄ› velkÃ¡ jako prÅ¯mÄ›t tÃ­hovÃ© sÃ­ly do smÄ›ru vlÃ¡kna.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka7"> (g)</td>
-<td width="400px" class="test2">Kulièka mùe kmitat ve svislé rovinì pouze pro maximální úhlové vıchylky <i>&theta;</i><sub>0</sub> &le; 5°.</td>
+<td width="400px" class="test2">KuliÄka mÅ¯Å¾e kmitat ve svislÃ© rovinÄ› pouze pro maximÃ¡lnÃ­ ÃºhlovÃ© vÃ½chylky <i>&theta;</i><sub>0</sub> &le; 5Â°.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka8"> (h)</td>
-<td width="400px" class="test2">Pøi prùchodu kulièky rovnovánou polohou je tahová síla vlákna vìtší ne tíhová síla.</td>
+<td width="400px" class="test2">PÅ™i prÅ¯chodu kuliÄky rovnovÃ¡Å¾nou polohou je tahovÃ¡ sÃ­la vlÃ¡kna vÄ›tÅ¡Ã­ neÅ¾ tÃ­hovÃ¡ sÃ­la.</td>
 </tr>
 
 </table>

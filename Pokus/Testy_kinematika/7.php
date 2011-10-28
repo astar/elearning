@@ -1,8 +1,8 @@
-<div id="otazka"><strong>Na obrázku je zakreslen graf závislosti vzdálenosti <i>z</i> svisle vreného míèku od vodorovné roviny na èase <i>t</i>. Pøedpokládáme, e míèek lze povaovat za hmotnı bod, kterı se pohybuje v homogenním tíhovém poli Zemì, a odpor vzduchu je zanedbatelnı. Vyberte právì správná tvrzení.</strong></div>
+<div id="otazka"><strong>Na obrÃ¡zku je zakreslen graf zÃ¡vislosti vzdÃ¡lenosti <i>z</i> svisle vrÅ¾enÃ©ho mÃ­Äku od vodorovnÃ© roviny na Äase <i>t</i>. PÅ™edpoklÃ¡dÃ¡me, Å¾e mÃ­Äek lze povaÅ¾ovat za hmotnÃ½ bod, kterÃ½ se pohybuje v homogennÃ­m tÃ­hovÃ©m poli ZemÄ›, a odpor vzduchu je zanedbatelnÃ½. Vyberte prÃ¡vÄ› sprÃ¡vnÃ¡ tvrzenÃ­.</strong></div>
 
-<p class="odp">Obtínost: <b>1 bod</b>. Doporuènı èas na vyøešení: <b>3,5 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>1 bod</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>3,5 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 
 <script>
 var c = 210;
@@ -13,7 +13,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -50,42 +50,42 @@ function zast_odp()
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">V okamiku <i>t</i><sub>A</sub> má míèek vìtší rychlost ne v okamiku <i>t</i><sub>D</sub>.</td>
+<td width="400px" class="test2">V okamÅ¾iku <i>t</i><sub>A</sub> mÃ¡ mÃ­Äek vÄ›tÅ¡Ã­ rychlost neÅ¾ v okamÅ¾iku <i>t</i><sub>D</sub>.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">V okamiku <i>t</i><sub>B</sub> je rychlost míèku nulová.</td>
+<td width="400px" class="test2">V okamÅ¾iku <i>t</i><sub>B</sub> je rychlost mÃ­Äku nulovÃ¡.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">V okamiku <i>t</i><sub>D</sub> má míèek stejnou rychlost jako v okamiku <i>t</i>=0.</td>
+<td width="400px" class="test2">V okamÅ¾iku <i>t</i><sub>D</sub> mÃ¡ mÃ­Äek stejnou rychlost jako v okamÅ¾iku <i>t</i>=0.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">V intervalu [<i>t</i><sub>A</sub>, <i>t</i><sub>C</sub>] je prùmìrná rychlost míèku nulová.</td>
+<td width="400px" class="test2">V intervalu [<i>t</i><sub>A</sub>, <i>t</i><sub>C</sub>] je prÅ¯mÄ›rnÃ¡ rychlost mÃ­Äku nulovÃ¡.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">V intervalu [0, <i>t</i><sub>A</sub>] urazí míèek stejnou dráhu jako v intervalu [0, <i>t</i><sub>C</sub>].</td>
+<td width="400px" class="test2">V intervalu [0, <i>t</i><sub>A</sub>] urazÃ­ mÃ­Äek stejnou drÃ¡hu jako v intervalu [0, <i>t</i><sub>C</sub>].</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka6"> (f)</td>
-<td width="400px" class="test2">V okamiku <i>t</i><sub>B</sub> je zrychlení míèku nulové.</td>
+<td width="400px" class="test2">V okamÅ¾iku <i>t</i><sub>B</sub> je zrychlenÃ­ mÃ­Äku nulovÃ©.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka7"> (g)</td>
-<td width="400px" class="test2">V intervalu [<i>t</i><sub>A</sub>, <i>t</i><sub>C</sub>] je prùmìrné zrychlení míèku nulové.</td>
+<td width="400px" class="test2">V intervalu [<i>t</i><sub>A</sub>, <i>t</i><sub>C</sub>] je prÅ¯mÄ›rnÃ© zrychlenÃ­ mÃ­Äku nulovÃ©.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka8"> (h)</td>
-<td width="400px" class="test2">V okamiku <i>t</i>=0 svírá rychlost míèku s osou z nenulovı úhel.</td>
+<td width="400px" class="test2">V okamÅ¾iku <i>t</i>=0 svÃ­rÃ¡ rychlost mÃ­Äku s osou z nenulovÃ½ Ãºhel.</td>
 </tr>
 
 </table>

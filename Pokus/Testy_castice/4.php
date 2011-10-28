@@ -1,9 +1,9 @@
-<div id="otazka"><strong>Homogenní tuhı válec byl uveden do pohybu po vodorovné rovinì. Pøedpokládejme, e od jistého okamiku na nìj kromì Zemì a podloky ádné jiné objekty nepùsobí a rychlost jeho tìištì je kolmá na osu symetrie. Z následujících tvrzení je právì jedno správné. Vyberte jej.
+<div id="otazka"><strong>HomogennÃ­ tuhÃ½ vÃ¡lec byl uveden do pohybu po vodorovnÃ© rovinÄ›. PÅ™edpoklÃ¡dejme, Å¾e od jistÃ©ho okamÅ¾iku na nÄ›j kromÄ› ZemÄ› a podloÅ¾ky Å¾Ã¡dnÃ© jinÃ© objekty nepÅ¯sobÃ­ a rychlost jeho tÄ›Å¾iÅ¡tÄ› je kolmÃ¡ na osu symetrie. Z nÃ¡sledujÃ­cÃ­ch tvrzenÃ­ je prÃ¡vÄ› jedno sprÃ¡vnÃ©. Vyberte jej.
 </strong></div>
 
-<p class="odp">Obtínost: <b>2 body</b>. Doporuènı èas na vyøešení: <b>3 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>2 body</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>3 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 
 <script>
 var c = 180;
@@ -14,7 +14,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -50,31 +50,31 @@ function zast_odp()
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Pokud válec podkluzuje, mají všechny jeho body stejnou rychlost.
+<td width="400px" class="test2">Pokud vÃ¡lec podkluzuje, majÃ­ vÅ¡echny jeho body stejnou rychlost.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Pokud válec podkluzuje, mùe velikost jeho úhlové rychlosti narùstat.
+<td width="400px" class="test2">Pokud vÃ¡lec podkluzuje, mÅ¯Å¾e velikost jeho ÃºhlovÃ© rychlosti narÅ¯stat.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Pokud válec nepodkluzuje, staèí k úplnému popisu jeho pohybu pouze první impulzová vìta.
+<td width="400px" class="test2">Pokud vÃ¡lec nepodkluzuje, staÄÃ­ k ÃºplnÃ©mu popisu jeho pohybu pouze prvnÃ­ impulzovÃ¡ vÄ›ta.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Pokud válec nepodkluzuje, jsou rychlosti jeho jednotlivıch bodù nezávislé na èase.
+<td width="400px" class="test2">Pokud vÃ¡lec nepodkluzuje, jsou rychlosti jeho jednotlivÃ½ch bodÅ¯ nezÃ¡vislÃ© na Äase.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Pokud válec podkluzuje, nelze k popisu jeho pohybu pouít druhou impulzovou vìtu.
+<td width="400px" class="test2">Pokud vÃ¡lec podkluzuje, nelze k popisu jeho pohybu pouÅ¾Ã­t druhou impulzovou vÄ›tu.
 </td>
 </tr>
 

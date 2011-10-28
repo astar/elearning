@@ -1,9 +1,9 @@
-<div id="otazka"><strong>Pohyb èástice s konstantní hmotností je popisován v inerciální vztané soustavì. Z následujících tvrzení vyberte právì ta, která jsou správná.
+<div id="otazka"><strong>Pohyb ÄÃ¡stice s konstantnÃ­ hmotnostÃ­ je popisovÃ¡n v inerciÃ¡lnÃ­ vztaÅ¾nÃ© soustavÄ›. Z nÃ¡sledujÃ­cÃ­ch tvrzenÃ­ vyberte prÃ¡vÄ› ta, kterÃ¡ jsou sprÃ¡vnÃ¡.
 </strong></div>
 
-<p class="odp">Obtínost: <b>1 bod</b>. Doporuènı èas na vyøešení: <b>2,5 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>1 bod</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>2,5 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 
 <script>
 var c = 150;
@@ -14,7 +14,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -50,42 +50,42 @@ function zast_odp()
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Pokud je vıslednice sil pùsobících na èástici nenulová, pohybuje se èástice nerovnomìrnì.</td>
+<td width="400px" class="test2">Pokud je vÃ½slednice sil pÅ¯sobÃ­cÃ­ch na ÄÃ¡stici nenulovÃ¡, pohybuje se ÄÃ¡stice nerovnomÄ›rnÄ›.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Pokud je vıslednice sil pùsobících na èástici nulová, je èástice v klidu.</td>
+<td width="400px" class="test2">Pokud je vÃ½slednice sil pÅ¯sobÃ­cÃ­ch na ÄÃ¡stici nulovÃ¡, je ÄÃ¡stice v klidu.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Pokud se èástice pohybuje køivoèaøe, svírá vıslednice na ni pùsobících sil se zrychlením nenulovı úhel.</td>
+<td width="400px" class="test2">Pokud se ÄÃ¡stice pohybuje kÅ™ivoÄaÅ™e, svÃ­rÃ¡ vÃ½slednice na ni pÅ¯sobÃ­cÃ­ch sil se zrychlenÃ­m nenulovÃ½ Ãºhel.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Pokud na èástici pùsobí jedna èi více sil, pohybuje se èástice s nenulovım zrychlením.</td>
+<td width="400px" class="test2">Pokud na ÄÃ¡stici pÅ¯sobÃ­ jedna Äi vÃ­ce sil, pohybuje se ÄÃ¡stice s nenulovÃ½m zrychlenÃ­m.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Pokud se èástice pohybuje pøímoèaøe, je vıslednice na ni pùsobících sil nulová.</td>
+<td width="400px" class="test2">Pokud se ÄÃ¡stice pohybuje pÅ™Ã­moÄaÅ™e, je vÃ½slednice na ni pÅ¯sobÃ­cÃ­ch sil nulovÃ¡.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka6"> (f)</td>
-<td width="400px" class="test2">Pokud se mìní vıslednice sil pùsobících na èástici, mìní se i zrychlení èástice.</td>
+<td width="400px" class="test2">Pokud se mÄ›nÃ­ vÃ½slednice sil pÅ¯sobÃ­cÃ­ch na ÄÃ¡stici, mÄ›nÃ­ se i zrychlenÃ­ ÄÃ¡stice.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka7"> (g)</td>
-<td width="400px" class="test2">Pokud se èástice pohybuje rovnomìrnì, svírá vıslednice na ni pùsobících sil s rychlostí èástice nulovı úhel.</td>
+<td width="400px" class="test2">Pokud se ÄÃ¡stice pohybuje rovnomÄ›rnÄ›, svÃ­rÃ¡ vÃ½slednice na ni pÅ¯sobÃ­cÃ­ch sil s rychlostÃ­ ÄÃ¡stice nulovÃ½ Ãºhel.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka8"> (h)</td>
-<td width="400px" class="test2">Pokud se mìní rychlost èástice, mìní se i vıslednice sil pùsobících na èástici.</td>
+<td width="400px" class="test2">Pokud se mÄ›nÃ­ rychlost ÄÃ¡stice, mÄ›nÃ­ se i vÃ½slednice sil pÅ¯sobÃ­cÃ­ch na ÄÃ¡stici.</td>
 </tr>
 
 </table>

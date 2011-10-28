@@ -1,8 +1,8 @@
-<strong>Na obrázku je v rovinì <i>Oxz</i> s vodorovnou osou <i>x</i> a osou <i>z</i> orientovanou svisle vzhùru zakreslena trajektorie šikmo vreného míèku. Pøedpokládáme, e míèek lze povaovat za hmotnı bod, kterı se pohybuje v homogenním tíhovém poli Zemì, a odpor vzduchu je zanedbatelnı. Z následujících tvrzení je právì jedno správné. Vyberte jej.</strong>
+<strong>Na obrÃ¡zku je v rovinÄ› <i>Oxz</i> s vodorovnou osou <i>x</i> a osou <i>z</i> orientovanou svisle vzhÅ¯ru zakreslena trajektorie Å¡ikmo vrÅ¾enÃ©ho mÃ­Äku. PÅ™edpoklÃ¡dÃ¡me, Å¾e mÃ­Äek lze povaÅ¾ovat za hmotnÃ½ bod, kterÃ½ se pohybuje v homogennÃ­m tÃ­hovÃ©m poli ZemÄ›, a odpor vzduchu je zanedbatelnÃ½. Z nÃ¡sledujÃ­cÃ­ch tvrzenÃ­ je prÃ¡vÄ› jedno sprÃ¡vnÃ©. Vyberte jej.</strong>
 
-<p class="odp">Obtínost: <b>0,5 bodu</b>. Doporuènı èas na vyøešení: <b>3 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>0,5 bodu</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>3 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 
 <script>
 var c = 180;
@@ -13,7 +13,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -47,27 +47,27 @@ function zast_odp()
 <table>
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">V bodech <i>x</i><sub>A</sub> a <i>x</i><sub>C</sub> je <i>z</i>-ovı prùmìt rychlosti míèku stejnì velkı, nebo velikost tohoto prùmìtu lze vyjádøit jako funkci jediné promìné <i>z</i>.</td>
+<td width="400px" class="test2">V bodech <i>x</i><sub>A</sub> a <i>x</i><sub>C</sub> je <i>z</i>-ovÃ½ prÅ¯mÄ›t rychlosti mÃ­Äku stejnÄ› velkÃ½, neboÅ¥ velikost tohoto prÅ¯mÄ›tu lze vyjÃ¡dÅ™it jako funkci jedinÃ© promÄ›nÃ© <i>z</i>.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">V bodì <i>x</i><sub>B</sub> se mìní orientace rychlosti míèku, nebo v tomto bodì má míèek nulové zrychlení.</td>
+<td width="400px" class="test2">V bodÄ› <i>x</i><sub>B</sub> se mÄ›nÃ­ orientace rychlosti mÃ­Äku, neboÅ¥ v tomto bodÄ› mÃ¡ mÃ­Äek nulovÃ© zrychlenÃ­.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Mezi body <i>x</i><sub>A</sub> a <i>x</i><sub>B</sub> se míèek zpomaluje, nebo jeho rychlost a zrychlení jsou nesouhlasnì rovnobìné.</td>
+<td width="400px" class="test2">Mezi body <i>x</i><sub>A</sub> a <i>x</i><sub>B</sub> se mÃ­Äek zpomaluje, neboÅ¥ jeho rychlost a zrychlenÃ­ jsou nesouhlasnÄ› rovnobÄ›Å¾nÃ©.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">V bodech <i>x</i>=0 a <i>x</i><sub>B</sub> jsou <i>x</i>-ové sloky rychlosti míèku rùzné, nebo trajektorie míèku je v tìchto bodech jinak zakøivena.</td>
+<td width="400px" class="test2">V bodech <i>x</i>=0 a <i>x</i><sub>B</sub> jsou <i>x</i>-ovÃ© sloÅ¾ky rychlosti mÃ­Äku rÅ¯znÃ©, neboÅ¥ trajektorie mÃ­Äku je v tÄ›chto bodech jinak zakÅ™ivena.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Mezi body <i>x</i><sub>B</sub> a <i>x</i><sub>D</sub> se míèek zrychluje, nebo souèasnì roste <i>x</i>-ová i <i>z</i>-ová sloka jeho rychlosti.</td>
+<td width="400px" class="test2">Mezi body <i>x</i><sub>B</sub> a <i>x</i><sub>D</sub> se mÃ­Äek zrychluje, neboÅ¥ souÄasnÄ› roste <i>x</i>-ovÃ¡ i <i>z</i>-ovÃ¡ sloÅ¾ka jeho rychlosti.</td>
 </tr>
 
 </table>

@@ -1,9 +1,9 @@
-<div id="otazka"><strong>Vıslednice <i><b>F</b></i> sil pùsobících na èástici o konstantní hmotnosti <i>m</i> je konstantní a nenulová. (Pohyb èástice popisujeme v inerciální vztané soustavì.) Z následujících tvrzení vyberte právì ta, která jsou správná.
+<div id="otazka"><strong>VÃ½slednice <i><b>F</b></i> sil pÅ¯sobÃ­cÃ­ch na ÄÃ¡stici o konstantnÃ­ hmotnosti <i>m</i> je konstantnÃ­ a nenulovÃ¡. (Pohyb ÄÃ¡stice popisujeme v inerciÃ¡lnÃ­ vztaÅ¾nÃ© soustavÄ›.) Z nÃ¡sledujÃ­cÃ­ch tvrzenÃ­ vyberte prÃ¡vÄ› ta, kterÃ¡ jsou sprÃ¡vnÃ¡.
 </strong></div>
 
-<p class="odp">Obtínost: <b>2 body</b>. Doporuènı èas na vyøešení: <b>3 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>2 body</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>3 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 
 <script>
 var c = 180;
@@ -14,7 +14,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -50,49 +50,49 @@ function zast_odp()
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Zrychlení èástice nemusí bıt konstantní, nebo kadá ze sil tvoøících vıslednici závisí na mechanickém stavu èástice obecnì jinım zpùsobem.
+<td width="400px" class="test2">ZrychlenÃ­ ÄÃ¡stice nemusÃ­ bÃ½t konstantnÃ­, neboÅ¥ kaÅ¾dÃ¡ ze sil tvoÅ™Ã­cÃ­ch vÃ½slednici zÃ¡visÃ­ na mechanickÃ©m stavu ÄÃ¡stice obecnÄ› jinÃ½m zpÅ¯sobem.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Celkové zrychlení èástice je rovno zrychlení teènému, protoe síla amath vec bb F endamath leí stále v tée pøímce.
+<td width="400px" class="test2">CelkovÃ© zrychlenÃ­ ÄÃ¡stice je rovno zrychlenÃ­ teÄnÃ©mu, protoÅ¾e sÃ­la amath vec bb F endamath leÅ¾Ã­ stÃ¡le v tÃ©Å¾e pÅ™Ã­mce.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Pohyb èástice závisí na tom, jaká je povaha sil, jimi je vıslednice tvoøena, tj. jaké jsou silové zákony popisující interakce èástice s okolními objekty.
+<td width="400px" class="test2">Pohyb ÄÃ¡stice zÃ¡visÃ­ na tom, jakÃ¡ je povaha sil, jimiÅ¾ je vÃ½slednice tvoÅ™ena, tj. jakÃ© jsou silovÃ© zÃ¡kony popisujÃ­cÃ­ interakce ÄÃ¡stice s okolnÃ­mi objekty.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Èástice se mùe pohybovat pøímoèaøe.
+<td width="400px" class="test2">ÄŒÃ¡stice se mÅ¯Å¾e pohybovat pÅ™Ã­moÄaÅ™e.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Velikost rychlosti èástice se bude mìnit.
+<td width="400px" class="test2">Velikost rychlosti ÄÃ¡stice se bude mÄ›nit.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka6"> (f)</td>
-<td width="400px" class="test2">Bude-li poèáteèní rychlost èástice kolmá k vıslednici amath vec bb F endamath (a tím i ke zrychlení), bude se èástice pohybovat po krunici.
+<td width="400px" class="test2">Bude-li poÄÃ¡teÄnÃ­ rychlost ÄÃ¡stice kolmÃ¡ k vÃ½slednici amath vec bb F endamath (a tÃ­m i ke zrychlenÃ­), bude se ÄÃ¡stice pohybovat po kruÅ¾nici.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka7"> (g)</td>
-<td width="400px" class="test2">Èástice se bude pohybovat po parabole, nebo po pøímce.
+<td width="400px" class="test2">ÄŒÃ¡stice se bude pohybovat po parabole, nebo po pÅ™Ã­mce.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka8"> (h)</td>
-<td width="400px" class="test2">Èástice mùe nabıt nulové rychlosti nanejvıš v jediném okamiku.
+<td width="400px" class="test2">ÄŒÃ¡stice mÅ¯Å¾e nabÃ½t nulovÃ© rychlosti nanejvÃ½Å¡ v jedinÃ©m okamÅ¾iku.
 </td>
 </tr>
 

@@ -1,9 +1,9 @@
-<div id="otazka"><strong>Vıtah se rozjídí dolù se zrychlením <i><b>A</b></i>. Z následujících tvrzení je právì jedno správné. Vyberte jej.
+<div id="otazka"><strong>VÃ½tah se rozjÃ­Å¾dÃ­ dolÅ¯ se zrychlenÃ­m <i><b>A</b></i>. Z nÃ¡sledujÃ­cÃ­ch tvrzenÃ­ je prÃ¡vÄ› jedno sprÃ¡vnÃ©. Vyberte jej.
 </strong></div>
 
-<p class="odp">Obtínost: <b>0,5 bodu</b>. Doporuènı èas na vyøešení: <b>2,5 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>0,5 bodu</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>2,5 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 
 <script>
 var c = 150;
@@ -14,7 +14,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -50,27 +50,27 @@ function zast_odp()
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Pasaér ve zrychleném vıtahu má stejnou hmotnost jako ve vıtahu v klidu, nebo hmotnost tìlesa nezávisí na volbì vztané soustavy.</td>
+<td width="400px" class="test2">PasaÅ¾Ã©r ve zrychlenÃ©m vÃ½tahu mÃ¡ stejnou hmotnost jako ve vÃ½tahu v klidu, neboÅ¥ hmotnost tÄ›lesa nezÃ¡visÃ­ na volbÄ› vztaÅ¾nÃ© soustavy.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Popisujeme-li pohyb tìles, která se nacházející ve zrychleném vıtahu, vzhledem k Zemi (inerciální vztaná soustava), je nutné uváit pùsobení setrvaèné síly, nebo zrychlenı vıtah je neinerciální vztanou soustavou.</td>
+<td width="400px" class="test2">Popisujeme-li pohyb tÄ›les, kterÃ¡ se nachÃ¡zejÃ­cÃ­ ve zrychlenÃ©m vÃ½tahu, vzhledem k Zemi (inerciÃ¡lnÃ­ vztaÅ¾nÃ¡ soustava), je nutnÃ© uvÃ¡Å¾it pÅ¯sobenÃ­ setrvaÄnÃ© sÃ­ly, neboÅ¥ zrychlenÃ½ vÃ½tah je neinerciÃ¡lnÃ­ vztaÅ¾nou soustavou.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Na pasaéra ve zrychleném vıtahu pùsobí menší tíhová síla ne ve vıtahu v klidu, nebo pasaér se vzhledem k Zemi pohybuje se zrychlením amath vec bb A endamath.</td>
+<td width="400px" class="test2">Na pasaÅ¾Ã©ra ve zrychlenÃ©m vÃ½tahu pÅ¯sobÃ­ menÅ¡Ã­ tÃ­hovÃ¡ sÃ­la neÅ¾ ve vÃ½tahu v klidu, neboÅ¥ pasaÅ¾Ã©r se vzhledem k Zemi pohybuje se zrychlenÃ­m amath vec bb A endamath.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Jablko, které pasaér upustí ve zrychleném vıtahu, dopadne na podlahu za stejnou dobu jako ve vıtahu v klidu, nebo zrychlení jablka vzhledem k vıtahu nezávisí na typu pohybu vıtahu.</td>
+<td width="400px" class="test2">Jablko, kterÃ© pasaÅ¾Ã©r upustÃ­ ve zrychlenÃ©m vÃ½tahu, dopadne na podlahu za stejnou dobu jako ve vÃ½tahu v klidu, neboÅ¥ zrychlenÃ­ jablka vzhledem k vÃ½tahu nezÃ¡visÃ­ na typu pohybu vÃ½tahu.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Pasaér, kterı drí jablko v ruce v klidu vzhledem k vıtahu, na nì pùsobí  menší silou, ne by pùsobil ve vıtahu v klidu, nebo vzhledem k Zemi udílí pasaér jablku zrychlení amath vec bb A endamath.</td>
+<td width="400px" class="test2">PasaÅ¾Ã©r, kterÃ½ drÅ¾Ã­ jablko v ruce v klidu vzhledem k vÃ½tahu, na nÄ› pÅ¯sobÃ­  menÅ¡Ã­ silou, neÅ¾ by pÅ¯sobil ve vÃ½tahu v klidu, neboÅ¥ vzhledem k Zemi udÃ­lÃ­ pasaÅ¾Ã©r jablku zrychlenÃ­ amath vec bb A endamath.</td>
 </tr>
 
 </table>

@@ -1,8 +1,8 @@
-<div id="otazka"><strong>Na obrázku je zakreslen graf závislosti velikosti rychlosti èástice na èase. Z následujících tvrzení je právì jedno správné. Vyberte jej.</strong></div>
+<div id="otazka"><strong>Na obrÃ¡zku je zakreslen graf zÃ¡vislosti velikosti rychlosti ÄÃ¡stice na Äase. Z nÃ¡sledujÃ­cÃ­ch tvrzenÃ­ je prÃ¡vÄ› jedno sprÃ¡vnÃ©. Vyberte jej.</strong></div>
 
-<p class="odp">Obtínost: <b>1 bod</b>. Doporuènı èas na vyøešení: <b>3 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>1 bod</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>3 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 
 <script>
 var c = 180;
@@ -13,7 +13,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -50,27 +50,27 @@ function zast_odp()
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">V intervalu [10,11] s mùe dráha èástice klesat.</td>
+<td width="400px" class="test2">V intervalu [10,11] s mÅ¯Å¾e drÃ¡ha ÄÃ¡stice klesat.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">V intervalu [6,9] s mùe mít èástice nenulové zrychlení.</td>
+<td width="400px" class="test2">V intervalu [6,9] s mÅ¯Å¾e mÃ­t ÄÃ¡stice nenulovÃ© zrychlenÃ­.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">V intervalu [13,14] s mùe dráha èástice narùstat.</td>
+<td width="400px" class="test2">V intervalu [13,14] s mÅ¯Å¾e drÃ¡ha ÄÃ¡stice narÅ¯stat.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">V intervalu [4,5] s mùe mít èástice nulové zrychlení.</td>
+<td width="400px" class="test2">V intervalu [4,5] s mÅ¯Å¾e mÃ­t ÄÃ¡stice nulovÃ© zrychlenÃ­.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">V intervalu [1,2] s mùe mít èástice nenulové zrychlení.</td>
+<td width="400px" class="test2">V intervalu [1,2] s mÅ¯Å¾e mÃ­t ÄÃ¡stice nenulovÃ© zrychlenÃ­.</td>
 </tr>
 
 </table>

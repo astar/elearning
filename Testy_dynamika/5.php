@@ -1,8 +1,8 @@
-<strong>Na obrázku je zakreslen graf èasové závislosti <i>x</i>-ové sloky vıslednice sil pùsobících na èástici s konstantní hmotností. Pohyb èástice sledujeme v inerciální vztané soustavì. Vyberte právì ta tvrzení, o jejich správnosti NELZE v dané situaci ROZHODNOUT.</strong>
+<strong>Na obrÃ¡zku je zakreslen graf ÄasovÃ© zÃ¡vislosti <i>x</i>-ovÃ© sloÅ¾ky vÃ½slednice sil pÅ¯sobÃ­cÃ­ch na ÄÃ¡stici s konstantnÃ­ hmotnostÃ­. Pohyb ÄÃ¡stice sledujeme v inerciÃ¡lnÃ­ vztaÅ¾nÃ© soustavÄ›. Vyberte prÃ¡vÄ› ta tvrzenÃ­, o jejichÅ¾ sprÃ¡vnosti NELZE v danÃ© situaci ROZHODNOUT.</strong>
 
-<p class="odp">Obtínost: <b>1,5 bodu</b>. Doporuènı èas na vyøešení: <b>3,5 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>1,5 bodu</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>3,5 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 
 <script>
 var c = 210;
@@ -13,7 +13,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -47,42 +47,42 @@ function zast_odp()
 <table>
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">V intervalu [2,4] s je <I>x</I>-ová sloka rychlosti èástice záporná.</td>
+<td width="400px" class="test2">V intervalu [2,4] s je <I>x</I>-ovÃ¡ sloÅ¾ka rychlosti ÄÃ¡stice zÃ¡pornÃ¡.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">V intervalu [6,8] s se èástice pohybuje zpomalenì (velikost její rychlosti klesá), v intervalu [8,10] s se èástice pohybuje zrychlenì (velikost její rychlosti roste).</td>
+<td width="400px" class="test2">V intervalu [6,8] s se ÄÃ¡stice pohybuje zpomalenÄ› (velikost jejÃ­ rychlosti klesÃ¡), v intervalu [8,10] s se ÄÃ¡stice pohybuje zrychlenÄ› (velikost jejÃ­ rychlosti roste).</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">V okamiku <i>t</i>=24 s je <i>x</i>-ová sloka rychlosti èástice nulová.</td>
+<td width="400px" class="test2">V okamÅ¾iku <i>t</i>=24 s je <i>x</i>-ovÃ¡ sloÅ¾ka rychlosti ÄÃ¡stice nulovÃ¡.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">V intervalu [22,26] s je rychlost èástice konstantní.</td>
+<td width="400px" class="test2">V intervalu [22,26] s je rychlost ÄÃ¡stice konstantnÃ­.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">V okamiku <i>t</i>=8 s se mìní orientace <i>x</i>-ového prùmìtu zrychlení èástice.</td>
+<td width="400px" class="test2">V okamÅ¾iku <i>t</i>=8 s se mÄ›nÃ­ orientace <i>x</i>-ovÃ©ho prÅ¯mÄ›tu zrychlenÃ­ ÄÃ¡stice.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka6"> (f)</td>
-<td width="400px" class="test2">V intervalu [6,10] s <i>x</i>-ová sloka zrychlení èástice roste.</td>
+<td width="400px" class="test2">V intervalu [6,10] s <i>x</i>-ovÃ¡ sloÅ¾ka zrychlenÃ­ ÄÃ¡stice roste.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka7"> (g)</td>
-<td width="400px" class="test2">V intervalu [12,16] s <i>x</i>-ová sloka rychlosti èástice roste.</td>
+<td width="400px" class="test2">V intervalu [12,16] s <i>x</i>-ovÃ¡ sloÅ¾ka rychlosti ÄÃ¡stice roste.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka8"> (h)</td>
-<td width="400px" class="test2">V intervalu [18,20] s se èástice pohybuje zpomalenì (velikost její rychlosti klesá).</td>
+<td width="400px" class="test2">V intervalu [18,20] s se ÄÃ¡stice pohybuje zpomalenÄ› (velikost jejÃ­ rychlosti klesÃ¡).</td>
 </tr>
 
 </table>

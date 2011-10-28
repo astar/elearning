@@ -1,9 +1,9 @@
-<strong>ebøík, kterı lze povaovat za homogenní tuhé tìleso, se opírá o svislou stìnu a vodorovnou podlahu. Tøení mezi ebøíkem a svislou stìnou lze zanedbat, tøení mezi ebøíkem a podlahou nikoli. ebøík je vzhledem k místnosti v klidu. Z následujících tvrzení je právì jedno správné. Vyberte jej.
+<strong>Å½ebÅ™Ã­k, kterÃ½ lze povaÅ¾ovat za homogennÃ­ tuhÃ© tÄ›leso, se opÃ­rÃ¡ o svislou stÄ›nu a vodorovnou podlahu. TÅ™enÃ­ mezi Å¾ebÅ™Ã­kem a svislou stÄ›nou lze zanedbat, tÅ™enÃ­ mezi Å¾ebÅ™Ã­kem a podlahou nikoli. Å½ebÅ™Ã­k je vzhledem k mÃ­stnosti v klidu. Z nÃ¡sledujÃ­cÃ­ch tvrzenÃ­ je prÃ¡vÄ› jedno sprÃ¡vnÃ©. Vyberte jej.
 </strong>
 
-<p class="odp">Obtínost: <b>1,5 bodu</b>. Doporuènı èas na vyøešení: <b>3 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>1,5 bodu</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>3 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 
 <script>
 var c = 180;
@@ -14,7 +14,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -47,31 +47,31 @@ function zast_odp()
 <table>
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Tlaková síla stìny a tøecí síla podlahy jsou stejnì velké a jejich momenty vzhledem k tìišti ebøíku jsou opaènì orientované.
+<td width="400px" class="test2">TlakovÃ¡ sÃ­la stÄ›ny a tÅ™ecÃ­ sÃ­la podlahy jsou stejnÄ› velkÃ© a jejich momenty vzhledem k tÄ›Å¾iÅ¡ti Å¾ebÅ™Ã­ku jsou opaÄnÄ› orientovanÃ©.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Podmínku momentové rovnováhy je nutno formulovat vzhledem k tìišti ebøíku. Právì v tìišové soustavì toti platí druhá impulzová vìta, z ní se tato podmínka vyvozuje.
+<td width="400px" class="test2">PodmÃ­nku momentovÃ© rovnovÃ¡hy je nutno formulovat vzhledem k tÄ›Å¾iÅ¡ti Å¾ebÅ™Ã­ku. PrÃ¡vÄ› v tÄ›Å¾iÅ¡Å¥ovÃ© soustavÄ› totiÅ¾ platÃ­ druhÃ¡ impulzovÃ¡ vÄ›ta, z nÃ­Å¾ se tato podmÃ­nka vyvozuje.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Tlaková síla podlahy a tíhová síla jsou stejnì velké, nebo jiné svislé síly na ebøík nepùsobí.
+<td width="400px" class="test2">TlakovÃ¡ sÃ­la podlahy a tÃ­hovÃ¡ sÃ­la jsou stejnÄ› velkÃ©, neboÅ¥ jinÃ© svislÃ© sÃ­ly na Å¾ebÅ™Ã­k nepÅ¯sobÃ­.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Úhel, kterı svírá ebøík s rovinou podlahy, mùe bıt libovolnı, nebo momenty dvojic jednotlivıch sil pùsobících na ebøík závisí jen na délce ebøíku.
+<td width="400px" class="test2">Ãšhel, kterÃ½ svÃ­rÃ¡ Å¾ebÅ™Ã­k s rovinou podlahy, mÅ¯Å¾e bÃ½t libovolnÃ½, neboÅ¥ momenty dvojic jednotlivÃ½ch sil pÅ¯sobÃ­cÃ­ch na Å¾ebÅ™Ã­k zÃ¡visÃ­ jen na dÃ©lce Å¾ebÅ™Ã­ku.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Vektorovı souèet sil pùsobících na ebøík není definován, nebo jednotlivé síly mají rùzná pùsobištì.
+<td width="400px" class="test2">VektorovÃ½ souÄet sil pÅ¯sobÃ­cÃ­ch na Å¾ebÅ™Ã­k nenÃ­ definovÃ¡n, neboÅ¥ jednotlivÃ© sÃ­ly majÃ­ rÅ¯znÃ¡ pÅ¯sobiÅ¡tÄ›.
 </td>
 </tr>
 

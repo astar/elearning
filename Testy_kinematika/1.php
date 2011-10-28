@@ -1,8 +1,8 @@
-<strong>Z následujících tvrzení vyberte právì ta, která jsou správná.</strong>
+<strong>Z nÃ¡sledujÃ­cÃ­ch tvrzenÃ­ vyberte prÃ¡vÄ› ta, kterÃ¡ jsou sprÃ¡vnÃ¡.</strong>
 
-<p class="odp">Obtínost: <b>1,5 bodu</b>. Doporuènı èas na vyøešení: <b>2,5 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>1,5 bodu</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>2,5 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 
 <script>
 var c = 150;
@@ -13,7 +13,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -46,42 +46,42 @@ function zast_odp()
 <table>
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Zrychlení èástice, která se pohybuje rovnomìrnì, je vdy nulové.</td>
+<td width="400px" class="test2">ZrychlenÃ­ ÄÃ¡stice, kterÃ¡ se pohybuje rovnomÄ›rnÄ›, je vÅ¾dy nulovÃ©.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Zrychlení èástice, její velikost rychlosti roste, má smìr teèny k trajektorii.</td>
+<td width="400px" class="test2">ZrychlenÃ­ ÄÃ¡stice, jejÃ­Å¾ velikost rychlosti roste, mÃ¡ smÄ›r teÄny k trajektorii.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Pøi pøímoèarém pohybu se nemùe mìnit orientace zrychlení èástice.</td>
+<td width="400px" class="test2">PÅ™i pÅ™Ã­moÄarÃ©m pohybu se nemÅ¯Å¾e mÄ›nit orientace zrychlenÃ­ ÄÃ¡stice.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">V jistém okamiku mùe mít èástice nulovou rychlost a nenulové zrychlení.</td>
+<td width="400px" class="test2">V jistÃ©m okamÅ¾iku mÅ¯Å¾e mÃ­t ÄÃ¡stice nulovou rychlost a nenulovÃ© zrychlenÃ­.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">S poklesem velikosti zrychlení se mùe zvìtšovat velikost rychlosti èástice.</td>
+<td width="400px" class="test2">S poklesem velikosti zrychlenÃ­ se mÅ¯Å¾e zvÄ›tÅ¡ovat velikost rychlosti ÄÃ¡stice.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka6"> (f)</td>
-<td width="400px" class="test2">S poklesem velikosti rychlosti klesá dráha, kterou èástice urazila.</td>
+<td width="400px" class="test2">S poklesem velikosti rychlosti klesÃ¡ drÃ¡ha, kterou ÄÃ¡stice urazila.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka7"> (g)</td>
-<td width="400px" class="test2">Rychlost èástice, která se pohybuje po zakøivené trajektorii, se musí mìnit.</td>
+<td width="400px" class="test2">Rychlost ÄÃ¡stice, kterÃ¡ se pohybuje po zakÅ™ivenÃ© trajektorii, se musÃ­ mÄ›nit.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka8"> (h)</td>
-<td width="400px" class="test2">Rychlost  je teèná k trajektorii pouze v pøípadì, e se èástice pohybuje pøímoèaøe.</td>
+<td width="400px" class="test2">Rychlost  je teÄnÃ¡ k trajektorii pouze v pÅ™Ã­padÄ›, Å¾e se ÄÃ¡stice pohybuje pÅ™Ã­moÄaÅ™e.</td>
 </tr>
 
 </table>

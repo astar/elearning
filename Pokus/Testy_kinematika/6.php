@@ -1,8 +1,8 @@
-<div id="otazka"><strong>Automobil se rozjídí zatáèce tvaru krunice tak, e velikost jeho rychlosti se mìní podle vztahu <i>v(t)=k.t</i>, kde <i>k</i> je nenulová konstanta a <i>t</i> &isin; [0,5] s. Automobil povaujte za hmotnı bod. Z následujících tvrzení je právì jedno správné. Vyberte jej.</strong></div>
+<div id="otazka"><strong>Automobil se rozjÃ­Å¾dÃ­ zatÃ¡Äce tvaru kruÅ¾nice tak, Å¾e velikost jeho rychlosti se mÄ›nÃ­ podle vztahu <i>v(t)=k.t</i>, kde <i>k</i> je nenulovÃ¡ konstanta a <i>t</i> &isin; [0,5] s. Automobil povaÅ¾ujte za hmotnÃ½ bod. Z nÃ¡sledujÃ­cÃ­ch tvrzenÃ­ je prÃ¡vÄ› jedno sprÃ¡vnÃ©. Vyberte jej.</strong></div>
 
-<p class="odp">Obtínost: <b>0,5 bod</b>. Doporuènı èas na vyøešení: <b>2 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>0,5 bod</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>2 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 
 <script>
 var c = 120;
@@ -13,7 +13,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -49,27 +49,27 @@ function zast_odp()
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">V okamiku <i>t</i>=0 má automobil nulovou rychlost, proto má i nulové zrychlení.</td>
+<td width="400px" class="test2">V okamÅ¾iku <i>t</i>=0 mÃ¡ automobil nulovou rychlost, proto mÃ¡ i nulovÃ© zrychlenÃ­.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">V intervalu (0,5) s je automobil urychlován, proto je jeho rychlost souhlasnì rovnobìná se zrychlením.</td>
+<td width="400px" class="test2">V intervalu (0,5) s je automobil urychlovÃ¡n, proto je jeho rychlost souhlasnÄ› rovnobÄ›Å¾nÃ¡ se zrychlenÃ­m.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">V intervalu (0, 5) s roste rychlost automobilu; z toho je zøejmé, e roste i jeho zrychlení.</td>
+<td width="400px" class="test2">V intervalu (0, 5) s roste rychlost automobilu; z toho je zÅ™ejmÃ©, Å¾e roste i jeho zrychlenÃ­.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">V okamiku <i>t</i>=0 je normálové zrychlení automobilu nulové, protoe trajektorie není zakøivena.</td>
+<td width="400px" class="test2">V okamÅ¾iku <i>t</i>=0 je normÃ¡lovÃ© zrychlenÃ­ automobilu nulovÃ©, protoÅ¾e trajektorie nenÃ­ zakÅ™ivena.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">V intervalu (0,5) s se automobil pohybuje nerovnomìrnì a køivoèaøe, proto jeho rychlost není teèná k trajektorii.</td>
+<td width="400px" class="test2">V intervalu (0,5) s se automobil pohybuje nerovnomÄ›rnÄ› a kÅ™ivoÄaÅ™e, proto jeho rychlost nenÃ­ teÄnÃ¡ k trajektorii.</td>
 </tr>
 
 </table>

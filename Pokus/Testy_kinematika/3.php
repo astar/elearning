@@ -1,8 +1,8 @@
-<div id="otazka"><strong>Cyklista si vyjel na vılet. Po první pùlhodinì jízdy ukazoval pùvodnì vynulovanı rychlomìr prùmìrnou velikost rychlosti 25,2 km.h<sup>-1</sup>, po druhé pùlhodinì (tj. po hodinì jízdy) 18,6 km.h<sup>-1</sup>. Z následujících tvrzení je právì jedno správné. Vyberte jej.</strong></div>
+<div id="otazka"><strong>Cyklista si vyjel na vÃ½let. Po prvnÃ­ pÅ¯lhodinÄ› jÃ­zdy ukazoval pÅ¯vodnÄ› vynulovanÃ½ rychlomÄ›r prÅ¯mÄ›rnou velikost rychlosti 25,2 km.h<sup>-1</sup>, po druhÃ© pÅ¯lhodinÄ› (tj. po hodinÄ› jÃ­zdy) 18,6 km.h<sup>-1</sup>. Z nÃ¡sledujÃ­cÃ­ch tvrzenÃ­ je prÃ¡vÄ› jedno sprÃ¡vnÃ©. Vyberte jej.</strong></div>
 
-<p class="odp">Obtínost: <b>1 bod</b>. Doporuènı èas na vyøešení: <b>3,5 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>1 bod</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>3,5 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 
 <script>
 var c = 210;
@@ -13,7 +13,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -49,29 +49,29 @@ function zast_odp()
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Z uvedenıch údajù nelze zjistit dráhu cyklisty za první hodinu jízdy, nebo neznáme závislost velikosti jeho rychlosti na èase.</td>
+<td width="400px" class="test2">Z uvedenÃ½ch ÃºdajÅ¯ nelze zjistit drÃ¡hu cyklisty za prvnÃ­ hodinu jÃ­zdy, neboÅ¥ neznÃ¡me zÃ¡vislost velikosti jeho rychlosti na Äase.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Z uvedenıch údajù nelze zjistit prùmìrnou velikost rychlosti cyklisty za druhou  pùlhodinu jízdy, nebo neznáme dráhu, kterou bìhem ní urazil.</td>
+<td width="400px" class="test2">Z uvedenÃ½ch ÃºdajÅ¯ nelze zjistit prÅ¯mÄ›rnou velikost rychlosti cyklisty za druhou  pÅ¯lhodinu jÃ­zdy, neboÅ¥ neznÃ¡me drÃ¡hu, kterou bÄ›hem nÃ­ urazil.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Z uvedenıch údajù nelze zjistit vektor prùmìrné rychlosti cyklisty za první hodinu jízdy, nebo neznáme jeho rychlost v okamiku <i>t</i> = 60 minut.</td>
+<td width="400px" class="test2">Z uvedenÃ½ch ÃºdajÅ¯ nelze zjistit vektor prÅ¯mÄ›rnÃ© rychlosti cyklisty za prvnÃ­ hodinu jÃ­zdy, neboÅ¥ neznÃ¡me jeho rychlost v okamÅ¾iku <i>t</i> = 60 minut.</td>
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Z uvedenıch údajù nelze zjistit polohu cyklisty po první pùlhodinì jízdy, nebo neznáme smìr jeho poèáteèní rychlosti.</td>
+<td width="400px" class="test2">Z uvedenÃ½ch ÃºdajÅ¯ nelze zjistit polohu cyklisty po prvnÃ­ pÅ¯lhodinÄ› jÃ­zdy, neboÅ¥ neznÃ¡me smÄ›r jeho poÄÃ¡teÄnÃ­ rychlosti.</td>
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Ze zadání nelze zjistit velikost vektoru posunutí cyklisty za první hodinu jízdy, nebo zadání neobsahuje potøebné údaje – napøíklad poèáteèní a koncovou polohu cyklisty.</td>
+<td width="400px" class="test2">Ze zadÃ¡nÃ­ nelze zjistit velikost vektoru posunutÃ­ cyklisty za prvnÃ­ hodinu jÃ­zdy, neboÅ¥ zadÃ¡nÃ­ neobsahuje potÅ™ebnÃ© Ãºdaje â€“ napÅ™Ã­klad poÄÃ¡teÄnÃ­ a koncovou polohu cyklisty.</td>
 </td>
 </tr>
 

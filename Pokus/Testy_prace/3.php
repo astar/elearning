@@ -1,9 +1,9 @@
-<div id="otazka"><strong>Na obrázku je zakreslen graf závislosti <i>x</i>-ové sloky síly <b><i>F</i></b> pùsobící na èástici. Jiné síly na èástici nepùsobí. Vyberte právì to tvrzení, které je NESPRÁVNÉ.
+<div id="otazka"><strong>Na obrÃ¡zku je zakreslen graf zÃ¡vislosti <i>x</i>-ovÃ© sloÅ¾ky sÃ­ly <b><i>F</i></b> pÅ¯sobÃ­cÃ­ na ÄÃ¡stici. JinÃ© sÃ­ly na ÄÃ¡stici nepÅ¯sobÃ­. Vyberte prÃ¡vÄ› to tvrzenÃ­, kterÃ© je NESPRÃVNÃ‰.
 </strong></div>
 
-<p class="odp">Obtínost: <b>1 bod</b>. Doporuènı èas na vyøešení: <b>2,5 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>1 bod</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>2,5 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 
 <script>
 var c = 150;
@@ -14,7 +14,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -51,31 +51,31 @@ function zast_odp()
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">V bodì <i>x</i>=2 m má èástice stejnou kinetickou energii jako v bodì <i>x</i>=6 m.
+<td width="400px" class="test2">V bodÄ› <i>x</i>=2 m mÃ¡ ÄÃ¡stice stejnou kinetickou energii jako v bodÄ› <i>x</i>=6 m.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Mezi body <i>x</i>=3 m a <i>x</i>=4 m kinetická energie èástice klesá.
+<td width="400px" class="test2">Mezi body <i>x</i>=3 m a <i>x</i>=4 m kinetickÃ¡ energie ÄÃ¡stice klesÃ¡.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Mezi body <i>x</i>=6 m a <i>x</i>=7 m kinetická energie èástice klesá.
+<td width="400px" class="test2">Mezi body <i>x</i>=6 m a <i>x</i>=7 m kinetickÃ¡ energie ÄÃ¡stice klesÃ¡.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">V bodì <i>x</i>=8 m má èástice stejnou kinetickou energii jako v bodì <i>x</i>=0 m.
+<td width="400px" class="test2">V bodÄ› <i>x</i>=8 m mÃ¡ ÄÃ¡stice stejnou kinetickou energii jako v bodÄ› <i>x</i>=0 m.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Mezi body <i>x</i>=8 m a <i>x</i>=9 m kinetická energie èástice klesá.
+<td width="400px" class="test2">Mezi body <i>x</i>=8 m a <i>x</i>=9 m kinetickÃ¡ energie ÄÃ¡stice klesÃ¡.
 </td>
 </tr>
 

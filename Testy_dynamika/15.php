@@ -1,8 +1,8 @@
-<strong>Na vláknì zanedbatelné hmotnosti a nepromìnné délky je zavìšena malá kulièka. Napnuté vlákno i s kulièkou vychılíme o úhel <i>&theta;</i><sub>0</sub> z nejniší polohy a udìlíme kulièce takovou rychlost, e se pohybuje rovnomìrnì po krunici ve vodorovné rovinì (kónické kyvadlo). Pohyb kulièky sledujeme v inerciální vztané soustavì spojené se Zemí. Pøedpokládáme, e odpor prostøedí je zanedbatelnı. Vyberte právì to tvrzení, které NENÍ správné.</strong>
+<strong>Na vlÃ¡knÄ› zanedbatelnÃ© hmotnosti a nepromÄ›nnÃ© dÃ©lky je zavÄ›Å¡ena malÃ¡ kuliÄka. NapnutÃ© vlÃ¡kno i s kuliÄkou vychÃ½lÃ­me o Ãºhel <i>&theta;</i><sub>0</sub> z nejniÅ¾Å¡Ã­ polohy a udÄ›lÃ­me kuliÄce takovou rychlost, Å¾e se pohybuje rovnomÄ›rnÄ› po kruÅ¾nici ve vodorovnÃ© rovinÄ› (kÃ³nickÃ© kyvadlo). Pohyb kuliÄky sledujeme v inerciÃ¡lnÃ­ vztaÅ¾nÃ© soustavÄ› spojenÃ© se ZemÃ­. PÅ™edpoklÃ¡dÃ¡me, Å¾e odpor prostÅ™edÃ­ je zanedbatelnÃ½. Vyberte prÃ¡vÄ› to tvrzenÃ­, kterÃ© NENÃ sprÃ¡vnÃ©.</strong>
 
-<p class="odp">Obtínost: <b>1 bod</b>. Doporuènı èas na vyøešení: <b>3 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>1 bod</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>3 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 
 <script>
 var c = 180;
@@ -13,7 +13,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -46,27 +46,27 @@ function zast_odp()
 <table>
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Kulièka se pohybuje rovnomìrnì po krunici, proto na ni mimo jiné pùsobí dostøedivá síla. Reakcí na tuto sílu je síla odstøedivá.</td>
+<td width="400px" class="test2">KuliÄka se pohybuje rovnomÄ›rnÄ› po kruÅ¾nici, proto na ni mimo jinÃ© pÅ¯sobÃ­ dostÅ™edivÃ¡ sÃ­la. ReakcÃ­ na tuto sÃ­lu je sÃ­la odstÅ™edivÃ¡.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Popsanı pohyb nelze uskuteènit pøi volbì <i>&theta;</i><sub>0</sub> &ge; 90°, nebo sloením tíhové síly a tahové síly vlákna by nebyla poadovaná dostøedivá síla.</td>
+<td width="400px" class="test2">PopsanÃ½ pohyb nelze uskuteÄnit pÅ™i volbÄ› <i>&theta;</i><sub>0</sub> &ge; 90Â°, neboÅ¥ sloÅ¾enÃ­m tÃ­hovÃ© sÃ­ly a tahovÃ© sÃ­ly vlÃ¡kna by nebyla poÅ¾adovanÃ¡ dostÅ™edivÃ¡ sÃ­la.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Svislı prùmìt tahové síly vlákna je stejnì velkı jako tíhová síla pùsobící na kulièku, protoe rychlost kulièky stále leí v tée vodorovné rovinì.</td>
+<td width="400px" class="test2">SvislÃ½ prÅ¯mÄ›t tahovÃ© sÃ­ly vlÃ¡kna je stejnÄ› velkÃ½ jako tÃ­hovÃ¡ sÃ­la pÅ¯sobÃ­cÃ­ na kuliÄku, protoÅ¾e rychlost kuliÄky stÃ¡le leÅ¾Ã­ v tÃ©Å¾e vodorovnÃ© rovinÄ›.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Dostøedivé zrychlení kulièky je urèeno vodorovnım prùmìtem tahové síly vlákna, nebo  všechny další síly pùsobící na kulièku mají svislı smìr. Teèné zrychlení kulièky je nulové.</td>
+<td width="400px" class="test2">DostÅ™edivÃ© zrychlenÃ­ kuliÄky je urÄeno vodorovnÃ½m prÅ¯mÄ›tem tahovÃ© sÃ­ly vlÃ¡kna, neboÅ¥  vÅ¡echny dalÅ¡Ã­ sÃ­ly pÅ¯sobÃ­cÃ­ na kuliÄku majÃ­ svislÃ½ smÄ›r. TeÄnÃ© zrychlenÃ­ kuliÄky je nulovÃ©.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Velikost vıslednice sil pùsobících na kulièku je závislá na volbì úhlu <i>&theta;</i><sub>0</sub>, nebo èím vìtší je tento úhel, tím vìtší je tahová síla vlákna i její vodorovnı prùmìt. Ostatní síly pùsobící na kulièku jsou toti konstantní.</td>
+<td width="400px" class="test2">Velikost vÃ½slednice sil pÅ¯sobÃ­cÃ­ch na kuliÄku je zÃ¡vislÃ¡ na volbÄ› Ãºhlu <i>&theta;</i><sub>0</sub>, neboÅ¥ ÄÃ­m vÄ›tÅ¡Ã­ je tento Ãºhel, tÃ­m vÄ›tÅ¡Ã­ je tahovÃ¡ sÃ­la vlÃ¡kna i jejÃ­ vodorovnÃ½ prÅ¯mÄ›t. OstatnÃ­ sÃ­ly pÅ¯sobÃ­cÃ­ na kuliÄku jsou totiÅ¾ konstantnÃ­.</td>
 </tr>
 
 </table>

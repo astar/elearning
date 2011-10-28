@@ -1,9 +1,9 @@
-<div id="otazka"><strong>Na vláknì zanedbatelné hmotnosti a nepromìnné délky je zavìšena malá kulièka. Napnuté vlákno i s kulièkou vychılíme o úhel <i>&theta;</i><sub>0</sub> z rovnováné polohy a uvolníme (matematické kyvadlo). Pohyb kulièky sledujeme v inerciální vztané soustavì spojené se Zemí. Pøedpokládáme, e odpor prostøedí je zanedbatelnı. Z následujících tvrzení je právì jedno správné. Vyberte jej.
+<div id="otazka"><strong>Na vlÃ¡knÄ› zanedbatelnÃ© hmotnosti a nepromÄ›nnÃ© dÃ©lky je zavÄ›Å¡ena malÃ¡ kuliÄka. NapnutÃ© vlÃ¡kno i s kuliÄkou vychÃ½lÃ­me o Ãºhel <i>&theta;</i><sub>0</sub> z rovnovÃ¡Å¾nÃ© polohy a uvolnÃ­me (matematickÃ© kyvadlo). Pohyb kuliÄky sledujeme v inerciÃ¡lnÃ­ vztaÅ¾nÃ© soustavÄ› spojenÃ© se ZemÃ­. PÅ™edpoklÃ¡dÃ¡me, Å¾e odpor prostÅ™edÃ­ je zanedbatelnÃ½. Z nÃ¡sledujÃ­cÃ­ch tvrzenÃ­ je prÃ¡vÄ› jedno sprÃ¡vnÃ©. Vyberte jej.
 </strong></div>
 
-<p class="odp">Obtínost: <b>1 bod</b>. Doporuènı èas na vyøešení: <b>3,5 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>1 bod</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>3,5 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 
 <script>
 var c = 210;
@@ -14,7 +14,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -50,28 +50,28 @@ function zast_odp()
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Pøi prùchodu rovnovánou polohou je vıslednice sil pùsobících na kulièku nulová, nebo rovnovánou polohou prochází kulièka setrvaèností.</td>
+<td width="400px" class="test2">PÅ™i prÅ¯chodu rovnovÃ¡Å¾nou polohou je vÃ½slednice sil pÅ¯sobÃ­cÃ­ch na kuliÄku nulovÃ¡, neboÅ¥ rovnovÃ¡Å¾nou polohou prochÃ¡zÃ­ kuliÄka setrvaÄnostÃ­.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">V bodech obratu je vıslednice sil pùsobících na kulièku teèná k trajektorii, nebo kulièka má v bodech obratu nulovou rychlost.</td>
+<td width="400px" class="test2">V bodech obratu je vÃ½slednice sil pÅ¯sobÃ­cÃ­ch na kuliÄku teÄnÃ¡ k trajektorii, neboÅ¥ kuliÄka mÃ¡ v bodech obratu nulovou rychlost.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">V obecné poloze (<i>&theta;</i> &ne; 0, <i>&theta;</i> &ne; &plusmn;<i>&theta;</i><sub>0</sub>) je vlákno napínáno vìtší silou ne v bodech obratu, protoe na kulièku navíc pùsobí odstøedivá síla.
+<td width="400px" class="test2">V obecnÃ© poloze (<i>&theta;</i> &ne; 0, <i>&theta;</i> &ne; &plusmn;<i>&theta;</i><sub>0</sub>) je vlÃ¡kno napÃ­nÃ¡no vÄ›tÅ¡Ã­ silou neÅ¾ v bodech obratu, protoÅ¾e na kuliÄku navÃ­c pÅ¯sobÃ­ odstÅ™edivÃ¡ sÃ­la.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">V obecné poloze (<i>&theta;</i> &ne; 0, <i>&theta;</i> &ne; &plusmn;<i>&theta;</i><sub>0</sub>) je vıslednice sil pùsobících na kulièku teèná k trajektorii, protoe kulièka koná harmonickı kmitavı pohyb.</td>
+<td width="400px" class="test2">V obecnÃ© poloze (<i>&theta;</i> &ne; 0, <i>&theta;</i> &ne; &plusmn;<i>&theta;</i><sub>0</sub>) je vÃ½slednice sil pÅ¯sobÃ­cÃ­ch na kuliÄku teÄnÃ¡ k trajektorii, protoÅ¾e kuliÄka konÃ¡ harmonickÃ½ kmitavÃ½ pohyb.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Pøi prùchodu kulièky rovnovánou polohou je vlákno napínáno stejnou silou, jako kdy kulièka v rovnováné poloze v klidu visí, nebo silové zákony urèující velikosti jednotlivıch sil nesouvisí s pohybovım stavem objektu.</td>
+<td width="400px" class="test2">PÅ™i prÅ¯chodu kuliÄky rovnovÃ¡Å¾nou polohou je vlÃ¡kno napÃ­nÃ¡no stejnou silou, jako kdyÅ¾ kuliÄka v rovnovÃ¡Å¾nÃ© poloze v klidu visÃ­, neboÅ¥ silovÃ© zÃ¡kony urÄujÃ­cÃ­ velikosti jednotlivÃ½ch sil nesouvisÃ­ s pohybovÃ½m stavem objektu.</td>
 </tr>
 
 </table>

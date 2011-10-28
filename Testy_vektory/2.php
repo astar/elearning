@@ -1,8 +1,8 @@
-<strong>Z následujících fyzikálních velièin vyberte právì ty, které jsou skalární.</strong>
+<strong>Z nÃ¡sledujÃ­cÃ­ch fyzikÃ¡lnÃ­ch veliÄin vyberte prÃ¡vÄ› ty, kterÃ© jsou skalÃ¡rnÃ­.</strong>
 
-<p class="odp">Obtínost: <b>1 bod</b>. Doporuènı èas na vyøešení: <b>1 minuta</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>1 bod</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>1 minuta</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 
 <script>
 var c = 60;
@@ -13,7 +13,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -46,42 +46,42 @@ function zast_odp()
 <table>
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Moment síly vzhledem k danému bodu.</td>
+<td width="400px" class="test2">Moment sÃ­ly vzhledem k danÃ©mu bodu.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Prùmìt síly do osy <i>x</i> zvolené soustavy souøadnic.</td>
+<td width="400px" class="test2">PrÅ¯mÄ›t sÃ­ly do osy <i>x</i> zvolenÃ© soustavy souÅ™adnic.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Rychlost èástice pøi pøímoèarém pohybu.</td>
+<td width="400px" class="test2">Rychlost ÄÃ¡stice pÅ™i pÅ™Ã­moÄarÃ©m pohybu.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2"><i>Z</i>-ová souøadnice polohy èástice ve zvolené soustavì souøadnic.</td>
+<td width="400px" class="test2"><i>Z</i>-ovÃ¡ souÅ™adnice polohy ÄÃ¡stice ve zvolenÃ© soustavÄ› souÅ™adnic.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Velikost teèného zrychlení èástice.</td>
+<td width="400px" class="test2">Velikost teÄnÃ©ho zrychlenÃ­ ÄÃ¡stice.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka6"> (f)</td>
-<td width="400px" class="test2">Zmìna polohového vektoru èástice.</td>
+<td width="400px" class="test2">ZmÄ›na polohovÃ©ho vektoru ÄÃ¡stice.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka7"> (g)</td>
-<td width="400px" class="test2">Moment setrvaènosti tìlesa vzhledem k dané ose otáèení.</td>
+<td width="400px" class="test2">Moment setrvaÄnosti tÄ›lesa vzhledem k danÃ© ose otÃ¡ÄenÃ­.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka8"> (h)</td>
-<td width="400px" class="test2">Polohovı vektor èástice, která je v poèátku dané soustavy souøadnic v klidu.</td>
+<td width="400px" class="test2">PolohovÃ½ vektor ÄÃ¡stice, kterÃ¡ je v poÄÃ¡tku danÃ© soustavy souÅ™adnic v klidu.</td>
 </tr>
 </table>
 <br>

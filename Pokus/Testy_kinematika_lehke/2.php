@@ -1,9 +1,9 @@
-<div id="otazka"><strong>Malá kulièka (hmotnı bod) se pohybuje v rovinì <i>Oxy</i> rovnomìrnì po krunici o polomìru <i>R</i>. Bod <i>O</i> je støedem krunice. Z následujících tvrzení vyberte právì ta, která jsou správná.
+<div id="otazka"><strong>MalÃ¡ kuliÄka (hmotnÃ½ bod) se pohybuje v rovinÄ› <i>Oxy</i> rovnomÄ›rnÄ› po kruÅ¾nici o polomÄ›ru <i>R</i>. Bod <i>O</i> je stÅ™edem kruÅ¾nice. Z nÃ¡sledujÃ­cÃ­ch tvrzenÃ­ vyberte prÃ¡vÄ› ta, kterÃ¡ jsou sprÃ¡vnÃ¡.
 </strong></div>
 
-<p class="odp">Obtínost: <b>2 body</b>. Doporuènı èas na vyøešení: <b>3 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>2 body</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>3 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 
 <script>
 var c = 180;
@@ -14,7 +14,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -51,13 +51,13 @@ function zast_odp()
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Pohyb kulièky je periodickı s periodou 
+<td width="400px" class="test2">Pohyb kuliÄky je periodickÃ½ s periodou 
 
 amath
 T = (2 pi R) / v
 endamath, 
 
-úhlová rychlost kulièky má velikost 
+ÃºhlovÃ¡ rychlost kuliÄky mÃ¡ velikost 
 
 amath
 omega = 2 pi / T = v / R
@@ -67,31 +67,31 @@ endamath.
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Prùmìrná rychlost kulièky nemùe bıt nulová.
+<td width="400px" class="test2">PrÅ¯mÄ›rnÃ¡ rychlost kuliÄky nemÅ¯Å¾e bÃ½t nulovÃ¡.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Vzhledem k tomu, e pohyb kulièky je rovnomìrnı, je její prùmìrné zrychlení v kadém èasovém intervalu nulové.
+<td width="400px" class="test2">Vzhledem k tomu, Å¾e pohyb kuliÄky je rovnomÄ›rnÃ½, je jejÃ­ prÅ¯mÄ›rnÃ© zrychlenÃ­ v kaÅ¾dÃ©m ÄasovÃ©m intervalu nulovÃ©.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Okamité zrychlení kulièky je v kadém bodì trajektorie rovno zrychlení normálovému, nebo teèné zrychlení pøi rovnomìrném pohybu je nulové.
+<td width="400px" class="test2">OkamÅ¾itÃ© zrychlenÃ­ kuliÄky je v kaÅ¾dÃ©m bodÄ› trajektorie rovno zrychlenÃ­ normÃ¡lovÃ©mu, neboÅ¥ teÄnÃ© zrychlenÃ­ pÅ™i rovnomÄ›rnÃ©m pohybu je nulovÃ©.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Vektor úhlové rychlosti kulièky má v kadém okamiku smìr polohového vektoru kulièky, ale je opaènì orientován.
+<td width="400px" class="test2">Vektor ÃºhlovÃ© rychlosti kuliÄky mÃ¡ v kaÅ¾dÃ©m okamÅ¾iku smÄ›r polohovÃ©ho vektoru kuliÄky, ale je opaÄnÄ› orientovÃ¡n.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka6"> (f)</td>
-<td width="400px" class="test2">Vektor rychlosti amath vec bb v endamath, úhlové rychlosti amath vec bb omega endamath a polohovı vektor amath vec bb r endamath spolu souvisí vztahem 
+<td width="400px" class="test2">Vektor rychlosti amath vec bb v endamath, ÃºhlovÃ© rychlosti amath vec bb omega endamath a polohovÃ½ vektor amath vec bb r endamath spolu souvisÃ­ vztahem 
 
 amath
 vec bb v = vec bb omega xx vec bb r
@@ -101,13 +101,13 @@ endamath.
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka7"> (g)</td>
-<td width="400px" class="test2">Úhlové zrychlení není konstantní. Vzhledem k rovnomìrnosti pohybu má sice stálou velikost, ale jeho smìr se mìní.
+<td width="400px" class="test2">ÃšhlovÃ© zrychlenÃ­ nenÃ­ konstantnÃ­. Vzhledem k rovnomÄ›rnosti pohybu mÃ¡ sice stÃ¡lou velikost, ale jeho smÄ›r se mÄ›nÃ­.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka8"> (h)</td>
-<td width="400px" class="test2">Normálové (dostøedivé) zrychlení má sice stále smìr do støedu krunice, jeho velikost se však mìní, nebo úhel opsanı prùvodièem kulièky stále narùstá.
+<td width="400px" class="test2">NormÃ¡lovÃ© (dostÅ™edivÃ©) zrychlenÃ­ mÃ¡ sice stÃ¡le smÄ›r do stÅ™edu kruÅ¾nice, jeho velikost se vÅ¡ak mÄ›nÃ­, neboÅ¥ Ãºhel opsanÃ½ prÅ¯vodiÄem kuliÄky stÃ¡le narÅ¯stÃ¡.
 </td>
 </tr>
 

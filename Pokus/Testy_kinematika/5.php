@@ -1,8 +1,8 @@
-<div id="otazka"><strong>Z následujících tvrzení vyberte právì ta, která jsou NESPRÁVNÁ, NEBO JE JEJICH SPRÁVNOST OMEZENA NA SPECIÁLNÍ PØÍPADY.</strong></div>
+<div id="otazka"><strong>Z nÃ¡sledujÃ­cÃ­ch tvrzenÃ­ vyberte prÃ¡vÄ› ta, kterÃ¡ jsou NESPRÃVNÃ, NEBO JE JEJICH SPRÃVNOST OMEZENA NA SPECIÃLNÃ PÅ˜ÃPADY.</strong></div>
 
-<p class="odp">Obtínost: <b>1,5 bodu</b>. Doporuènı èas na vyøešení: <b>2,5 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>1,5 bodu</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>2,5 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 
 <script>
 var c = 150;
@@ -13,7 +13,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -49,42 +49,42 @@ function zast_odp()
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Pokud se èástice nepohybuje pøímoèaøe, má její zrychlení smìr normály k trajektorii.</td>
+<td width="400px" class="test2">Pokud se ÄÃ¡stice nepohybuje pÅ™Ã­moÄaÅ™e, mÃ¡ jejÃ­ zrychlenÃ­ smÄ›r normÃ¡ly k trajektorii.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Pokud se èástice pohybuje rovnomìrnì, její rychlost se nemìní.</td>
+<td width="400px" class="test2">Pokud se ÄÃ¡stice pohybuje rovnomÄ›rnÄ›, jejÃ­ rychlost se nemÄ›nÃ­.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Pokud je zrychlení konstantní, pohybuje se èástice pøímoèaøe.</td>
+<td width="400px" class="test2">Pokud je zrychlenÃ­ konstantnÃ­, pohybuje se ÄÃ¡stice pÅ™Ã­moÄaÅ™e.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Pokud se mìní zrychlení, je pohyb èástice nerovnomìrnı.</td>
+<td width="400px" class="test2">Pokud se mÄ›nÃ­ zrychlenÃ­, je pohyb ÄÃ¡stice nerovnomÄ›rnÃ½.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Pokud je dráha lineární funkcí èasu, je zrychlení èástice nulové.</td>
+<td width="400px" class="test2">Pokud je drÃ¡ha lineÃ¡rnÃ­ funkcÃ­ Äasu, je zrychlenÃ­ ÄÃ¡stice nulovÃ©.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka6"> (f)</td>
-<td width="400px" class="test2">Pokud má zrychlení smìr teèny k trajektorii, nemìní se rychlost èástice.</td>
+<td width="400px" class="test2">Pokud mÃ¡ zrychlenÃ­ smÄ›r teÄny k trajektorii, nemÄ›nÃ­ se rychlost ÄÃ¡stice.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka7"> (g)</td>
-<td width="400px" class="test2">Pokud se èástice pohybuje pøímoèaøe, svírá její rychlost s polohovım vektorem stále stejnı úhel.</td>
+<td width="400px" class="test2">Pokud se ÄÃ¡stice pohybuje pÅ™Ã­moÄaÅ™e, svÃ­rÃ¡ jejÃ­ rychlost s polohovÃ½m vektorem stÃ¡le stejnÃ½ Ãºhel.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka8"> (h)</td>
-<td width="400px" class="test2">Pokud se èástice pohybuje periodicky mezi dvìma rùznımi body prostoru, je její dráha za jednu periodu nulová.</td>
+<td width="400px" class="test2">Pokud se ÄÃ¡stice pohybuje periodicky mezi dvÄ›ma rÅ¯znÃ½mi body prostoru, je jejÃ­ drÃ¡ha za jednu periodu nulovÃ¡.</td>
 </tr>
 
 </table>

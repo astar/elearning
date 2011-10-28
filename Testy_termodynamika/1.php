@@ -1,9 +1,9 @@
-<strong>Z následujících tvrzení vyberte právì ta, která jsou pro ideální plyn obecnì správná.
+<strong>Z nÃ¡sledujÃ­cÃ­ch tvrzenÃ­ vyberte prÃ¡vÄ› ta, kterÃ¡ jsou pro ideÃ¡lnÃ­ plyn obecnÄ› sprÃ¡vnÃ¡.
 </strong>
 
-<p class="odp">Obtínost: <b>1 bod</b>. Doporuènı èas na vyøešení: <b>2,5 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>1 bod</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>2,5 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 
 <script>
 var c = 150;
@@ -16,7 +16,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -49,49 +49,49 @@ function zast_odp()
 <table>
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Pokud plyn koná nezápornou práci, jeho teplota klesá.
+<td width="400px" class="test2">Pokud plyn konÃ¡ nezÃ¡pornou prÃ¡ci, jeho teplota klesÃ¡.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Pokud se plyn rozpíná, koná nenulovou práci.
+<td width="400px" class="test2">Pokud se plyn rozpÃ­nÃ¡, konÃ¡ nenulovou prÃ¡ci.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Pokud se teplota plynu nemìní, nemìní se ani jeho vnitøní energie.
+<td width="400px" class="test2">Pokud se teplota plynu nemÄ›nÃ­, nemÄ›nÃ­ se ani jeho vnitÅ™nÃ­ energie.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Pokud  teplota plynu klesá, odevzdává plyn svému okolí teplo.
+<td width="400px" class="test2">Pokud  teplota plynu klesÃ¡, odevzdÃ¡vÃ¡ plyn svÃ©mu okolÃ­ teplo.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Pokud klesá objem plynu, roste jeho tlak.
+<td width="400px" class="test2">Pokud klesÃ¡ objem plynu, roste jeho tlak.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka6"> (f)</td>
-<td width="400px" class="test2">Pokud roste teplota plynu, pøijímá plyn od okolí kladné teplo.
+<td width="400px" class="test2">Pokud roste teplota plynu, pÅ™ijÃ­mÃ¡ plyn od okolÃ­ kladnÃ© teplo.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka7"> (g)</td>
-<td width="400px" class="test2">Pokud se plyn rozpíná, klesá jeho vnitøní energie.
+<td width="400px" class="test2">Pokud se plyn rozpÃ­nÃ¡, klesÃ¡ jeho vnitÅ™nÃ­ energie.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka8"> (h)</td>
-<td width="400px" class="test2">Pokud roste teplota plynu, klesá jeho objem.
+<td width="400px" class="test2">Pokud roste teplota plynu, klesÃ¡ jeho objem.
 </td>
 </tr>
 

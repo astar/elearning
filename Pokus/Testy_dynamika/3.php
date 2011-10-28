@@ -1,9 +1,9 @@
-<div id="otazka"><strong>Pohyb èástice s konstantní hmotností je popisován v inerciální vztané soustavì. Z následujících tvrzení je právì jedno správné. Vyberte jej.
+<div id="otazka"><strong>Pohyb ÄÃ¡stice s konstantnÃ­ hmotnostÃ­ je popisovÃ¡n v inerciÃ¡lnÃ­ vztaÅ¾nÃ© soustavÄ›. Z nÃ¡sledujÃ­cÃ­ch tvrzenÃ­ je prÃ¡vÄ› jedno sprÃ¡vnÃ©. Vyberte jej.
 </strong></div>
 
-<p class="odp">Obtínost: <b>0,5 bodu</b>. Doporuènı èas na vyøešení: <b>2 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>0,5 bodu</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>2 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 
 <script>
 var c = 120;
@@ -14,7 +14,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -50,31 +50,31 @@ function zast_odp()
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Pokud na èástici pùsobí síly, jejich vıslednice je nenulová, mìní se smìr pohybu èástice, nebo podle druhého Newtonova zákona se mìní hybnost èástice.
+<td width="400px" class="test2">Pokud na ÄÃ¡stici pÅ¯sobÃ­ sÃ­ly, jejichÅ¾ vÃ½slednice je nenulovÃ¡, mÄ›nÃ­ se smÄ›r pohybu ÄÃ¡stice, neboÅ¥ podle druhÃ©ho Newtonova zÃ¡kona se mÄ›nÃ­ hybnost ÄÃ¡stice.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Pokud na èástici pùsobí síly, jejich vıslednice je nenulová, mìní se zrychlení èástice, nebo podle druhého Newtonova zákona se mìní rychlost èástice.
+<td width="400px" class="test2">Pokud na ÄÃ¡stici pÅ¯sobÃ­ sÃ­ly, jejichÅ¾ vÃ½slednice je nenulovÃ¡, mÄ›nÃ­ se zrychlenÃ­ ÄÃ¡stice, neboÅ¥ podle druhÃ©ho Newtonova zÃ¡kona se mÄ›nÃ­ rychlost ÄÃ¡stice.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Pokud na èástici pùsobí síly, jejich vıslednice je nenulová, mìní se rychlost èástice, nebo podle druhého Newtonova zákona se mìní hybnost èástice.
+<td width="400px" class="test2">Pokud na ÄÃ¡stici pÅ¯sobÃ­ sÃ­ly, jejichÅ¾ vÃ½slednice je nenulovÃ¡, mÄ›nÃ­ se rychlost ÄÃ¡stice, neboÅ¥ podle druhÃ©ho Newtonova zÃ¡kona se mÄ›nÃ­ hybnost ÄÃ¡stice.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Pokud na èástici pùsobí síly, jejich vıslednice je nenulová, mìní se velikost rychlosti èástice, nebo podle druhého Newtonova zákona má èástice nenulové zrychlení.
+<td width="400px" class="test2">Pokud na ÄÃ¡stici pÅ¯sobÃ­ sÃ­ly, jejichÅ¾ vÃ½slednice je nenulovÃ¡, mÄ›nÃ­ se velikost rychlosti ÄÃ¡stice, neboÅ¥ podle druhÃ©ho Newtonova zÃ¡kona mÃ¡ ÄÃ¡stice nenulovÃ© zrychlenÃ­.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Pokud na èástici pùsobí síly, jejich vıslednice je nenulová, mìní se hybnost èástice, nebo podle druhého Newtonova zákona se mìní zrychlení èástice.
+<td width="400px" class="test2">Pokud na ÄÃ¡stici pÅ¯sobÃ­ sÃ­ly, jejichÅ¾ vÃ½slednice je nenulovÃ¡, mÄ›nÃ­ se hybnost ÄÃ¡stice, neboÅ¥ podle druhÃ©ho Newtonova zÃ¡kona se mÄ›nÃ­ zrychlenÃ­ ÄÃ¡stice.
 </td>
 </tr>
 

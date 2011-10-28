@@ -1,9 +1,9 @@
-<div id="otazka"><strong>Èástici s konstantní hmotností sledujeme v inerciální vztané soustavì. Z následujících tvrzení je pro tuto situaci právì jedno správné. Vyberte jej.
+<div id="otazka"><strong>ÄŒÃ¡stici s konstantnÃ­ hmotnostÃ­ sledujeme v inerciÃ¡lnÃ­ vztaÅ¾nÃ© soustavÄ›. Z nÃ¡sledujÃ­cÃ­ch tvrzenÃ­ je pro tuto situaci prÃ¡vÄ› jedno sprÃ¡vnÃ©. Vyberte jej.
 </strong></div>
 
-<p class="odp">Obtínost: <b>0,5 bodu</b>. Doporuènı èas na vyøešení: <b>1,5 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>0,5 bodu</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>1,5 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 
 <script>
 var c = 90;
@@ -14,7 +14,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -50,27 +50,27 @@ function zast_odp()
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Rychlost èástice se mùe mìnit pouze vlivem interakce èástice s objekty, s nimi je daná inerciální vztaná soustava pevnì spojena jako se vztanımi tìlesy.</td>
+<td width="400px" class="test2">Rychlost ÄÃ¡stice se mÅ¯Å¾e mÄ›nit pouze vlivem interakce ÄÃ¡stice s objekty, s nimiÅ¾ je danÃ¡ inerciÃ¡lnÃ­ vztaÅ¾nÃ¡ soustava pevnÄ› spojena jako se vztaÅ¾nÃ½mi tÄ›lesy.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Poloha èástice se mùe mìnit i v pøípadì, e èástice neinteraguje s jinımi objekty (tzv. volná èástice).</td>
+<td width="400px" class="test2">Poloha ÄÃ¡stice se mÅ¯Å¾e mÄ›nit i v pÅ™Ã­padÄ›, Å¾e ÄÃ¡stice neinteraguje s jinÃ½mi objekty (tzv. volnÃ¡ ÄÃ¡stice).</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Hybnost èástice se mùe mìnit pouze vlivem interakce èástice s vnìjšími objekty, s nimi daná inerciální vztaná soustava není spojena jako se vztanımi tìlesy.</td>
+<td width="400px" class="test2">Hybnost ÄÃ¡stice se mÅ¯Å¾e mÄ›nit pouze vlivem interakce ÄÃ¡stice s vnÄ›jÅ¡Ã­mi objekty, s nimiÅ¾ danÃ¡ inerciÃ¡lnÃ­ vztaÅ¾nÃ¡ soustava nenÃ­ spojena jako se vztaÅ¾nÃ½mi tÄ›lesy.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">K zakøivení trajektorie èástice mùe dojít i vlivem setrvaènıch odstøedivıch sil.</td>
+<td width="400px" class="test2">K zakÅ™ivenÃ­ trajektorie ÄÃ¡stice mÅ¯Å¾e dojÃ­t i vlivem setrvaÄnÃ½ch odstÅ™edivÃ½ch sil.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Zrychlení èástice se mùe mìnit pouze vlivem interakce èástice s objekty, které jsou s ní v pøímém dotyku.</td>
+<td width="400px" class="test2">ZrychlenÃ­ ÄÃ¡stice se mÅ¯Å¾e mÄ›nit pouze vlivem interakce ÄÃ¡stice s objekty, kterÃ© jsou s nÃ­ v pÅ™Ã­mÃ©m dotyku.</td>
 </tr>
 
 </table>

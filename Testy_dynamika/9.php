@@ -1,9 +1,9 @@
-<strong>Z následujících tvrzení je právì jedno správné. Vyberte jej.
+<strong>Z nÃ¡sledujÃ­cÃ­ch tvrzenÃ­ je prÃ¡vÄ› jedno sprÃ¡vnÃ©. Vyberte jej.
 </strong>
 
-<p class="odp">Obtínost: <b>0,5 bodu</b>. Doporuènı èas na vyøešení: <b>2 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>0,5 bodu</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>2 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 
 <script>
 var c = 120;
@@ -14,7 +14,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -47,27 +47,27 @@ function zast_odp()
 <table>
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">O setrvaèné síle translaèní se uvauje pouze v tìch neinerciálních soustavách, které se vùèi inerciálním soustavám neotáèejí.</td>
+<td width="400px" class="test2">O setrvaÄnÃ© sÃ­le translaÄnÃ­ se uvaÅ¾uje pouze v tÄ›ch neinerciÃ¡lnÃ­ch soustavÃ¡ch, kterÃ© se vÅ¯Äi inerciÃ¡lnÃ­m soustavÃ¡m neotÃ¡ÄejÃ­.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Setrvaèná odstøedivá síla je reakcí na sílu dostøedivou.</td>
+<td width="400px" class="test2">SetrvaÄnÃ¡ odstÅ™edivÃ¡ sÃ­la je reakcÃ­ na sÃ­lu dostÅ™edivou.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">K setrvaènım silám neexistují objekty, které na èástici tìmito silami pùsobí.</td>
+<td width="400px" class="test2">K setrvaÄnÃ½m silÃ¡m neexistujÃ­ objekty, kterÃ© na ÄÃ¡stici tÄ›mito silami pÅ¯sobÃ­.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Setrvaèná Coriolisova síla zpùsobuje napøíklad vymílání bøehù øek tekoucích na zemìkouli severojiním smìrem.</td>
+<td width="400px" class="test2">SetrvaÄnÃ¡ Coriolisova sÃ­la zpÅ¯sobuje napÅ™Ã­klad vymÃ­lÃ¡nÃ­ bÅ™ehÅ¯ Å™ek tekoucÃ­ch na zemÄ›kouli severojiÅ¾nÃ­m smÄ›rem.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">O setrvaènıch silách není nutné uvaovat v pøípadì, kdy je èástice v klidu v poèátku dané neinerciální soustavy.</td>
+<td width="400px" class="test2">O setrvaÄnÃ½ch silÃ¡ch nenÃ­ nutnÃ© uvaÅ¾ovat v pÅ™Ã­padÄ›, kdy je ÄÃ¡stice v klidu v poÄÃ¡tku danÃ© neinerciÃ¡lnÃ­ soustavy.</td>
 </tr>
 
 </table>

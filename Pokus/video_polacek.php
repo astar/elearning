@@ -1,4 +1,4 @@
-<h2>Videoukázka - Nevybraná videa s prof. Musilovou</h2>
+<h2>Videoukčzka - Nevybranč videa s prof. Musilovou</h2>
 
 <object type="application/x-shockwave-flash"
 data="../player.swf?klip=../Video/Musilova_4.flv" width="380" height="315">
@@ -36,4 +36,4 @@ data="../player.swf?klip=../Video/Musilova_6.flv" width="380" height="315">
 </object>
 
 <br><br>
-<center><a href="javascript:history.back()"><b>Vrátit se zpět</b></a></center>
+<center><a href="javascript:history.back()"><b>Vrčtit se zpďt</b></a></center>

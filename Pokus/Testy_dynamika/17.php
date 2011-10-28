@@ -1,13 +1,13 @@
-<div id="otazka"><strong>Na vodorovné podloce leí hranol o hmotnosti <i>m</i>. Koeficient 
-statického tøení mezi hranolem a podlokou je <i>f</i><sub>0</sub>, koeficient dynamického 
-tøení mezi hranolem a podlokou je <i>f</i>. V okamiku <i>t</i>=0 zaène na hranol 
-pùsobit vodorovná síla <i><b>F</b></i>. Velikost této síly se mìní podle vztahu <i>F</i>=<i>kt</i>, 
-kde <i>k</i> je konstanta úmìrnosti a <i>t</i> je èas. Tíhové zrychlení je <i><b>g</b></i>. Odpor vzduchu zanedbáváme. 
-Vyberte právì to tvrzení, které je pro danou situaci správné.</strong></div>
+<div id="otazka"><strong>Na vodorovnÃ© podloÅ¾ce leÅ¾Ã­ hranol o hmotnosti <i>m</i>. Koeficient 
+statickÃ©ho tÅ™enÃ­ mezi hranolem a podloÅ¾kou je <i>f</i><sub>0</sub>, koeficient dynamickÃ©ho 
+tÅ™enÃ­ mezi hranolem a podloÅ¾kou je <i>f</i>. V okamÅ¾iku <i>t</i>=0 zaÄne na hranol 
+pÅ¯sobit vodorovnÃ¡ sÃ­la <i><b>F</b></i>. Velikost tÃ©to sÃ­ly se mÄ›nÃ­ podle vztahu <i>F</i>=<i>kt</i>, 
+kde <i>k</i> je konstanta ÃºmÄ›rnosti a <i>t</i> je Äas. TÃ­hovÃ© zrychlenÃ­ je <i><b>g</b></i>. Odpor vzduchu zanedbÃ¡vÃ¡me. 
+Vyberte prÃ¡vÄ› to tvrzenÃ­, kterÃ© je pro danou situaci sprÃ¡vnÃ©.</strong></div>
 
-<p class="odp">Obtínost: <b>1 bod</b>. Doporuènı èas na vyøešení: <b>3 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>1 bod</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>3 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 
 <script>
 var c = 180;
@@ -18,7 +18,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -54,27 +54,27 @@ function zast_odp()
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">V okamiku <i>t</i>=0 se hranol zaène vzhledem k podloce pohybovat, protoe na nìj pùsobí vodorovná síla amath vec bb F endamath.</td>
+<td width="400px" class="test2">V okamÅ¾iku <i>t</i>=0 se hranol zaÄne vzhledem k podloÅ¾ce pohybovat, protoÅ¾e na nÄ›j pÅ¯sobÃ­ vodorovnÃ¡ sÃ­la amath vec bb F endamath.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">A do okamiku, kdy se hranol zaène vzhledem k podloce pohybovat, je tøecí síla na nìj pùsobící nulová, nebo hranol je vzhledem k podloce v klidu.</td>
+<td width="400px" class="test2">AÅ¾ do okamÅ¾iku, kdy se hranol zaÄne vzhledem k podloÅ¾ce pohybovat, je tÅ™ecÃ­ sÃ­la na nÄ›j pÅ¯sobÃ­cÃ­ nulovÃ¡, neboÅ¥ hranol je vzhledem k podloÅ¾ce v klidu.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Velikost tøecí síly, jí pùsobí podloka na hranol, mùe v urèitém èasovém intervalu narùstat, protoe vodorovná síla amath vec bb F endamath se s èasem mìní.</td>
+<td width="400px" class="test2">Velikost tÅ™ecÃ­ sÃ­ly, jÃ­Å¾ pÅ¯sobÃ­ podloÅ¾ka na hranol, mÅ¯Å¾e v urÄitÃ©m ÄasovÃ©m intervalu narÅ¯stat, protoÅ¾e vodorovnÃ¡ sÃ­la amath vec bb F endamath se s Äasem mÄ›nÃ­.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Pokud je hranol vzhledem k podloce v klidu, nelze velikost statické tøecí síly urèit, nebo pro statickou tøecí sílu neexistuje silovı zákon.</td>
+<td width="400px" class="test2">Pokud je hranol vzhledem k podloÅ¾ce v klidu, nelze velikost statickÃ© tÅ™ecÃ­ sÃ­ly urÄit, neboÅ¥ pro statickou tÅ™ecÃ­ sÃ­lu neexistuje silovÃ½ zÃ¡kon.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Pokud se hranol pohybuje, je velikost tøecí síly menší, ne kdy je hranol v klidu, protoe platí <i>f</i> < <i>f</i><sub>0</sub>.</td>
+<td width="400px" class="test2">Pokud se hranol pohybuje, je velikost tÅ™ecÃ­ sÃ­ly menÅ¡Ã­, neÅ¾ kdyÅ¾ je hranol v klidu, protoÅ¾e platÃ­ <i>f</i> < <i>f</i><sub>0</sub>.</td>
 </tr>
 
 </table>

@@ -1,9 +1,9 @@
-<strong>Pohyb soustavy èástic popisujeme v inerciání vztané soustavì.<br>Z následujících tvrzení vyberte právì ta, která jsou NESPRÁVNÁ.
+<strong>Pohyb soustavy ÄÃ¡stic popisujeme v inerciÃ¡nÃ­ vztaÅ¾nÃ© soustavÄ›.<br>Z nÃ¡sledujÃ­cÃ­ch tvrzenÃ­ vyberte prÃ¡vÄ› ta, kterÃ¡ jsou NESPRÃVNÃ.
 </strong>
 
-<p class="odp">Obtínost: <b>2 body</b>. Doporuènı èas na vyøešení: <b>3 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>2 body</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>3 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 
 <script>
 var c = 180;
@@ -14,7 +14,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -47,49 +47,49 @@ function zast_odp()
 <table>
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Pokud se jednotlivé èástice soustavy pohybují, mìní se vdy poloha tìištì soustavy.
+<td width="400px" class="test2">Pokud se jednotlivÃ© ÄÃ¡stice soustavy pohybujÃ­, mÄ›nÃ­ se vÅ¾dy poloha tÄ›Å¾iÅ¡tÄ› soustavy.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Pokud je vektorovı souèet vnìjších sil pùsobících na soustavu èástic nulovı, je tìištì soustavy v klidu.
+<td width="400px" class="test2">Pokud je vektorovÃ½ souÄet vnÄ›jÅ¡Ã­ch sil pÅ¯sobÃ­cÃ­ch na soustavu ÄÃ¡stic nulovÃ½, je tÄ›Å¾iÅ¡tÄ› soustavy v klidu.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Pokud je vektorovı souèet vnìjších sil pùsobících na soustavu èástic nulovı, je nulovı i vıslednı moment tìchto sil.
+<td width="400px" class="test2">Pokud je vektorovÃ½ souÄet vnÄ›jÅ¡Ã­ch sil pÅ¯sobÃ­cÃ­ch na soustavu ÄÃ¡stic nulovÃ½, je nulovÃ½ i vÃ½slednÃ½ moment tÄ›chto sil.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Pokud se poloha tìištì soustavy èástic nemìní, nemìní se ani vzájemná poloha jednotlivıch èástic.
+<td width="400px" class="test2">Pokud se poloha tÄ›Å¾iÅ¡tÄ› soustavy ÄÃ¡stic nemÄ›nÃ­, nemÄ›nÃ­ se ani vzÃ¡jemnÃ¡ poloha jednotlivÃ½ch ÄÃ¡stic.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Pokud je celkovı moment hybnosti soustavy èástic nulovı, pohybují se všechny èástice pøímoèaøe.
+<td width="400px" class="test2">Pokud je celkovÃ½ moment hybnosti soustavy ÄÃ¡stic nulovÃ½, pohybujÃ­ se vÅ¡echny ÄÃ¡stice pÅ™Ã­moÄaÅ™e.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka6"> (f)</td>
-<td width="400px" class="test2">Pokud se všechny èástice soustavy otáèejí kolem pevné osy, jsou jejich úhlové rychlosti stejné.
+<td width="400px" class="test2">Pokud se vÅ¡echny ÄÃ¡stice soustavy otÃ¡ÄejÃ­ kolem pevnÃ© osy, jsou jejich ÃºhlovÃ© rychlosti stejnÃ©.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka7"> (g)</td>
-<td width="400px" class="test2">Pokud  je celková hybnost soustavy konstantní, pohybují se jednotlivé èástice pøímoèaøe.
+<td width="400px" class="test2">Pokud  je celkovÃ¡ hybnost soustavy konstantnÃ­, pohybujÃ­ se jednotlivÃ© ÄÃ¡stice pÅ™Ã­moÄaÅ™e.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka8"> (h)</td>
-<td width="400px" class="test2">Pokud  je  vektorovı souèet vnìjších sil pùsobících na soustavu nulovı, pohybují se jednotlivé èástice pøímoèaøe, nebo jsou v klidu.
+<td width="400px" class="test2">Pokud  je  vektorovÃ½ souÄet vnÄ›jÅ¡Ã­ch sil pÅ¯sobÃ­cÃ­ch na soustavu nulovÃ½, pohybujÃ­ se jednotlivÃ© ÄÃ¡stice pÅ™Ã­moÄaÅ™e, nebo jsou v klidu.
 </td>
 </tr>
 

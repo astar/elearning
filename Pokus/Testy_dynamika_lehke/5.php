@@ -1,9 +1,9 @@
-<div id="otazka"><strong>Na vodorovném stole o hmotnosti <i>M</i> leí v klidu kostka o hmotnosti <i>m</i>. Stùl stojí na vodorovné podloce. (Soustava je umístìna v homogenním tíhovém poli Zemì, tíhové zrychlení je <i><b>g</b></i>.) Z následujících tvrzení vyberte právì ta, která jsou správná.
+<div id="otazka"><strong>Na vodorovnÃ©m stole o hmotnosti <i>M</i> leÅ¾Ã­ v klidu kostka o hmotnosti <i>m</i>. StÅ¯l stojÃ­ na vodorovnÃ© podloÅ¾ce. (Soustava je umÃ­stÄ›na v homogennÃ­m tÃ­hovÃ©m poli ZemÄ›, tÃ­hovÃ© zrychlenÃ­ je <i><b>g</b></i>.) Z nÃ¡sledujÃ­cÃ­ch tvrzenÃ­ vyberte prÃ¡vÄ› ta, kterÃ¡ jsou sprÃ¡vnÃ¡.
 </strong></div>
 
-<p class="odp">Obtínost: <b>2 body</b>. Doporuènı èas na vyøešení: <b>3 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>2 body</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>3 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 
 <script>
 var c = 180;
@@ -14,7 +14,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -50,49 +50,49 @@ function zast_odp()
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Stùl tlaèí na podloku tíhovou silou amath (M + m) vec bb g endamath.
+<td width="400px" class="test2">StÅ¯l tlaÄÃ­ na podloÅ¾ku tÃ­hovou silou amath (M + m) vec bb g endamath.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Tíhová síla amath m vec bb g endamath, jí pùsobí Zemì na kostku, a tlaková síla amath vec bb T endamath, jí pùsobí stùl na kostku, jsou stejnì velké, protoe jde o akci a reakci ve smyslu tøetího Newtonova zákona.
+<td width="400px" class="test2">TÃ­hovÃ¡ sÃ­la amath m vec bb g endamath, jÃ­Å¾ pÅ¯sobÃ­ ZemÄ› na kostku, a tlakovÃ¡ sÃ­la amath vec bb T endamath, jÃ­Å¾ pÅ¯sobÃ­ stÅ¯l na kostku, jsou stejnÄ› velkÃ©, protoÅ¾e jde o akci a reakci ve smyslu tÅ™etÃ­ho Newtonova zÃ¡kona.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Tlaková síla amath vec bb P endamath, jí pùsobí stùl na podloku, a tlaková síla amath -vec bb P endamath, jí pùsobí podloka na stùl, jsou akce a reakce.
+<td width="400px" class="test2">TlakovÃ¡ sÃ­la amath vec bb P endamath, jÃ­Å¾ pÅ¯sobÃ­ stÅ¯l na podloÅ¾ku, a tlakovÃ¡ sÃ­la amath -vec bb P endamath, jÃ­Å¾ pÅ¯sobÃ­ podloÅ¾ka na stÅ¯l, jsou akce a reakce.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Tlaková síla amath vec bb T endamath, jí pùsobí stùl na kostku, a tlaková síla amath -vec bb T endamath, jí pùsobí kostka na stùl, jsou stejnì velké a opaènì orientované, protoe kostka je vùèi stolu v klidu.
+<td width="400px" class="test2">TlakovÃ¡ sÃ­la amath vec bb T endamath, jÃ­Å¾ pÅ¯sobÃ­ stÅ¯l na kostku, a tlakovÃ¡ sÃ­la amath -vec bb T endamath, jÃ­Å¾ pÅ¯sobÃ­ kostka na stÅ¯l, jsou stejnÄ› velkÃ© a opaÄnÄ› orientovanÃ©, protoÅ¾e kostka je vÅ¯Äi stolu v klidu.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Dvojice sil, které pøedstavují akci a reakci, jsou mj. tyto: tíhová síla amath m vec bb g endamath, jí pùsobí Zemì na kostku, a  síla amath - m vec bb g endamath, jí pùsobí kostka na Zemi, tlaková síla stolu na podloku a tlaková síla podloky na stùl, tlaková síla kostky na stùl a tlaková síla stolu na kostku.
+<td width="400px" class="test2">Dvojice sil, kterÃ© pÅ™edstavujÃ­ akci a reakci, jsou mj. tyto: tÃ­hovÃ¡ sÃ­la amath m vec bb g endamath, jÃ­Å¾ pÅ¯sobÃ­ ZemÄ› na kostku, a  sÃ­la amath - m vec bb g endamath, jÃ­Å¾ pÅ¯sobÃ­ kostka na Zemi, tlakovÃ¡ sÃ­la stolu na podloÅ¾ku a tlakovÃ¡ sÃ­la podloÅ¾ky na stÅ¯l, tlakovÃ¡ sÃ­la kostky na stÅ¯l a tlakovÃ¡ sÃ­la stolu na kostku.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka6"> (f)</td>
-<td width="400px" class="test2">Tlaková síla podloky na stùl kompenzuje celkovou tíhovou sílu pùsobící na stùl a na kostku.
+<td width="400px" class="test2">TlakovÃ¡ sÃ­la podloÅ¾ky na stÅ¯l kompenzuje celkovou tÃ­hovou sÃ­lu pÅ¯sobÃ­cÃ­ na stÅ¯l a na kostku.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka7"> (g)</td>
-<td width="400px" class="test2">Tlakovou sílu amath vec bb T endamath stolu na kostku a tlakovou sílu amath -vec bb T endamath kostky na stùl nelze konkrétnì urèit, protoe se ve vyjádøení vıslednice sil, jimi okolní objekty pùsobí na soustavu “stùl+kostka“, neuplatní.
+<td width="400px" class="test2">Tlakovou sÃ­lu amath vec bb T endamath stolu na kostku a tlakovou sÃ­lu amath -vec bb T endamath kostky na stÅ¯l nelze konkrÃ©tnÄ› urÄit, protoÅ¾e se ve vyjÃ¡dÅ™enÃ­ vÃ½slednice sil, jimiÅ¾ okolnÃ­ objekty pÅ¯sobÃ­ na soustavu â€œstÅ¯l+kostkaâ€œ, neuplatnÃ­.
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka8"> (h)</td>
-<td width="400px" class="test2">Tlakovou sílu amath vec bb T endamath stolu na kostku  lze urèit pouze pomocí podmínky, e stùl se nepohybuje.
+<td width="400px" class="test2">Tlakovou sÃ­lu amath vec bb T endamath stolu na kostku  lze urÄit pouze pomocÃ­ podmÃ­nky, Å¾e stÅ¯l se nepohybuje.
 </td>
 </tr>
 

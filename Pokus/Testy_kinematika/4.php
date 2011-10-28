@@ -1,15 +1,15 @@
-<div id="otazka"><strong>Z údajù na rychlomìru, kterı byl na zaèátku cyklistického vıletu vynulován, uvádíme tyto: 
+<div id="otazka"><strong>Z ÃºdajÅ¯ na rychlomÄ›ru, kterÃ½ byl na zaÄÃ¡tku cyklistickÃ©ho vÃ½letu vynulovÃ¡n, uvÃ¡dÃ­me tyto: 
 <ul>
-<li>Prùmìrná velikost rychlosti cyklisty za první hodinu jízdy je 16,2 km.h<sup>-1</sup>.</li>
-<li>Za první dvì hodiny jízdy ujel cyklista 26,4 km.</li>
-<li>Prùmìrná velikost rychlosti cyklisty po 50 km jízdy je 10,0 km.h<sup>-1</sup>.</li>
+<li>PrÅ¯mÄ›rnÃ¡ velikost rychlosti cyklisty za prvnÃ­ hodinu jÃ­zdy je 16,2 km.h<sup>-1</sup>.</li>
+<li>Za prvnÃ­ dvÄ› hodiny jÃ­zdy ujel cyklista 26,4 km.</li>
+<li>PrÅ¯mÄ›rnÃ¡ velikost rychlosti cyklisty po 50 km jÃ­zdy je 10,0 km.h<sup>-1</sup>.</li>
 </ul>
-Vyberte právì správná tvrzení.
+Vyberte prÃ¡vÄ› sprÃ¡vnÃ¡ tvrzenÃ­.
 </strong></div>
 
-<p class="odp">Obtínost: <b>2 body</b>. Doporuènı èas na vyøešení: <b>4,5 minuty</b>.</p>
+<p class="odp">ObtÃ­Å¾nost: <b>2 body</b>. DoporuÄnÃ½ Äas na vyÅ™eÅ¡enÃ­: <b>4,5 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
-<p class="odp"><input type="button" id="tlacitko" value="Zobrazit monosti a spustit odpoèet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
+<p class="odp"><input type="button" id="tlacitko" value="Zobrazit moÅ¾nosti a spustit odpoÄet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 
 <script>
 var c = 270;
@@ -20,7 +20,7 @@ odpocet();
 o = setInterval("odpocet()", 1000);}
 
 function konec()
-{ alert("Vypršel doporuèenı èasovı limit.");}
+{ alert("VyprÅ¡el doporuÄenÃ½ ÄasovÃ½ limit.");}
 
 function odpocet()
 {if(bezi==false) {
@@ -56,42 +56,42 @@ function zast_odp()
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Prùmìrná velikost rychlosti cyklisty za druhou hodinu jízdy je menší ne za první hodinu jízdy.</td>
+<td width="400px" class="test2">PrÅ¯mÄ›rnÃ¡ velikost rychlosti cyklisty za druhou hodinu jÃ­zdy je menÅ¡Ã­ neÅ¾ za prvnÃ­ hodinu jÃ­zdy.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">Za první pùlhodinu jízdy ujel cyklista dráhu 8,1 km.</td>
+<td width="400px" class="test2">Za prvnÃ­ pÅ¯lhodinu jÃ­zdy ujel cyklista drÃ¡hu 8,1 km.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Po dvou hodinách jízdy byl cyklista od místa startu vzdálen 26,4 km.</td>
+<td width="400px" class="test2">Po dvou hodinÃ¡ch jÃ­zdy byl cyklista od mÃ­sta startu vzdÃ¡len 26,4 km.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Bìhem tøetí hodiny jízdy ujel cyklista menší dráhu ne za první dvì hodiny.</td>
+<td width="400px" class="test2">BÄ›hem tÅ™etÃ­ hodiny jÃ­zdy ujel cyklista menÅ¡Ã­ drÃ¡hu neÅ¾ za prvnÃ­ dvÄ› hodiny.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Dráhu 50 km ujel cyklista za 5 hodin.</td>
+<td width="400px" class="test2">DrÃ¡hu 50 km ujel cyklista za 5 hodin.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka6"> (f)</td>
-<td width="400px" class="test2">Velikost prùmìrné rychlosti cyklisty za první dvì hodiny jízdy je 26,4 km.h<sup>-1</sup>.</td>
+<td width="400px" class="test2">Velikost prÅ¯mÄ›rnÃ© rychlosti cyklisty za prvnÃ­ dvÄ› hodiny jÃ­zdy je 26,4 km.h<sup>-1</sup>.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka7"> (g)</td>
-<td width="400px" class="test2">S kadou další hodinou prùmìrná velikost rychlosti cyklisty klesala.</td>
+<td width="400px" class="test2">S kaÅ¾dou dalÅ¡Ã­ hodinou prÅ¯mÄ›rnÃ¡ velikost rychlosti cyklisty klesala.</td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka8"> (h)</td>
-<td width="400px" class="test2">Vektor prùmìrné rychlosti cyklisty po 50 km jízdy je nenulovı.</td>
+<td width="400px" class="test2">Vektor prÅ¯mÄ›rnÃ© rychlosti cyklisty po 50 km jÃ­zdy je nenulovÃ½.</td>
 </tr>
 
 </table>
