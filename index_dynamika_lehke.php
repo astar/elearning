@@ -121,7 +121,7 @@ endif;
 
 <head><title>Kurz klasické mechaniky v úlohách a testech pro e-learning</title>
   <meta name="AUTHOR" content="Petr Horálek">
-  <meta http-equiv="Content-Type" content="text/html; charset=windows-1250">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="Keywords" content="Informace">
   <meta name="description" content="Kurz klasické mechaniky v úlohách a testech pro e-learning">
   <link rel="STYLESHEET" href="Styl.css" type="text/css">
