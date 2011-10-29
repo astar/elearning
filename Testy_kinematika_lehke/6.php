@@ -1,4 +1,4 @@
-<strong> </strong>
+<strong>Malá kulička (hmotný bod) se pohybuje rovnoměrně po kružnici. Perioda pohybu je T. Z následujících tvrzení je právě jedno správné. Vyberte je. </strong>
 
 <p class="odp">Obtížnost: <b>1 bod</b>. Doporučný čas na vyřešení: <b>1,5 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
@@ -46,31 +46,31 @@ function zast_odp()
 <table>
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">
+<td width="400px" class="test2">Rychlost  i  úhlová rychlost kuličky se s časem mění.                                           
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">
+<td width="400px" class="test2">Dráha kuličky je periodickou funkcí času.                                                                                  
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">
+<td width="400px" class="test2">Velikost průměrného zrychlení kuličky je  v každém z intervalů  stejná a je rovna velikosti dostředivého zrychlení.                                       
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">
+<td width="400px" class="test2">Průměrná rychlost kuličky je v každém z intervalů  nenulová.                                                                                                           
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">
+<td width="400px" class="test2">Průměrná velikost rychlosti kuličky je v každém z intervalů nenulová.                                                                                                                                                               
 </td>
 </tr>
 
