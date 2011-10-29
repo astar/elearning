@@ -1,11 +1,14 @@
-<strong> </strong>
+<strong> Horkovzdušný balón stoupá s konstantním zrychlením $2 m.s^{-2}$
+. V okamžiku, kdy má rychlost $1 m.s^{-1}$, pasažér upustí jablko. Odpor vzduchu
+je zanedbatelný. Z následujících tvrzení je právě jedno
+správné. Vyberte je.</strong>
 
-<p class="odp">Obtížnost: <b>1 bod</b>. Doporučný čas na vyřešení: <b>1,5 minuty</b>.</p>
+<p class="odp">Obtížnost: <b>1 bod</b>. Doporučný čas na vyřešení: <b>1 minuta</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
 <p class="odp"><input type="button" id="tlacitko" value="Zobrazit možnosti a spustit odpočet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 
 <script>
-var c = 90;
+var c = 60;
 
 function start_odp()
 {bezi = true;
@@ -46,33 +49,32 @@ function zast_odp()
 <table>
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">
+<td width="400px" class="test2">Jablko se vůči Zemi pohybuje s nulovou počáteční rychlostí.                                            
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2">
+<td width="400px" class="test2">Jablko se vůči balónu pohybuje s nulovým počátečním zrychlením.                                                                                  
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">
+<td width="400px" class="test2">Jablko se vůči Zemi pohybuje svisle dolů.                                       
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">
+<td width="400px" class="test2">Jablko se vůči balónu pohybuje svisle dolů.                                                                                                           
 </td>
 </tr>
 
-<tr>
-<td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">
-</td>
-</tr>
+<tr> <td width="50px" class="test"><input type="checkbox"
+name="otazka5"> (e)</td> <td width="400px" class="test2">Jablko se
+vůči Zemi pohybuje s počátečním zrychlením $2 m.s^{-2}$.  
+</td> </tr>
 
 
 </table>
@@ -87,8 +89,8 @@ function zast_odp()
 		if (document.form.otazka1.checked==false &&
 	            document.form.otazka2.checked==false && 	
 		    document.form.otazka3.checked==false && 	 	
-		    document.form.otazka4.checked==false && 
-		    document.form.otazka5.checked==true)
+		    document.form.otazka4.checked==true && 
+		    document.form.otazka5.checked==false)
 
 
 			window.open("Spatne/kinematika_lehke/spravne10.htm","Spravne", "height=170px, width=500px, top=300px, left=500px, status=no, toolbar=no, location=no, scrollbars=yes, resizable=no");

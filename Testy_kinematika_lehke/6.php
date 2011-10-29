@@ -58,19 +58,19 @@ function zast_odp()
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Velikost průměrného zrychlení kuličky je  v každém z intervalů  stejná a je rovna velikosti dostředivého zrychlení.                                       
+<td width="400px" class="test2">Velikost průměrného zrychlení kuličky je  v každém z intervalů $[t, t + \Delta t]$   stejná a je rovna velikosti dostředivého zrychlení.                                       
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Průměrná rychlost kuličky je v každém z intervalů  nenulová.                                                                                                           
+<td width="400px" class="test2">Průměrná rychlost kuličky je v každém z intervalů $[t, t + \Delta t]$   nenulová.                                                                                                           
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Průměrná velikost rychlosti kuličky je v každém z intervalů nenulová.                                                                                                                                                               
+<td width="400px" class="test2">Průměrná velikost rychlosti kuličky je v každém z intervalů $[t, t + \Delta t]$  nenulová.                                                                                                                                                               
 </td>
 </tr>
 

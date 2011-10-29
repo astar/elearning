@@ -1,4 +1,6 @@
-<strong>Dopravní letadlo stoupá v intervalu  s konstantním zrychlením , které svírá úhel  s vektorem tíhového zrychlení ,  kde . V okamžiku  je rychlost letadla  souhlasně rovnoběžná se zrychlením. Z následujících tvrzení je právě jedno správné. Vyberte je.  </strong>
+<strong>Dopravní letadlo stoupá v intervalu $(t_1, t_2)$
+s konstantním zrychlením, které svírá úhel  s vektorem tíhového
+zrychlení, kde $\alpha  \epsilon  (90^\circ, 180^\circ)$ . V okamžiku  je rychlost letadla  souhlasně rovnoběžná se zrychlením. Z následujících tvrzení je právě jedno správné. Vyberte je.  </strong>
 
 <p class="odp">Obtížnost: <b>1 bod</b>. Doporučný čas na vyřešení: <b>1,5 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
@@ -46,31 +48,31 @@ function zast_odp()
 <table>
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka1"> (a)</td>
-<td width="400px" class="test2">Směr rychlosti  letadla se v intervalu  mění.                                                                                  
+<td width="400px" class="test2">Směr rychlosti  letadla se v intervalu $(t_1, t_2)$  mění.                                                                                  
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka2"> (b)</td>
-<td width="400px" class="test2"> Trajektorií  letadla je v intervalu  parabola.                                           
+<td width="400px" class="test2"> Trajektorií  letadla je v intervalu $(t_1, t_2)$  parabola.                                           
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka3"> (c)</td>
-<td width="400px" class="test2">Výška letadla nad zemským povrchem je v intervalu kvadratickou funkcí času.                                       
+<td width="400px" class="test2">Výška letadla nad zemským povrchem je v intervalu $(t_1, t_2)$ kvadratickou funkcí času.                                       
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Vodorovná složka rychlosti letadla se v intervalu  nemění.                                                                                                           
+<td width="400px" class="test2">Vodorovná složka rychlosti letadla se v intervalu $(t_1, t_2)$  nemění.                                                                                                           
 </td>
 </tr>
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka5"> (e)</td>
-<td width="400px" class="test2">Působením odporu vzduchu rychlost  letadla v intervalu  klesá.                                                                                                                                                              
+<td width="400px" class="test2">Působením odporu vzduchu rychlost  letadla v intervalu $(t_1, t_2)$  klesá.                                                                                                                                                              
 </td>
 </tr>
 
