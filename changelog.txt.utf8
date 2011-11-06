@@ -7,15 +7,15 @@ usnadnění orientace budoucím generacím.
 
 
 * TODO
+** Kontrola uloh lehke/tezke
 ** Vyjasnit nektere body z kinematika.doc (mozna dano oteviranim v google doc)
    Nesprávné tvrzení. Pokud se částice pohybuje přímočaře,  průměrná rychlost 
    směr tečny k trajektorii má.
-** Pridani novych uloh
-** Kontrola uloh lehke/tezke
 ** Vyřešení problému "vyhodnotit" -detaily (zřejmě jen na některých verzích prohlížeče)
    
 * DONE
-
+** Pridany odkazy na soubory Zavody-ukoly.pdf, Zavody-reseni.pdfv experimenty.php 
+** Pridani novych uloh
 ** Konverze vsech souboru z CP-1250 --> UTF-8
    sed -i 's/windows-1250/UTF-8/' unstable/*.php
    enconv -L cs -x utf-8 `find unstable/ -name *.php`
