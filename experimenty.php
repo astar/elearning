@@ -33,13 +33,16 @@ Zájemce o podrobný matematický rozbor experimentu odkazujeme na <b><a href="T
 
 <hr>
 
-<p class="expnad1"><b>Závody válců</b></p>
-<p class="expnad">(Téma: Mechanika tuhého tělesa - aplikace impulzových vět)</p>
-<p class="exp">Videozáznam z přednášky Prof. RNDr. Jany Musilové, CSc.</p>
-<p class="exp">
-<a href="index.php?web=video_musilova_valce"><b>Videoukázka</b></a> - komentovaný demonstrační experiment</p>
+<p class="expnad1"><b>Závody válců</b></p> <p class="expnad">(Téma:
+Mechanika tuhého tělesa - aplikace impulzových vět)</p> <p
+class="exp">Videozáznam z přednášky Prof. RNDr. Jany Musilové,
+CSc.</p> <p class="exp"> <a href="index.php?web=video_musilova_valce"><b>Videoukázka</b></a> -
+komentovaný demonstrační experiment</p> 
 
-<hr>
+<p class="exp">
+<a href="Texty/Experimenty/Zavody-ukoly.pdf">Úkoly k samostatnému
+řešení</a><br> 
+<a href="Texty/Experimenty/Zavody-reseni.pdf">Řešení</a> <hr>
 
 <p class="expnad1"><b>Odvalování cívky</b></p>
 <p class="expnad">(Téma: Mechanika tuhého tělesa - aplikace impulzových vět)</p>
