@@ -31,10 +31,10 @@ Zákony zachování aneb “Není nutné vědět o všem…“</li>
 <li class="nas"><b><a href="Texty/Nastraha8.pdf">Nástraha osmá</a></b><br>
 Vody stojaté i tekoucí aneb Mechanika kapalin</li>
 
-<li class="nas"><b>Nástraha devátá</b><br>
+<li class="nas"><b><a href="Texty/Nastraha9.pdf">Nástraha devátá</a></b><br>
 Když Newtonovy zákony nestačí aneb Termodynamika a statistická fyzika v kostce</li>
 
-<li class="nas"><b>Nástraha desátá – bonusová</b><br>
+<li class="nas"><b><a href="Texty/Nastraha10.pdf">Nástraha desátá – bonusová</a></b><br>
 Příliš těžké??? aneb Několik úloh “s hvězdičkou”</li>
 </ul>
 
