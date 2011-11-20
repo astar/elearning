@@ -7,6 +7,8 @@ pokyny pro vlastní samostatnou práci studentů.</p>
 <p class="alert">V případě, že se Vám video nebude zobrazovat, <b>je třeba si nainstalovat <a href="http://get.adobe.com/flashplayer/?promoid=DXLUJ">Adobe Flash Player</a></b> a restartovat Váš prohlížeč.</p>
 
 
+
+
 <hr>
 <p class="expnad1"><b>Vysunutí papíru zpod kádinky s vodou</b></p>
 <p class="expnad">(Téma: Newtonovy zákony)</p>
@@ -77,3 +79,11 @@ komentovaný demonstrační experiment</p>
 <a href="index.php?web=video_musilova2"><b>Videoukázka 2</b></a> - komentovaný demonstrační experiment s odpověďmi na otázky z Videoukázky 1<br>
 <a href="index.php?web=video_musilova3"><b>Videoukázka 3</b></a> - komentovaný demonstrační experiment navazující na Videoukázky 1 a 2<br>
 </p>
+
+<hr>
+
+<p class="expnad1"><b>Pascalův zákon</b></p>
+<p class="expnad">(Téma: Mechanika tekutin)</p>
+<p class="exp">Videozáznam z přednášky Prof. RNDr. Jany Musilové, CSc.</p>
+<p class="exp">
+<a href="index.php?web=video_musilova_pascal"><b>Videoukázka</b></a> - komentovaný demonstrační experiment</p>

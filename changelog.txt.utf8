@@ -7,13 +7,26 @@ usnadnění orientace budoucím generacím.
 
 
 * TODO
+** Verzovat!!!
+** Male zmeny z emailu od Lenky 
+
 ** Kontrola uloh lehke/tezke
 ** Vyjasnit nektere body z kinematika.doc (mozna dano oteviranim v google doc)
    Nesprávné tvrzení. Pokud se částice pohybuje přímočaře,  průměrná rychlost 
    směr tečny k trajektorii má.
 ** Vyřešení problému "vyhodnotit" -detaily (zřejmě jen na některých verzích prohlížeče)
    
+
 * DONE
+** Pridani videa Pascaluv zakon
+*** Nahrano na youtube
+*** Strih na 17:14
+** obrazky z png --> svg (epstopdf, pdf2svg)
+** Vsechny testy Skalarni/vektorove 
+** Aktualizovany soubory nastrah (unstable i production) 
+** Pridani Nastraha9.pdf Nastraha10.pdf na nastrahy.php 
+** Zaloha pred zmenami na taurus:/data/vazny/elearning.tar (1.5 GiB)
+** Zmena prav na /var/www/htdoc/elearning horalek-->vazny
 ** Pridany odkazy na soubory Zavody-ukoly.pdf, Zavody-reseni.pdfv experimenty.php 
 ** Pridani novych uloh
 ** Konverze vsech souboru z CP-1250 --> UTF-8
