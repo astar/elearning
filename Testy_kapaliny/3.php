@@ -1,7 +1,7 @@
 <strong>Je známo, že proud vody vytékající z vodovodního kohoutku se zužuje (viz obrázek). Vodu považujeme za nestlačitelnou, proudění za ustálené a laminární. Z následujících tvrzení je právě jedno správné. Vyberte jej.
 </strong>
 
-<p class="odp">Obtížnost: <b>0,5 bodu</b>. Doporučný čas na vyřešení: <b>2 minuty</b>.</p>
+<p class="odp">Obtížnost: <b>0,5 bodu</b>. Doporučený čas na vyřešení: <b>2 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
 <p class="odp"><input type="button" id="tlacitko" value="Zobrazit možnosti a spustit odpočet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 

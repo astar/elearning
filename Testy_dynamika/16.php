@@ -6,7 +6,7 @@ po přímých vodorovných kolejích se zrychlením <i><b>A</b></i>. Velikost zr
 konstanta úměrnosti a <i>t</i> je čas. Tíhové zrychlení je <i><b>g</b></i>. Odpor vzduchu zanedbáváme. 
 Vyberte právě ta tvrzení, která jsou správná.</strong>
 
-<p class="odp">Obtížnost: <b>2 body</b>. Doporučný čas na vyřešení: <b>4 minuty</b>.</p>
+<p class="odp">Obtížnost: <b>2 body</b>. Doporučený čas na vyřešení: <b>4 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
 <p class="odp"><input type="button" id="tlacitko" value="Zobrazit možnosti a spustit odpočet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 

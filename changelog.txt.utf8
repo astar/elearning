@@ -18,6 +18,10 @@ usnadnění orientace budoucím generacím.
    
 
 * DONE
+
+** Oprava preklepu
+   find unstable/ -name *.php | xargs sed -i 's/Doporučný/Doporučený/'
+** Pridany zmen o projektu atd
 ** Pridani videa Pascaluv zakon
 *** Nahrano na youtube
 *** Strih na 17:14

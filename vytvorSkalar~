@@ -1,0 +1,50 @@
+#!/bin/bash
+cp t_q.php Testy_kinematika/13.php
+cp t_q.php Testy_kinematika/14.php
+cp t_q.php Testy_kinematika/15.php
+cp t_q.php Testy_kinematika/16.php
+cp t_q.php Testy_kinematika/17.php
+
+
+
+sed -i 's/spatne4.htm/spatne11.htm/' Testy_kinematika/13.php
+sed -i 's/spatne4.htm/spatne11.htm/' Testy_kinematika/14.php
+sed -i 's/spatne4.htm/spatne11.htm/' Testy_kinematika/15.php
+sed -i 's/spatne4.htm/spatne11.htm/' Testy_kinematika/16.php
+sed -i 's/spatne4.htm/spatne11.htm/' Testy_kinematika/17.php
+
+
+
+cp t_k_spatne.htm Spatne/kinematika/kinematika_spatne13.htm
+cp t_k_spatne.htm Spatne/kinematika/kinematika_spatne14.htm
+cp t_k_spatne.htm Spatne/kinematika/kinematika_spatne15.htm
+cp t_k_spatne.htm Spatne/kinematika/kinematika_spatne16.htm
+cp t_k_spatne.htm Spatne/kinematika/kinematika_spatne17.htm
+
+
+cp t_spatne.htm Spatne/kinematika/spatne13.htm
+cp t_spatne.htm Spatne/kinematika/spatne14.htm
+cp t_spatne.htm Spatne/kinematika/spatne15.htm
+cp t_spatne.htm Spatne/kinematika/spatne16.htm
+cp t_spatne.htm Spatne/kinematika/spatne17.htm
+
+
+sed -i 's/kinematika_spatne4.htm/kinematika_spatne13.htm/' Spatne/kinematika/spatne13.htm
+sed -i 's/kinematika_spatne4.htm/kinematika_spatne14.htm/' Spatne/kinematika/spatne14.htm
+sed -i 's/kinematika_spatne4.htm/kinematika_spatne15.htm/' Spatne/kinematika/spatne15.htm
+sed -i 's/kinematika_spatne4.htm/kinematika_spatne16.htm/' Spatne/kinematika/spatne16.htm
+sed -i 's/kinematika_spatne4.htm/kinematika_spatne17.htm/' Spatne/kinematika/spatne17.htm
+
+
+
+cp t_spravne.htm Spatne/kinematika/spravne13.htm
+cp t_spravne.htm Spatne/kinematika/spravne14.htm
+cp t_spravne.htm Spatne/kinematika/spravne15.htm
+cp t_spravne.htm Spatne/kinematika/spravne16.htm
+cp t_spravne.htm Spatne/kinematika/spravne17.htm
+
+sed -i 's/kinematika_spatne4.htm/kinematika_spatne13.htm/' Spatne/kinematika/spravne13.htm
+sed -i 's/kinematika_spatne4.htm/kinematika_spatne14.htm/' Spatne/kinematika/spravne14.htm
+sed -i 's/kinematika_spatne4.htm/kinematika_spatne15.htm/' Spatne/kinematika/spravne15.htm
+sed -i 's/kinematika_spatne4.htm/kinematika_spatne16.htm/' Spatne/kinematika/spravne16.htm
+sed -i 's/kinematika_spatne4.htm/kinematika_spatne17.htm/' Spatne/kinematika/spravne17.htm

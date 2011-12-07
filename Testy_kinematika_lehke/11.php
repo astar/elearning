@@ -1,6 +1,6 @@
 <strong>Mezi následujícími tvrzeními je právě jedno správné. Vyberte je.  </strong>
 
-<p class="odp">Obtížnost: <b>1 bod</b>. Doporučný čas na vyřešení: <b>1 minuta</b>.</p>
+<p class="odp">Obtížnost: <b>1 bod</b>. Doporučený čas na vyřešení: <b>1 minuta</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
 <p class="odp"><input type="button" id="tlacitko" value="Zobrazit možnosti a spustit odpočet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 

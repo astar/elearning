@@ -1,6 +1,6 @@
 <strong>Cyklista si vyjel na výlet. Po první půlhodině jízdy ukazoval původně vynulovaný rychloměr průměrnou velikost rychlosti 25,2 km.h<sup>-1</sup>, po druhé půlhodině (tj. po hodině jízdy) 18,6 km.h<sup>-1</sup>. Z následujících tvrzení je právě jedno správné. Vyberte jej.</strong>
 
-<p class="odp">Obtížnost: <b>1 bod</b>. Doporučný čas na vyřešení: <b>3,5 minuty</b>.</p>
+<p class="odp">Obtížnost: <b>1 bod</b>. Doporučený čas na vyřešení: <b>3,5 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
 <p class="odp"><input type="button" id="tlacitko" value="Zobrazit možnosti a spustit odpočet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 

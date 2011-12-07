@@ -1,7 +1,7 @@
 <strong>Míček koná vodorovný vrh v homogenním tíhovém poli Země. Předpokládáme, že míček lze považovat za hmotný bod, který se pohybuje v homogenním tíhovém poli Země, a odpor vzduchu je zanedbatelný. Vyberte právě správná tvrzení.
 </strong>
 
-<p class="odp">Obtížnost: <b>1 bod</b>. Doporučný čas na vyřešení: <b>2 minuty</b>.</p>
+<p class="odp">Obtížnost: <b>1 bod</b>. Doporučený čas na vyřešení: <b>2 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
 <p class="odp"><input type="button" id="tlacitko" value="Zobrazit možnosti a spustit odpočet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 
@@ -65,7 +65,7 @@ function zast_odp()
 
 <tr>
 <td width="50px" class="test"><input type="checkbox" name="otazka4"> (d)</td>
-<td width="400px" class="test2">Velikost rychlosti míčku neroste s časem lineárně, neboť velikost tečného zrychlení míčku není během pohybu konstantní.                                                                                                                                                               
+<td width="400px" class="test2">Velikost rychlosti míčku neroste s časem lineárně, neboť velikost tečného zrychlení míčku není během pohybu konstantní.
 </td>
 </tr>
 

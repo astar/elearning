@@ -1,7 +1,7 @@
 <div id="otazka"><strong>Člověk přemisťuje knihu v homogenním tíhovém poli Země po různých trajektoriích. Předpokládáme, že kromě něj a Země na knihu žádné další objekty nepůsobí. Z následujících tvrzení vyberte právě to, které je správné.
 </strong></div>
 
-<p class="odp">Obtížnost: <b>0,5 bodu</b>. Doporučný čas na vyřešení: <b>2,5 minuty</b>.</p>
+<p class="odp">Obtížnost: <b>0,5 bodu</b>. Doporučený čas na vyřešení: <b>2,5 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
 <p class="odp"><input type="button" id="tlacitko" value="Zobrazit možnosti a spustit odpočet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 

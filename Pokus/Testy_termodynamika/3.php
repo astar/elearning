@@ -1,7 +1,7 @@
 <div id="otazka"><strong>Z následujících tvrzení vyberte právě to, které je obecně správné.
 </strong></div>
 
-<p class="odp">Obtížnost: <b>1 bod</b>. Doporučný čas na vyřešení: <b>2 minuty</b>.</p>
+<p class="odp">Obtížnost: <b>1 bod</b>. Doporučený čas na vyřešení: <b>2 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
 <p class="odp"><input type="button" id="tlacitko" value="Zobrazit možnosti a spustit odpočet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 

@@ -1,7 +1,7 @@
 <strong>Na vodorovném stole o hmotnosti <i>M</i> leží v klidu kostka o hmotnosti <i>m</i>. Stůl stojí na vodorovné podložce. (Soustava je umístěna v homogenním tíhovém poli Země, tíhové zrychlení je <i><b>g</b></i>.) Z následujících tvrzení vyberte právě ta, která jsou správná.
 </strong>
 
-<p class="odp">Obtížnost: <b>2 body</b>. Doporučný čas na vyřešení: <b>3 minuty</b>.</p>
+<p class="odp">Obtížnost: <b>2 body</b>. Doporučený čas na vyřešení: <b>3 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
 <p class="odp"><input type="button" id="tlacitko" value="Zobrazit možnosti a spustit odpočet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 

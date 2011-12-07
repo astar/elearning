@@ -1,7 +1,7 @@
 <div id="otazka"><strong>Homogenní tuhý válec byl uveden do pohybu po vodorovné rovině. Předpokládejme, že od jistého okamžiku na něj kromě Země a podložky žádné jiné objekty nepůsobí a rychlost jeho těžiště je kolmá na osu symetrie. Z následujících tvrzení je právě jedno správné. Vyberte jej.
 </strong></div>
 
-<p class="odp">Obtížnost: <b>2 body</b>. Doporučný čas na vyřešení: <b>3 minuty</b>.</p>
+<p class="odp">Obtížnost: <b>2 body</b>. Doporučený čas na vyřešení: <b>3 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
 <p class="odp"><input type="button" id="tlacitko" value="Zobrazit možnosti a spustit odpočet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 

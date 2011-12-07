@@ -1,6 +1,6 @@
 <strong>Na obrázku je zakreslen graf časové závislosti <i>x</i>-ové složky výslednice sil působících na částici s konstantní hmotností. Pohyb částice sledujeme v inerciální vztažné soustavě. Vyberte právě ta tvrzení, o jejichž správnosti NELZE v dané situaci ROZHODNOUT.</strong>
 
-<p class="odp">Obtížnost: <b>1,5 bodu</b>. Doporučný čas na vyřešení: <b>3,5 minuty</b>.</p>
+<p class="odp">Obtížnost: <b>1,5 bodu</b>. Doporučený čas na vyřešení: <b>3,5 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
 <p class="odp"><input type="button" id="tlacitko" value="Zobrazit možnosti a spustit odpočet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 

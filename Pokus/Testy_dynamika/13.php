@@ -1,6 +1,6 @@
 <div id="otazka"><strong>Malé kuličce zavěšené na napnutém vlákně zanedbatelné hmotnosti a neproměnné délky udělíme takovou rychlost, že obíhá po kružnici ležící ve svislé rovině. Předpokládáme, že odpor prostředí je zanedbatelný. Z následujících tvrzení je právě jedno správné. Vyberte jej.</strong></div>
 
-<p class="odp">Obtížnost: <b>1 bod</b>. Doporučný čas na vyřešení: <b>2,5 minuty</b>.</p>
+<p class="odp">Obtížnost: <b>1 bod</b>. Doporučený čas na vyřešení: <b>2,5 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
 <p class="odp"><input type="button" id="tlacitko" value="Zobrazit možnosti a spustit odpočet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 

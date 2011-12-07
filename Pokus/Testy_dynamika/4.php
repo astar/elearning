@@ -1,7 +1,7 @@
 <div id="otazka"><strong>Částici s konstantní hmotností sledujeme v inerciální vztažné soustavě. Z následujících tvrzení je pro tuto situaci právě jedno správné. Vyberte jej.
 </strong></div>
 
-<p class="odp">Obtížnost: <b>0,5 bodu</b>. Doporučný čas na vyřešení: <b>1,5 minuty</b>.</p>
+<p class="odp">Obtížnost: <b>0,5 bodu</b>. Doporučený čas na vyřešení: <b>1,5 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
 <p class="odp"><input type="button" id="tlacitko" value="Zobrazit možnosti a spustit odpočet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 

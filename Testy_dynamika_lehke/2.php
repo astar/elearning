@@ -1,7 +1,7 @@
 <strong>Družice o hmotnosti <i>m</i> se pohybuje kolem Země (hmotnost <i>M</i>) po kruhové dráze o poloměru <i>R</i> (aproximace). Soustavu Země – družice považujeme za izolovanou, obě tělesa za hmotné body, vztažnou soustavu spojenou se Zemí za inerciální. Z následujících tvrzení je právě jedno správné. Vyberte jej.
 </strong>
 
-<p class="odp">Obtížnost: <b>1 bod</b>. Doporučný čas na vyřešení: <b>2 minuty</b>.</p>
+<p class="odp">Obtížnost: <b>1 bod</b>. Doporučený čas na vyřešení: <b>2 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
 <p class="odp"><input type="button" id="tlacitko" value="Zobrazit možnosti a spustit odpočet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 

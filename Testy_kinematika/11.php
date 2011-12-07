@@ -1,6 +1,6 @@
 <strong>Z téhož místa ve výšce <i>h</i> &ne; 0 nad povrchem Země byly současně vystřeleny dva projektily, první vodorovně a druhý svisle vzhůru. Předpokládáme, že projektily lze považovat za hmotné body, které se pohybují v homogenním tíhovém poli Země, a odpor vzduchu je zanedbatelný. Vyberte právě to tvrzení, které je pro časové rozmezí, kdy se oba projektily vůči Zemi pohybují, správné.</strong>
 
-<p class="odp">Obtížnost: <b>1 bod</b>. Doporučný čas na vyřešení: <b>3 minuty</b>.</p>
+<p class="odp">Obtížnost: <b>1 bod</b>. Doporučený čas na vyřešení: <b>3 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
 <p class="odp"><input type="button" id="tlacitko" value="Zobrazit možnosti a spustit odpočet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 

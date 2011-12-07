@@ -1,6 +1,6 @@
 <strong>Na obrázku je zakreslen graf závislosti <i>x</i>-ové složky zrychlení na čase pro částici, jejíž <i>x</i>-ová složka rychlosti v okamžiku <i>t</i>=0 je <i>v<sub>x</sub></i>(0) =  1,0 m.s<sup>-1</sup>. Vyberte právě správná tvrzení.</strong>
 
-<p class="odp">Obtížnost: <b>2 body</b>. Doporučný čas na vyřešení: <b>4 minuty</b>.</p>
+<p class="odp">Obtížnost: <b>2 body</b>. Doporučený čas na vyřešení: <b>4 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
 <p class="odp"><input type="button" id="tlacitko" value="Zobrazit možnosti a spustit odpočet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 

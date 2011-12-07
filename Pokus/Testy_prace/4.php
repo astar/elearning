@@ -1,7 +1,7 @@
 <div id="otazka"><strong>Mezi dvěma částicemi (hmotnými body) o různých hmotnostech, které tvoří izolovanou soustavu, došlo ke srážce. Srážku popisujeme v těžišťové soustavě. Vyberte právě ta tvrzení, která jsou správná. (Napovězme, že zde nečiníme žádné předpoklady ani o tom, zda je srážka pružná, či nepružná.)
 </strong></div>
 
-<p class="odp">Obtížnost: <b>2,5 bodu</b>. Doporučný čas na vyřešení: <b>3 minuty</b>.</p>
+<p class="odp">Obtížnost: <b>2,5 bodu</b>. Doporučený čas na vyřešení: <b>3 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
 <p class="odp"><input type="button" id="tlacitko" value="Zobrazit možnosti a spustit odpočet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 

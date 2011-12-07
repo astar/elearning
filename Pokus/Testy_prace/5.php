@@ -1,7 +1,7 @@
 <div id="otazka"><strong>Mezi dvěma částicemi (hmotnými body) o různých hmotnostech, které tvoří izolovanou soustavu, došlo k přímé pružné srážce (při přímé srážce leží počáteční rychlosti částic v jedné přímce).  Srážku popisujeme v laboratorní (inerciální) vztažné soustavě. Z následujících tvrzení je právě jedno správné. Vyberte je.
 </strong></div>
 
-<p class="odp">Obtížnost: <b>0,5 bodu</b>. Doporučný čas na vyřešení: <b>2,5 minuty</b>.</p>
+<p class="odp">Obtížnost: <b>0,5 bodu</b>. Doporučený čas na vyřešení: <b>2,5 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
 <p class="odp"><input type="button" id="tlacitko" value="Zobrazit možnosti a spustit odpočet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 

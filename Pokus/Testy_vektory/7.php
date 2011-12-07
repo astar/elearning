@@ -1,6 +1,6 @@
 <div id="otazka"><strong>Uvažme dvě síly <b><i>F</i><sub>1</sub></b>, <b><i>F</i><sub>2</sub></b>, které mají ve zvolené kartézské soustavě souřadnic <i>Oxyz</i> složky <b><i>F</i><sub>1</sub></b> = (<i>F</i><sub>1x</sub>, <i>F</i><sub>1y</sub>, <i>F</i><sub>1z</sub>), <b><i>F</i><sub>2</sub></b> = (<i>F</i><sub>2x</sub>, <i>F</i><sub>2y</sub>, <i>F</i><sub>2z</sub>). Vyberte právě správná tvrzení.</strong></div>
 
-<p class="odp">Obtížnost: <b>2 body</b>. Doporučný čas na vyřešení: <b>3,5 minuty</b>.</p>
+<p class="odp">Obtížnost: <b>2 body</b>. Doporučený čas na vyřešení: <b>3,5 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
 <p class="odp"><input type="button" id="tlacitko" value="Zobrazit možnosti a spustit odpočet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 

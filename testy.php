@@ -24,12 +24,18 @@ V náhodně generovaném testu na 30 minut máte možnost řešit úlohy různé
 <h3>Těžce na cvičišti, lehce na bojišti</h3>
 
 <ul>
-<li><b><a href="index_vektory.php">Skalární a vektorové veličiny</a></b><br>(8 testových položek)</li>
+
+<li><b>Skalární a vektorové veličiny</b><br>
+<li class="test3">
+<b><a href="index_vektory_lehke.php">Lehké otázky</a></b><br>(10 testový položek)<br>
+<b><a href="index_vektory.php">Obtížné otázky</a></b><br>(4 testové položky)
+</li>
+
 <li><b>Kinematika částice</b><br>
 
 <li class="test3">
-<b><a href="index_kinematika_lehke.php">Lehké otázky</a></b><br>(3 testové položky)<br>
-<b><a href="index_kinematika.php">Obtížné otázky</a></b><br>(12 testových položek)
+<b><a href="index_kinematika_lehke.php">Lehké otázky</a></b><br>(11 testových položek)<br>
+<b><a href="index_kinematika.php">Obtížné otázky</a></b><br>(16 testových položek)
 </li>
 
 <li><b>Dynamika částice</b></li>

@@ -14,7 +14,7 @@ Teploty ve stavech 1 až 5 jsou <i>T</i><sub>1</sub>, <i>T</i><sub>2</sub>, <i>T
 Z následujících tvrzení vyberte právě ta, která jsou pro danou situaci správná.
 </strong></div>
 
-<p class="odp">Obtížnost: <b>2 body</b>. Doporučný čas na vyřešení: <b>5 minut</b>.</p>
+<p class="odp">Obtížnost: <b>2 body</b>. Doporučený čas na vyřešení: <b>5 minut</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
 <p class="odp"><input type="button" id="tlacitko" value="Zobrazit možnosti a spustit odpočet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 

@@ -1,6 +1,6 @@
 <div id="otazka"><strong>Na obrázku je zakreslen graf závislosti velikosti rychlosti částice na čase. Z následujících tvrzení je právě jedno správné. Vyberte jej.</strong></div>
 
-<p class="odp">Obtížnost: <b>1 bod</b>. Doporučný čas na vyřešení: <b>3 minuty</b>.</p>
+<p class="odp">Obtížnost: <b>1 bod</b>. Doporučený čas na vyřešení: <b>3 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
 <p class="odp"><input type="button" id="tlacitko" value="Zobrazit možnosti a spustit odpočet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 

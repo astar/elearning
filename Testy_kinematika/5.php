@@ -1,6 +1,6 @@
 <strong>Z následujících tvrzení vyberte právě ta, která jsou NESPRÁVNÁ, NEBO JE JEJICH SPRÁVNOST OMEZENA NA SPECIÁLNÍ PŘÍPADY.</strong>
 
-<p class="odp">Obtížnost: <b>1,5 bodu</b>. Doporučný čas na vyřešení: <b>2,5 minuty</b>.</p>
+<p class="odp">Obtížnost: <b>1,5 bodu</b>. Doporučený čas na vyřešení: <b>2,5 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
 <p class="odp"><input type="button" id="tlacitko" value="Zobrazit možnosti a spustit odpočet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 

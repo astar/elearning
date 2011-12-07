@@ -1,7 +1,7 @@
 <div id="otazka"><strong>Malá kulička (hmotný bod) se pohybuje v rovině <i>Oxy</i> rovnoměrně po kružnici o poloměru <i>R</i>. Bod <i>O</i> je středem kružnice. Velikost rychlosti kuličky je <i>v</i>. Z následujících tvrzení je právě jedno správné. Vyberte jej.
 </strong></div>
 
-<p class="odp">Obtížnost: <b>1 bod</b>. Doporučný čas na vyřešení: <b>1 minuta</b>.</p>
+<p class="odp">Obtížnost: <b>1 bod</b>. Doporučený čas na vyřešení: <b>1 minuta</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
 <p class="odp"><input type="button" id="tlacitko" value="Zobrazit možnosti a spustit odpočet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 

@@ -1,6 +1,6 @@
 <strong>Na obrázku je v rovině <i>Oxz</i> s vodorovnou osou <i>x</i> a osou <i>z</i> orientovanou svisle vzhůru zakreslena trajektorie šikmo vrženého míčku. Předpokládáme, že míček lze považovat za hmotný bod, který se pohybuje v homogenním tíhovém poli Země, a odpor vzduchu je zanedbatelný. Z následujících tvrzení je právě jedno správné. Vyberte jej.</strong>
 
-<p class="odp">Obtížnost: <b>0,5 bodu</b>. Doporučný čas na vyřešení: <b>3 minuty</b>.</p>
+<p class="odp">Obtížnost: <b>0,5 bodu</b>. Doporučený čas na vyřešení: <b>3 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
 <p class="odp"><input type="button" id="tlacitko" value="Zobrazit možnosti a spustit odpočet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 

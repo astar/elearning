@@ -27,7 +27,11 @@
 <h3>Problematika tvorby testových úloh:</h3>
 
 <ul>
-<li><a href="http://edu.physics.muni.cz/documents/mgr/dpfajgar.pdf">Mechanika v testových úlohách</a><br>(diplomová práce Petra Fajgara, absolventa MU 2009; PDF)</li>
+<li><a
+href="http://edu.physics.muni.cz/documents/mgr/dpfajgar.pdf">Mechanika
+v testových úlohách</a><br>(diplomová práce Petra Fajgara, absolventa
+MU 2009; PDF)</li>
+<li><a href="http://is.muni.cz/th/209947/prif_m/DP_Jiri_Lach.pdf">Mechanika v testových úlohách</a><br>(diplomová práce Jiřího Lacha, absolventa MU 2011; PDF)</li>
 <li><a href="http://cvicebnice.ujep.cz/cvicebnice/FRVS1973F5d/">Zásady správné tvorby, použití a hodnocení didaktických testů<br>v přípravě budoucích učitelů</a></li>
 <li><a href="http://www.cermat.cz/">Centrum pro zjišťování výsledků vzdělávání (CERMAT) </a></li>
 </ul>

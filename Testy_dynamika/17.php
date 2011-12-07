@@ -5,7 +5,7 @@ působit vodorovná síla <i><b>F</b></i>. Velikost této síly se mění podle 
 kde <i>k</i> je konstanta úměrnosti a <i>t</i> je čas. Tíhové zrychlení je <i><b>g</b></i>. Odpor vzduchu zanedbáváme. 
 Vyberte právě to tvrzení, které je pro danou situaci správné.</strong>
 
-<p class="odp">Obtížnost: <b>1 bod</b>. Doporučný čas na vyřešení: <b>3 minuty</b>.</p>
+<p class="odp">Obtížnost: <b>1 bod</b>. Doporučený čas na vyřešení: <b>3 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
 <p class="odp"><input type="button" id="tlacitko" value="Zobrazit možnosti a spustit odpočet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 

@@ -1,6 +1,6 @@
 <div id="otazka"><strong>Na letišti v Madridu usnadňuje cestujícím přesun vodorovný pohyblivý chodník, který se vůči letištní hale pohybuje konstantní rychlostí <i><b>v</b></i>. Z následujících tvrzení je právě jedno  NESPRÁVNÉ. Vyberte jej. Odpor vzduchu zanedbáváme.</strong></div>
 
-<p class="odp">Obtížnost: <b>1 bod</b>. Doporučný čas na vyřešení: <b>3 minuty</b>.</p>
+<p class="odp">Obtížnost: <b>1 bod</b>. Doporučený čas na vyřešení: <b>3 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
 <p class="odp"><input type="button" id="tlacitko" value="Zobrazit možnosti a spustit odpočet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 

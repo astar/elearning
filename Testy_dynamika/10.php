@@ -1,7 +1,7 @@
 <strong>Na nakloněnou rovinu s úhlem sklonu <i>&alpha;</i> &ne; 0 položíme krabici a uvolníme ji. Předpokládáme, že odpor prostředí je zanedbatelný. Vyberte právě ta tvrzení, která jsou správná.
 </strong>
 
-<p class="odp">Obtížnost: <b>1 bod</b>. Doporučný čas na vyřešení: <b>2,5 minuty</b>.</p>
+<p class="odp">Obtížnost: <b>1 bod</b>. Doporučený čas na vyřešení: <b>2,5 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
 <p class="odp"><input type="button" id="tlacitko" value="Zobrazit možnosti a spustit odpočet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 

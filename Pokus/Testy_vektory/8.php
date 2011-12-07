@@ -1,6 +1,6 @@
 <div id="otazka"><strong>Nenulová síla <b><i>F</i></b> má ve zvolené kartézské soustavě souřadnic složky <b><i>F</i></b> = (<i>F</i><sub>x</sub>, <i>F</i><sub>y</sub>, <i>F</i><sub>z</sub>). Z následujících tvrzení je právě jedno správné. Vyberte je.</strong></div>
 
-<p class="odp">Obtížnost: <b>0,5 bodu</b>. Doporučný čas na vyřešení: <b>2 minuty</b>.</p>
+<p class="odp">Obtížnost: <b>0,5 bodu</b>. Doporučený čas na vyřešení: <b>2 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
 <p class="odp"><input type="button" id="tlacitko" value="Zobrazit možnosti a spustit odpočet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 <script>

@@ -1,0 +1,57 @@
+-*- mode: org; -*- 
+
+Tento soubor slouží k evidenci prací na webových stránkách projektu
+FRVŠ 1592/2009 Kurz klasické mechaniky v úlohách a testech pro
+e-learning. Cílem je zefektivnění komunikace se zadavatelem a
+usnadnění orientace budoucím generacím.
+
+
+* TODO
+** Pridani novych uloh
+** Kontrola uloh lehke/tezke
+** Vyjasnit nektere body z kinematika.doc (mozna dano oteviranim v google doc)
+   Nesprávné tvrzení. Pokud se částice pohybuje přímočaře,  průměrná rychlost 
+   směr tečny k trajektorii má.
+** Vyřešení problému "vyhodnotit" -detaily (zřejmě jen na některých verzích prohlížeče)
+   
+* DONE
+
+** Konverze vsech souboru z CP-1250 --> UTF-8
+   sed -i 's/windows-1250/UTF-8/' unstable/*.php
+   enconv -L cs -x utf-8 `find unstable/ -name *.php`
+** Sestrihano video "zavody valcu"
+** Videa stranek unstable prevedeny na youtube
+** Nahrany videa
+** Vytvoren ucet dtpa.muni@gmail.com youtube.com
+** Verzování "unstable" a "production" verze webu
+** Vytvořeny testovací a unstable kopie projektu
+   testing http://physics.muni.cz/~vazny/elearning/testing/ 
+   unstable http://physics.muni.cz/~vazny/elearning/unstable/ 
+
+   Cílem toho kroku je zefektivnění vývojového cyklu. Testovací systém
+   slouží ke k ukázkám možností tehchnologie a ke komunikaci se
+   zadavatelem. V "unstable" systému jsou následně provedeny
+   požadované úpravy. Pokud dojde ke schválení, "překlopí" se
+   "unstable" do "stable", čili provozní verzi na
+   [[http://physics.muni.cz/elearning/]].
+
+** Testing (Pískoviště)
+*** Ukázka vektorové (svg) grafiky 
+    Na úvodní stránce jsou dva obrázky Newtonova podpisu. Větší je
+    svg, menší png. Jedna z výhod vektorové grafiky je možnost
+    žvětšování (CTRL++) bez ztráty kvality.
+*** Ukázka možnosti matematiky
+    Matematika na ůvodní je stránce je generovaná pomocí knihovny
+    mathjax. Výhodou je LaTeXový zápis matematiky (ukázky jsou
+    přebrané přímo z wikipedie), možnost zvětšování a relativně
+    vysoká kvalita sazby. 
+*** Videa
+    Ukázka na Exteprimenty/Videoukáza 1
+    [[http://physics.muni.cz/~vazny/elearning/testing/index.php?web=video_podtrzeni1]]
+    Video na webu není zdaleka vyřešení problém. Zřejmě nejlepších
+    výsledků lze dosáhnout nahráním na profesionální službu (např
+    YouTube) a následné použití pluginu. Přidanou hodnotou je pak
+    "reklama" na vysoce navštěvovaném serveru, možnost přidání
+    anglických titulků atd.
+
+

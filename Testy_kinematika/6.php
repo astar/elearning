@@ -1,6 +1,6 @@
 <strong>Automobil se rozjíždí zatáčce tvaru kružnice tak, že velikost jeho rychlosti se mění podle vztahu <i>v(t)=k.t</i>, kde <i>k</i> je nenulová konstanta a <i>t</i> &isin; [0,5] s. Automobil považujte za hmotný bod. Z následujících tvrzení je právě jedno správné. Vyberte jej.</strong>
 
-<p class="odp">Obtížnost: <b>0,5 bod</b>. Doporučný čas na vyřešení: <b>2 minuty</b>.</p>
+<p class="odp">Obtížnost: <b>0,5 bod</b>. Doporučený čas na vyřešení: <b>2 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
 <p class="odp"><input type="button" id="tlacitko" value="Zobrazit možnosti a spustit odpočet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 

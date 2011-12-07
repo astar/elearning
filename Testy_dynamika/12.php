@@ -1,7 +1,7 @@
 <strong>Na vlákně zanedbatelné hmotnosti a neproměnné délky je zavěšena malá kulička. Napnuté vlákno i s kuličkou vychýlíme o úhel <i>&theta;</i><sub>0</sub> z rovnovážné polohy a uvolníme (matematické kyvadlo). Pohyb kuličky sledujeme v inerciální vztažné soustavě spojené se Zemí. Předpokládáme, že odpor prostředí je zanedbatelný. Z následujících tvrzení je právě jedno správné. Vyberte jej.
 </strong>
 
-<p class="odp">Obtížnost: <b>1 bod</b>. Doporučný čas na vyřešení: <b>3,5 minuty</b>.</p>
+<p class="odp">Obtížnost: <b>1 bod</b>. Doporučený čas na vyřešení: <b>3,5 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
 <p class="odp"><input type="button" id="tlacitko" value="Zobrazit možnosti a spustit odpočet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 

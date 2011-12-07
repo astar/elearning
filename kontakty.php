@@ -36,8 +36,24 @@ Web: <a href="http://www.muni.cz/sci/people/207046" target="_blank">http://www.m
 </p>
 
 <p>
+<font style="line-height: 1.4"><b>Mgr. Pavel Stoupal</b></font><br>
+Korektury<br>
+Mail: <a href="mailto:395838(at)mail.muni.cz">395838(zavináč)mail.muni.cz</a><br>
+Web: <a href="http://www.muni.cz/sci/people/395838" target="_blank">http://www.muni.cz/people/395838</a><br>
+</p>
+
+
+<p>
 <font style="line-height: 1.4"><b>Petr Horálek</b></font><br>
 Správce webu<br>
 Mail: <a href="mailto:horalek(at)astro.cz">horalek(zavináč)astro.cz</a><br>
 Web: <a href="http://www.astronom.cz/horalek" target="_blank">http://www.astronom.cz/horalek</a><br>
 </p>
+
+<p>
+<font style="line-height: 1.4"><b>Jaroslav Vážný</b></font><br>
+Drobné úpravy<br>
+Mail: <a href="mailto:211665(at)mail.muni.cz">211665(zavináč)mail.muni.cz</a><br>
+Web: <a href="http://www.muni.cz/sci/people/211665" target="_blank">http://www.muni.cz/people/211665</a><br>
+</p>
+

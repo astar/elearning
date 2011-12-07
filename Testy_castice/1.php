@@ -1,7 +1,7 @@
 <strong>Žebřík, který lze považovat za homogenní tuhé těleso, se opírá o svislou stěnu a vodorovnou podlahu. Tření mezi žebříkem a svislou stěnou lze zanedbat, tření mezi žebříkem a podlahou nikoli. Žebřík je vzhledem k místnosti v klidu. Z následujících tvrzení je právě jedno správné. Vyberte jej.
 </strong>
 
-<p class="odp">Obtížnost: <b>1,5 bodu</b>. Doporučný čas na vyřešení: <b>3 minuty</b>.</p>
+<p class="odp">Obtížnost: <b>1,5 bodu</b>. Doporučený čas na vyřešení: <b>3 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
 <p class="odp"><input type="button" id="tlacitko" value="Zobrazit možnosti a spustit odpočet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 

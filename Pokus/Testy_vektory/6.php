@@ -1,6 +1,6 @@
 <div id="otazka"><strong>Na obrázku jsou znázorněny síly <b><i>F</i><sub>1</sub></b> a <b><i>F<sub>2</i></sub></b> ležící v rovině <i>Oxy</i>. Z následujících tvrzení je právě jedno správné. Vyberte jej.</strong></div>
 
-<p class="odp">Obtížnost: <b>0,5 bodu</b>. Doporučný čas na vyřešení: <b>2 minuty</b>.<br>
+<p class="odp">Obtížnost: <b>0,5 bodu</b>. Doporučený čas na vyřešení: <b>2 minuty</b>.<br>
 <p class="odp"><b><span id="c"></span></b></p>
 <p class="odp"><input type="button" id="tlacitko" value="Zobrazit možnosti a spustit odpočet" onClick="start_odp(); odkryt(moznosti); skryt(tlacitko)"></p>
 

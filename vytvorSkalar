@@ -1,0 +1,55 @@
+#!/bin/bash
+cp t_q.php Testy_vektory/9.php
+cp t_q.php Testy_vektory/10.php
+cp t_q.php Testy_vektory/11.php
+cp t_q.php Testy_vektory/12.php
+cp t_q.php Testy_vektory/13.php
+cp t_q.php Testy_vektory/14.php
+
+
+
+sed -i 's/spatne4.htm/spatne9.htm/' Testy_vektory/9.php
+sed -i 's/spatne4.htm/spatne10.htm/' Testy_vektory/10.php
+sed -i 's/spatne4.htm/spatne11.htm/' Testy_vektory/11.php
+sed -i 's/spatne4.htm/spatne12.htm/' Testy_vektory/12.php
+sed -i 's/spatne4.htm/spatne13.htm/' Testy_vektory/13.php
+sed -i 's/spatne4.htm/spatne14.htm/' Testy_vektory/14.php
+
+
+
+cp t_k_spatne.htm Spatne/vektory/vektory_spatne9.htm
+cp t_k_spatne.htm Spatne/vektory/vektory_spatne10.htm
+cp t_k_spatne.htm Spatne/vektory/vektory_spatne11.htm
+cp t_k_spatne.htm Spatne/vektory/vektory_spatne12.htm
+cp t_k_spatne.htm Spatne/vektory/vektory_spatne13.htm
+cp t_k_spatne.htm Spatne/vektory/vektory_spatne14.htm
+
+
+cp t_spatne.htm Spatne/vektory/spatne9.htm
+cp t_spatne.htm Spatne/vektory/spatne10.htm
+cp t_spatne.htm Spatne/vektory/spatne11.htm
+cp t_spatne.htm Spatne/vektory/spatne12.htm
+cp t_spatne.htm Spatne/vektory/spatne13.htm
+cp t_spatne.htm Spatne/vektory/spatne14.htm
+
+sed -i 's/vektory_spatne4.htm/vektory_spatne9.htm/' Spatne/vektory/spatne9.htm
+sed -i 's/vektory_spatne4.htm/vektory_spatne10.htm/' Spatne/vektory/spatne10.htm
+sed -i 's/vektory_spatne4.htm/vektory_spatne11.htm/' Spatne/vektory/spatne11.htm
+sed -i 's/vektory_spatne4.htm/vektory_spatne12.htm/' Spatne/vektory/spatne12.htm
+sed -i 's/vektory_spatne4.htm/vektory_spatne13.htm/' Spatne/vektory/spatne13.htm
+sed -i 's/vektory_spatne4.htm/vektory_spatne14.htm/' Spatne/vektory/spatne14.htm
+
+
+cp t_spravne.htm Spatne/vektory/spravne9.htm
+cp t_spravne.htm Spatne/vektory/spravne10.htm
+cp t_spravne.htm Spatne/vektory/spravne11.htm
+cp t_spravne.htm Spatne/vektory/spravne12.htm
+cp t_spravne.htm Spatne/vektory/spravne13.htm
+cp t_spravne.htm Spatne/vektory/spravne14.htm
+
+sed -i 's/vektory_spatne4.htm/vektory_spatne9.htm/' Spatne/vektory/spravne9.htm
+sed -i 's/vektory_spatne4.htm/vektory_spatne10.htm/' Spatne/vektory/spravne10.htm
+sed -i 's/vektory_spatne4.htm/vektory_spatne11.htm/' Spatne/vektory/spravne11.htm
+sed -i 's/vektory_spatne4.htm/vektory_spatne12.htm/' Spatne/vektory/spravne12.htm
+sed -i 's/vektory_spatne4.htm/vektory_spatne13.htm/' Spatne/vektory/spravne13.htm
+sed -i 's/vektory_spatne4.htm/vektory_spatne14.htm/' Spatne/vektory/spravne14.htm

@@ -1,7 +1,7 @@
 <strong>Malý míček (hmotný bod) koná šikmý vrh v homogenním tíhovém poli Země. Odpor prostředí je zanedbatelný. Počáteční rychlost míčku leží v rovině <i>Oxy</i>, má velikost <i>v</i><sub>0</sub> a s vodorovnou osou <i>x</i> svírá úhel &alpha; < 90°. Osa <i>y</i> je svislá a míří vzhůru. Z následujících tvrzení vyberte právě ta, která jsou správná.
 </strong>
 
-<p class="odp">Obtížnost: <b>2 body</b>. Doporučný čas na vyřešení: <b>3 minuty</b>.</p>
+<p class="odp">Obtížnost: <b>2 body</b>. Doporučený čas na vyřešení: <b>3 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
 <p class="odp"><input type="button" id="tlacitko" value="Zobrazit možnosti a spustit odpočet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 

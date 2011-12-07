@@ -1,6 +1,6 @@
 <strong>Hmotný bod se v časovém intervalu $t \epsilon (0, \infty)$  pohybuje rovnoměrně zrychleně po kladné poloose x. Z následujících zápisů, v nichž čas je vyjádřen v sekundách, rychlost v metrech za sekundu a souřadnice v metrech, může právě jeden představovat závislost  příslušné veličiny na čase. Vyberte jej. </strong>
 
-<p class="odp">Obtížnost: <b>1 bod</b>. Doporučný čas na vyřešení: <b>1,5 minuty</b>.</p>
+<p class="odp">Obtížnost: <b>1 bod</b>. Doporučený čas na vyřešení: <b>1,5 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
 <p class="odp"><input type="button" id="tlacitko" value="Zobrazit možnosti a spustit odpočet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 

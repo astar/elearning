@@ -2,12 +2,12 @@
 s konstantním zrychlením, které svírá úhel  s vektorem tíhového
 zrychlení, kde $\alpha  \epsilon  (90^\circ, 180^\circ)$ . V okamžiku  je rychlost letadla  souhlasně rovnoběžná se zrychlením. Z následujících tvrzení je právě jedno správné. Vyberte je.  </strong>
 
-<p class="odp">Obtížnost: <b>1 bod</b>. Doporučný čas na vyřešení: <b>1,5 minuty</b>.</p>
+<p class="odp">Obtížnost: <b>1 bod</b>. Doporučený čas na vyřešení: <b>2,5 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
 <p class="odp"><input type="button" id="tlacitko" value="Zobrazit možnosti a spustit odpočet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 
 <script>
-var c = 90;
+var c = 150;
 
 function start_odp()
 {bezi = true;
@@ -88,9 +88,9 @@ function zast_odp()
 
 		if (document.form.otazka1.checked==false &&
 	            document.form.otazka2.checked==false && 	
-		    document.form.otazka3.checked==false && 	 	
+		    document.form.otazka3.checked==true && 	 	
 		    document.form.otazka4.checked==false && 
-		    document.form.otazka5.checked==true)
+		    document.form.otazka5.checked==false)
 
 
 			window.open("Spatne/kinematika_lehke/spravne7.htm","Spravne", "height=170px, width=500px, top=300px, left=500px, status=no, toolbar=no, location=no, scrollbars=yes, resizable=no");

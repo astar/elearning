@@ -1,7 +1,7 @@
 <strong>Z nejvyššího bodu nakloněné roviny s nenulovým úhlem sklonu současně uvolníme  homogenní tuhou kouli a homogenní tuhý válec. Předpokládejme, že osa symetrie válce je vodorovná, obě tělesa mají stejnou hmotnost a stejný poloměr, po nakloněné rovině se valí bez podkluzování a odpor vzduchu je zanedbatelný. Z následujících tvrzení je právě jedno správné. Vyberte jej.
 </strong>
 
-<p class="odp">Obtížnost: <b>1 bod</b>. Doporučný čas na vyřešení: <b>3 minuty</b>.</p>
+<p class="odp">Obtížnost: <b>1 bod</b>. Doporučený čas na vyřešení: <b>3 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
 <p class="odp"><input type="button" id="tlacitko" value="Zobrazit možnosti a spustit odpočet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 

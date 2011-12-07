@@ -1,7 +1,7 @@
 <strong>V nádobě s vodou byly naplněny tři stejné zkumavky, obráceny dnem vzhůru a povytaženy (viz obrázek). Vyberte právě to tvrzení, které je pro danou situaci správné.
 </strong>
 
-<p class="odp">Obtížnost: <b>0,5 bodu</b>. Doporučný čas na vyřešení: <b>2,5 minuty</b>.</p>
+<p class="odp">Obtížnost: <b>0,5 bodu</b>. Doporučený čas na vyřešení: <b>2,5 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
 <p class="odp"><input type="button" id="tlacitko" value="Zobrazit možnosti a spustit odpočet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 
