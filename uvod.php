@@ -1,6 +1,8 @@
 <h2>Úvod</h2>
 
-<p>Vítejte na stránkách Kurzu klasické mechaniky v úlohách a testech pro e-learning, které vznikly v rámci projektu <a href="http://www.frvs.cz/">FRVŠ</a> 1592/2009.</p>
+<p>Vítejte na stránkách Kurzu klasické mechaniky v úlohách a testech
+pro e-learning, které vznikly v rámci projektu <a
+href="http://www.frvs.cz/">FRVŠ</a> 1592/2009 a 1123/2011.</p>
 
 <h3>Komu jsou stránky určeny?</h3>
 

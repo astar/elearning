@@ -1,6 +1,7 @@
 <h2>O projektu</h2>
 
-<p>Projekt <a href="http://www.frvs.cz/">FRVŠ</a> 1592/2009 Kurz klasické mechaniky v úlohách a testech pro e-learning vychází ze zkušeností řešitelského kolektivu při výuce předmětů <a href="http://is.muni.cz/predmety/predmet.pl?kod=F1030">Mechanika a molekulová fyzika  F1030</a> a <a href="http://is.muni.cz/predmety/predmet.pl?kod=F1040">F1040</a> a <a href="http://is.muni.cz/predmety/predmet.pl?fakulta=1431;obdobi=3063;kod=F7340">Nástrahy středoškolské fyziky F7340</a> (magisterský studijní obor Učitelství fyziky pro střední školy) na <a href="http://www.sci.muni.cz/">Přírodovědecké fakultě</a> <a href="http://www.muni.cz/">Masarykovy univerzity</a> v Brně. Prostřednictvím materiálů umístěných na těchto www-stránkách si klade za cíl zejména:</p>
+<p>Projekty <a href="http://www.frvs.cz/">FRVŠ</a> 1592/2009  a
+1123/2011 Kurz klasické mechaniky v úlohách a testech pro e-learning vychází ze zkušeností řešitelského kolektivu při výuce předmětů <a href="http://is.muni.cz/predmety/predmet.pl?kod=F1030">Mechanika a molekulová fyzika  F1030</a> a <a href="http://is.muni.cz/predmety/predmet.pl?kod=F1040">F1040</a> a <a href="http://is.muni.cz/predmety/predmet.pl?fakulta=1431;obdobi=3063;kod=F7340">Nástrahy středoškolské fyziky F7340</a> (magisterský studijní obor Učitelství fyziky pro střední školy) na <a href="http://www.sci.muni.cz/">Přírodovědecké fakultě</a> <a href="http://www.muni.cz/">Masarykovy univerzity</a> v Brně. Prostřednictvím materiálů umístěných na těchto www-stránkách si klade za cíl zejména:</p>
 
 <ul>
 <li>Upozornit studenty i učitele na problematická místa výuky klasické mechaniky a molekulové fyziky, daná mimo jiné ne zcela uspokojivým učebnicovým zpracováním tematiky či nevhodnou formou výkladu prezentujícího jednotlivé partie klasické mechaniky jako relativně nezávislé tematické celky. </li>
@@ -47,6 +48,14 @@ Student PřF Masarykovy univerzity v Brně<br>
 E-mail: <a href="mailto:207046(at)mail.muni.cz">207046(zavináč)physics.muni.cz</a>
 </p>
 
+<p>
+<a href="http://www.muni.cz/sci/people/395838">Mgr. Pavel Stoupal</a></font><br>
+Student PřF Masarykovy univerzity v Brně<br>
+E-mail: <a href="mailto:395838(at)mail.muni.cz">395838(zavináč)physics.muni.cz</a>
+</p>
+
+
+
 
 <p><font style="line-height: 1.4"><b>Webové stránky:</b></font><br>
 
@@ -54,6 +63,13 @@ E-mail: <a href="mailto:207046(at)mail.muni.cz">207046(zavináč)physics.muni.cz
 Student PřF Masarykovy univerzity v Brně<br>
 E-mail: <a href="mailto:horalek(at)astro.cz">horalek(zavináč)astro.cz</a>
 </p>
+
+<p>
+<a href="http://www.muni.cz/sci/people/211665">Jaroslav Vážný</a></font><br>
+Student PřF Masarykovy univerzity v Brně<br>
+E-mail: <a href="mailto:211665(at)mail.muni.cz">211665(zavináč)physics.muni.cz</a>
+</p>
+
 
 <p><font style="line-height: 1.4"><b>Poděkování:</b></font><br>
 Za náměty a připomínky ke zveřejněným materiálům děkujeme studentům prvních ročníků fyzikálních oborů.
