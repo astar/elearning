@@ -7,10 +7,8 @@ usnadnění orientace budoucím generacím.
 
 
 * TODO
-** Verzovat!!!
-** Male zmeny z emailu od Lenky 
-
-** Kontrola uloh lehke/tezke
+** Pridani testu
+** Kontrola testu
 ** Vyjasnit nektere body z kinematika.doc (mozna dano oteviranim v google doc)
    Nesprávné tvrzení. Pokud se částice pohybuje přímočaře,  průměrná rychlost 
    směr tečny k trajektorii má.
@@ -19,6 +17,8 @@ usnadnění orientace budoucím generacím.
 
 * DONE
 
+** Umistena videa Mechanika plynů
+** Zmena souboru Nastraha9.pdf
 ** Oprava preklepu
    find unstable/ -name *.php | xargs sed -i 's/Doporučný/Doporučený/'
 ** Pridany zmen o projektu atd

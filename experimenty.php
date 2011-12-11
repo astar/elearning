@@ -87,3 +87,17 @@ komentovaný demonstrační experiment</p>
 <p class="exp">Videozáznam z přednášky Prof. RNDr. Jany Musilové, CSc.</p>
 <p class="exp">
 <a href="index.php?web=video_musilova_pascal"><b>Videoukázka</b></a> - komentovaný demonstrační experiment</p>
+
+<hr>
+
+
+<p class="expnad1"><b>Mechanika plynů</b></p>
+<p class="expnad">(Téma: Boltzmannovo rozdělení)</p>
+
+
+<p class="exp">
+<a href="index.php?web=video_plyn1"><b>Videoukázka 1</b></a> - model rozdělení částic s výškou při vzrůstající teplotě plynu <br>
+<a href="index.php?web=video_plyn2"><b>Videoukázka 2</b></a> - model rozdělení částic s výškou při teplotě $T_1$ <br>
+<a href="index.php?web=video_plyn3"><b>Videoukázka 3</b></a> -
+model rozdělení částic s výškou při teplotě $T_2$ < $T_1$<br>
+</p>
