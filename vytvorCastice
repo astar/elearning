@@ -1,0 +1,47 @@
+#!/bin/bash
+cp t_q.php Testy_castice/6.php
+cp t_q.php Testy_castice/7.php
+cp t_q.php Testy_castice/8.php
+cp t_q.php Testy_castice/9.php
+
+
+
+
+sed -i 's/spatne4.htm/spatne6.htm/' Testy_castice/6.php
+sed -i 's/spatne4.htm/spatne7.htm/' Testy_castice/7.php
+sed -i 's/spatne4.htm/spatne8.htm/' Testy_castice/8.php
+sed -i 's/spatne4.htm/spatne9.htm/' Testy_castice/9.php
+
+
+
+
+cp t_k_spatne.htm Spatne/castice/castice_spatne6.htm
+cp t_k_spatne.htm Spatne/castice/castice_spatne7.htm
+cp t_k_spatne.htm Spatne/castice/castice_spatne8.htm
+cp t_k_spatne.htm Spatne/castice/castice_spatne9.htm
+
+
+
+cp t_spatne.htm Spatne/castice/spatne6.htm
+cp t_spatne.htm Spatne/castice/spatne7.htm
+cp t_spatne.htm Spatne/castice/spatne8.htm
+cp t_spatne.htm Spatne/castice/spatne9.htm
+
+
+sed -i 's/castice_spatne4.htm/castice_spatne6.htm/' Spatne/castice/spatne6.htm
+sed -i 's/castice_spatne4.htm/castice_spatne7.htm/' Spatne/castice/spatne7.htm
+sed -i 's/castice_spatne4.htm/castice_spatne8.htm/' Spatne/castice/spatne8.htm
+sed -i 's/castice_spatne4.htm/castice_spatne9.htm/' Spatne/castice/spatne9.htm
+
+
+
+cp t_spravne.htm Spatne/castice/spravne6.htm
+cp t_spravne.htm Spatne/castice/spravne7.htm
+cp t_spravne.htm Spatne/castice/spravne8.htm
+cp t_spravne.htm Spatne/castice/spravne9.htm
+
+
+sed -i 's/castice_spatne4.htm/castice_spatne6.htm/' Spatne/castice/spravne6.htm
+sed -i 's/castice_spatne4.htm/castice_spatne7.htm/' Spatne/castice/spravne7.htm
+sed -i 's/castice_spatne4.htm/castice_spatne8.htm/' Spatne/castice/spravne8.htm
+sed -i 's/castice_spatne4.htm/castice_spatne9.htm/' Spatne/castice/spravne9.htm

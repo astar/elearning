@@ -1,6 +1,0 @@
-sed -i 's/spravne4.htm/spravne9.htm/' Testy_vektory/9.php
-sed -i 's/spravne4.htm/spravne10.htm/' Testy_vektory/10.php
-sed -i 's/spravne4.htm/spravne11.htm/' Testy_vektory/11.php
-sed -i 's/spravne4.htm/spravne12.htm/' Testy_vektory/12.php
-sed -i 's/spravne4.htm/spravne13.htm/' Testy_vektory/13.php
-sed -i 's/spravne4.htm/spravne14.htm/' Testy_vektory/14.php

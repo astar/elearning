@@ -7,6 +7,12 @@
   <meta name="Keywords" content="Informace">
   <meta name="description" content="Kurz klasické mechaniky v úlohách a testech pro e-learning">
   <link rel="STYLESHEET" href="Styl.css" type="text/css">
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+  </script>
+  <script type="text/javascript"
+          src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
 </head>
 
 <body style="font: 12px/14px Verdana">
@@ -53,7 +59,7 @@
 </p>
 
 
-	<center>Máte-li pochybnosti, prostudujte <b>Nástrahu čtvrtou</b>.</center><br>
+	<center>Máte-li pochybnosti, prostudujte <b>Nástrahu sedmou</b>.</center><br>
 
 	<center><input type="button" value="Zavřít okno" onClick="window.close();"></center>
 

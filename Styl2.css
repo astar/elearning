@@ -7,9 +7,9 @@ body        {font-family: Arial, Century gothic, Tahoma; margin-bottom: 35px}
 #hlevy	    {position: absolute; width:  75px; margin-top: 10px;  height: 140px; text-align="left"}
 #hpravy	    {position: absolute; width:  75px; margin-top: 10px;  height: 140px; margin-left: 825px}
 #menu       {position: absolute; width: 790px; text-align:center; margin: auto; height: 30px; margin-top:  128px; margin-left: -1px; filter:alpha(opacity=95); opacity: 0.95; -moz-opacity:0.95}
-#obsah      {position: absolute; width: 557px; margin-top: 172px; border: 1px solid #BBD8F6; text-align: center; background-image: url("Obrazky/Poz.png"); background-repeat: repeat}
-#levy       {position: absolute; width: 220px; margin-left:   575px; margin-top: 172px; background-image: url("Obrazky/Pozl.png"); background-repeat: repeat; border: 1px solid #BBD8F6}
-#levys      {position: absolute; width: 220px; margin-left:   575px; margin-top: 402px; background-image: url("Obrazky/Pozls.png"); background-repeat: repeat; border: 1px solid #BBD8F6; padding-top: 10px; padding-bottom: 10px}
+#obsah      {position: absolute; width: 785px; margin-top: 172px; border: 1px solid #BBD8F6; text-align: center; background-image: url("Obrazky/Poz.png"); background-repeat: repeat}
+#levy       {position: absolute; width: 220px; margin-left:   790px; margin-top: 172px; background-image: url("Obrazky/Pozl.png"); background-repeat: repeat; border: 1px solid #BBD8F6}
+#levys      {position: absolute; width: 220px; margin-left:   790px; margin-top: 402px; background-image: url("Obrazky/Pozls.png"); background-repeat: repeat; border: 1px solid #BBD8F6; padding-top: 10px; padding-bottom: 10px}
 #spodek     {position: absolute; height: 20px}
 #moznosti   {font-family: "Century gothic"; font-size: 13px; line-height: 1.4}
 #otazka     {font-family: "Century gothic"; font-size: 14px; line-height: 1.6}

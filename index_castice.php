@@ -127,6 +127,12 @@ endif;
   <link rel="STYLESHEET" href="Styl.css" type="text/css">
   <script type="text/javascript" src="skripty.js"></script>
 
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+  </script>
+  <script type="text/javascript"
+          src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
 
 <style type="text/css">
 .bok {text-align: left}
@@ -210,9 +216,11 @@ a pro webové prohlížeče<br>
 
 
 
-<h2>Soustavy částic, mechanika tuhého tělesa</h2>
+<h2>Soustavy částic, mechanika tuhého tělesa (
 
 <?php
+
+        echo $indexer[$random].' )</h2>';
 		  // Zde řešíme obsah HTML stránky
 		  
 		  // Pokud jsme již nevyčerpali všechny soubory, zobrazíme odkaz "Vyber soubor"
@@ -220,10 +228,12 @@ a pro webové prohlížeče<br>
         // Jo a taky pokud máme právě aktivní "?akce", tak zobrazíme soubor, který byl vybrán přes rand
         if(isset($_GET['akce'])) include $root."/Testy_castice/".$indexer[$random];
         echo '<a href="?akce"><b>Vygeneruj novou otázku</b></a>';
+
       else:
         // Pokud není co vybrat (všechny soubory vyčerpány), zobrazíme menu s odkazem na hlavní stránku
         echo 'Úlohy z tohoto tematického celku jsou vyčerpány (právě nyní nebo v nedávné minulosti jste z tohoto počítače již otázky procházel/a).<br>Co chcete udělat?<br><br><a href="index.php?web=testy"><b>Opustit tematický celek</b></a><br />';
         echo '<a href="?del"><b>Vygenerovat otázky znovu</b></a>';
+
       endif;
 ?>
 

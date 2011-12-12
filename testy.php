@@ -4,20 +4,24 @@
 
 <h3>Návod k práci s testovými úlohami:</h3>
 
+<p> Zvolte tematický celek a v nabídnuté úloze označte alternativy
+odpovědí podle instrukce v zadání. Během řešení úlohy běží čas, který
+je pro ni přidělen, je zde tedy možnost průběžné kontroly časové
+rezervy (v řešení úlohy lze však pokračovat i po uplynutí časového
+limitu). Provedením požadavku <b>Vyhodnotit úlohu</b> zjistíte, zda
+jste úlohu vyřešili správně a proč, případně v čem jste chybovali a
+proč, a které z textů na těchto stránkách doporučujeme prostudovat,
+pokud si řešením nejste zcela jisti. </p>
+
+
+
+
+<h3>Důležité upozornění:</h3>
+
 <ul>
-<li>Zvolte tematický celek a v nabídnuté úloze označte alternativy odpovědí podle instrukce v zadání. Během řešení úlohy běží čas, který je pro ni přidělen, je zde tedy možnost průběžné kontroly časové rezervy (v řešení úlohy lze však pokračovat i po uplynutí časového limitu). Provedením požadavku <b>Vyhodnotit úlohu</b> zjistíte, zda jste úlohu vyřešili správně a proč, případně v čem jste chybovali a proč, a které z textů na těchto stránkách doporučujeme prostudovat, pokud si řešením nejste zcela jisti.
-</li>
-<li>
-V náhodně generovaném testu na 30 minut máte možnost řešit úlohy různé obtížnosti ze všech tématických celků v náhodném pořadí (z každého tématického celku je vybrána alespoň jedna úloha). Po dokončení testu, nebo po vypršení časového limitu program vyhodnotí vaší procentuální úspěšnost.</li>
-
-<li class="upoz"><b>Důležité upozornění:</b></li>
-
-
-<ol>
 <li>Věnujte pozornost formulaci zadání – často bývá požadavkem vybrat ta tvrzení, která jsou <b>obecně</b> (tj. bez doplňujících předpokladů) správná/nesprávná.</li>
 <li>Odpověď, která obsahuje správné tvrzení, ale nesprávnou argumentaci, je <b>nesprávná</b>.</li>
 <li>… a na závěr – nenechte se odradit. Několik prvních testových úloh se vám může zdát poněkud obtížných, ale vytrvejte - vše je jen věcí cviku a úspěch se jistě dostaví!</li>
-</ol>
 </ul>
 
 
@@ -51,4 +55,4 @@ V náhodně generovaném testu na 30 minut máte možnost řešit úlohy různé
 <li><b><a href="index_termodynamika.php">Základy termodynamiky a statistické fyziky</a></b><br>(3 testové položky)</li>
 </ul>
 
-<center>--> <b>Vyzkoušejte si náhodně generovaný test! (30 min.)</b> <--</center>
+

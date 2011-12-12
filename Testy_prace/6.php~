@@ -1,6 +1,6 @@
 <strong> </strong>
 
-<p class="odp">Obtížnost: <b>1 bod</b>. Doporučný čas na vyřešení: <b>1,5 minuty</b>.</p>
+<p class="odp">Obtížnost: <b>1 bod</b>. Doporučený čas na vyřešení: <b>1,5 minuty</b>.</p>
 <p class="odp"><b><span id="c"></span></b></p>
 <p class="odp"><input type="button" id="tlacitko" value="Zobrazit možnosti a spustit odpočet" onClick="start_odp(); odkryt(text); skryt(tlacitko)"></p>
 
@@ -91,10 +91,10 @@ function zast_odp()
 		    document.form.otazka5.checked==true)
 
 
-			window.open("Spatne/kinematika/spravne4.htm","Spravne", "height=170px, width=500px, top=300px, left=500px, status=no, toolbar=no, location=no, scrollbars=yes, resizable=no");
+			window.open("Spatne/vektory/spravne4.htm","Spravne", "height=170px, width=500px, top=300px, left=500px, status=no, toolbar=no, location=no, scrollbars=yes, resizable=no");
 		else 
 	     
-			window.open("Spatne/kinematika/spatne4.htm","Spatne", "height=170px, width=500px, top=300px, left=500px, status=no, toolbar=no, location=no, scrollbars=yes, resizable=no");
+			window.open("Spatne/vektory/spatne6.htm","Spatne", "height=170px, width=500px, top=300px, left=500px, status=no, toolbar=no, location=no, scrollbars=yes, resizable=no");
 
 	    }
 </script>

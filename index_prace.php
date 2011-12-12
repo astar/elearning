@@ -127,6 +127,13 @@ endif;
   <link rel="STYLESHEET" href="Styl.css" type="text/css">
   <script type="text/javascript" src="skripty.js"></script>
 
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+  </script>
+  <script type="text/javascript"
+          src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+
 <style type="text/css">
 .bok {text-align: left}
 </style>
@@ -209,9 +216,10 @@ a pro webové prohlížeče<br>
 
 
 
-<h2>Práce a energie, záchony zachování</h2>
+<h2>Práce a energie, záchony zachování(
 
 <?php
+        echo $indexer[$random].' )</h2>';
 		  // Zde řešíme obsah HTML stránky
 		  
 		  // Pokud jsme již nevyčerpali všechny soubory, zobrazíme odkaz "Vyber soubor"

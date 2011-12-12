@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+
+<head><title>Správné odpovědi</title>
+  <meta name="AUTHOR" content="Petr Horálek">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="Keywords" content="Informace">
+  <meta name="description" content="Kurz klasické mechaniky v úlohách a testech pro e-learning">
+  <link rel="STYLESHEET" href="Styl.css" type="text/css">
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+  </script>
+  <script type="text/javascript"
+          src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+</head>
+
+<body style="font: 12px/14px Verdana">
+
+<br>
+<center><strong>Plochý železniční vůz o hmotnosti M se pohybuje po přímých vodorovných kolejích rychlostí . Tření mezi koly a kolejemi je zanedbatelné. Na vozíku stojí člověk o hmotnosti m. V jistém okamžiku se člověk vzhledem k vozíku proti směru jeho pohybu rozběhne, dosáhne vůči němu rychlosti  a pak se opět zastaví. Odpor vzduchu je zanedbatelný. Z následujících tvrzení je právě jedno správné. Vyberte je.
+</strong></center>
+
+<p>
+
+<ul>
+<li class="nas">(a) Poté, co se člověk vzhledem k vozíku rozběhne, se rychlost těžiště soustavy  „člověk+vozík“ zvětší.                                           
+<br>
+<font color="red">Nesprávné tvrzení. Pro soustavu „člověk+vozík“ platí zákon zachování hybnosti, 
+      hybnost těžiště soustavy se tedy nezmění.
+</font>
+</li>
+
+<li class="nas">(b) Když se člověk  rozbíhá, rychlost vozíku vzhledem k Zemi se zvětšuje, protože na něj člověk působí silami stejně orientovanými, jako je rychlost .                                       
+<br>
+<font color="green">Správné tvrzení. Rozbíhající se člověk působí na vozík třecími silami stejně 
+      orientovanými, jako je rychlost  , proto je vozík urychlován (podle třetího 
+      Newtonova zákona působí stejně velkými, ale opačně orientovanými silami také vozík 
+            na člověka; tyto síly vzájemného působení jsou vnitřními silami soustavy).
+</font>
+</li>
+
+<li class="nas">(c) Poté, co se člověk vzhledem k vozíku rozběhne, se velikost rychlosti člověka vzhledem k Zemi zvětší.                                                                                  
+<br>
+<font color="red"> Nesprávné tvrzení. Rychlost člověka vzhledem k vozíku se zvětší, vzhledem k Zemi 
+      se však může zmenšit (rychlosti vozíku a člověka vzhledem k vozíku jsou opačné). 
+
+</font>
+</li>
+
+<li class="nas">(d) Poté, co se člověk vzhledem k vozíku opět zastaví, se vozík bude vzhledem k Zemi pohybovat jinou rychlostí, než byla původní rychlost , neboť vozík byl rozběhem člověka urychlen.                                                                                                          
+<br>
+<font color="red"> Nesprávné tvrzení. Pro soustavu “člověk+vozík” platí zákon zachování hybnosti, a 
+      proto se poté, co se člověk vzhledem k vozíku zastaví, bude vozík vzhledem k Zemi 
+      pohybovat původní rychlostí .
+</font>
+</li>
+
+<li class="nas">(e) V časovém rozmezí, kdy člověk vzhledem k vozíku běží, je rychlost těžiště soustavy 
+      “člověk+vozík” nulová, neboť rychlosti vozíku a člověka jsou opačné.                                                                                                                                                               
+<br>
+<font color="red">Nesprávné tvrzení.   Pro soustavu „člověk+vozík“ platí zákon zachování hybnosti, 
+      hybnost těžiště soustavy se tedy nemění a je nenulová (platí pro ni vztah (m+M) ).
+</font>
+</li>
+
+</ul>
+</p>
+
+
+	<center>Máte-li pochybnosti, prostudujte <b>Nástrahu sedmou</b>.</center><br>
+
+	<center><input type="button" value="Zavřít okno" onClick="window.close();"></center>
+
+<br><br>
+
+</body>
+</html>

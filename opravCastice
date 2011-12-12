@@ -1,0 +1,12 @@
+sed -i 's/vektory_spatne4.htm/castice_spatne6.htm/' Spatne/castice/spatne6.htm
+sed -i 's/vektory_spatne4.htm/castice_spatne7.htm/' Spatne/castice/spatne7.htm
+sed -i 's/vektory_spatne4.htm/castice_spatne8.htm/' Spatne/castice/spatne8.htm
+sed -i 's/vektory_spatne4.htm/castice_spatne9.htm/' Spatne/castice/spatne9.htm
+sed -i 's/vektory_spatne4.htm/castice_spatne10.htm/' Spatne/castice/spatne10.htm
+
+
+sed -i 's/vektory_spatne4.htm/castice_spatne6.htm/' Spatne/castice/spravne6.htm
+sed -i 's/vektory_spatne4.htm/castice_spatne7.htm/' Spatne/castice/spravne7.htm
+sed -i 's/vektory_spatne4.htm/castice_spatne8.htm/' Spatne/castice/spravne8.htm
+sed -i 's/vektory_spatne4.htm/castice_spatne9.htm/' Spatne/castice/spravne9.htm
+sed -i 's/vektory_spatne4.htm/castice_spatne10.htm/' Spatne/castice/spravne10.htm

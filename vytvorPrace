@@ -1,0 +1,54 @@
+#!/bin/bash
+cp t_q.php Testy_prace/6.php
+cp t_q.php Testy_prace/7.php
+cp t_q.php Testy_prace/8.php
+cp t_q.php Testy_prace/9.php
+cp t_q.php Testy_prace/10.php
+
+
+
+
+sed -i 's/spatne4.htm/spatne6.htm/' Testy_prace/6.php
+sed -i 's/spatne4.htm/spatne7.htm/' Testy_prace/7.php
+sed -i 's/spatne4.htm/spatne8.htm/' Testy_prace/8.php
+sed -i 's/spatne4.htm/spatne9.htm/' Testy_prace/9.php
+sed -i 's/spatne4.htm/spatne10.htm/' Testy_prace/10.php
+
+
+
+
+cp t_k_spatne.htm Spatne/prace/prace_spatne6.htm
+cp t_k_spatne.htm Spatne/prace/prace_spatne7.htm
+cp t_k_spatne.htm Spatne/prace/prace_spatne8.htm
+cp t_k_spatne.htm Spatne/prace/prace_spatne9.htm
+cp t_k_spatne.htm Spatne/prace/prace_spatne10.htm
+
+
+
+cp t_spatne.htm Spatne/prace/spatne6.htm
+cp t_spatne.htm Spatne/prace/spatne7.htm
+cp t_spatne.htm Spatne/prace/spatne8.htm
+cp t_spatne.htm Spatne/prace/spatne9.htm
+cp t_spatne.htm Spatne/prace/spatne10.htm
+
+
+sed -i 's/vektory_spatne4.htm/prace_spatne6.htm/' Spatne/prace/spatne6.htm
+sed -i 's/vektory_spatne4.htm/prace_spatne7.htm/' Spatne/prace/spatne7.htm
+sed -i 's/vektory_spatne4.htm/prace_spatne8.htm/' Spatne/prace/spatne8.htm
+sed -i 's/vektory_spatne4.htm/prace_spatne9.htm/' Spatne/prace/spatne9.htm
+sed -i 's/vektory_spatne4.htm/prace_spatne10.htm/' Spatne/prace/spatne10.htm
+
+
+
+cp t_spravne.htm Spatne/prace/spravne6.htm
+cp t_spravne.htm Spatne/prace/spravne7.htm
+cp t_spravne.htm Spatne/prace/spravne8.htm
+cp t_spravne.htm Spatne/prace/spravne9.htm
+cp t_spravne.htm Spatne/prace/spravne10.htm
+
+
+sed -i 's/vektory_spatne4.htm/prace_spatne6.htm/' Spatne/prace/spravne6.htm
+sed -i 's/vektory_spatne4.htm/prace_spatne7.htm/' Spatne/prace/spravne7.htm
+sed -i 's/vektory_spatne4.htm/prace_spatne8.htm/' Spatne/prace/spravne8.htm
+sed -i 's/vektory_spatne4.htm/prace_spatne9.htm/' Spatne/prace/spravne9.htm
+sed -i 's/vektory_spatne4.htm/prace_spatne10.htm/' Spatne/prace/spravne10.htm

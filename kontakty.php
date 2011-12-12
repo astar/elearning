@@ -52,7 +52,7 @@ Web: <a href="http://www.astronom.cz/horalek" target="_blank">http://www.astrono
 
 <p>
 <font style="line-height: 1.4"><b>Jaroslav Vážný</b></font><br>
-Drobné úpravy<br>
+Správce webu<br>
 Mail: <a href="mailto:211665(at)mail.muni.cz">211665(zavináč)mail.muni.cz</a><br>
 Web: <a href="http://www.muni.cz/sci/people/211665" target="_blank">http://www.muni.cz/people/211665</a><br>
 </p>
